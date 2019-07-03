@@ -41,27 +41,27 @@ We recommend installing Ásbrú Connection Manager using our latest pre-built pa
 
 To do so, execute the following commands:
 
-- Debian / Ubuntu
+- Debian-based (Ubuntu, Mint, elementaryOS, deepin, etc.)
 
-  ````
-  $ curl -s https://packagecloud.io/install/repositories/asbru-cm/asbru-cm/script.deb.sh | sudo bash
-  $ sudo apt-get install asbru-cm
-  ````
+  ```bash
+  curl -s https://packagecloud.io/install/repositories/asbru-cm/asbru-cm/script.deb.sh | sudo bash
+  sudo apt -yf install asbru-cm
+  ```
 
-- Fedora
+- Fedora-based (openSUSE, CentOS, RHEL, PCLinuxOS, Mageia, etc.)
 
-  ````
-  $ curl -s https://packagecloud.io/install/repositories/asbru-cm/asbru-cm/script.rpm.sh | sudo bash
-  $ sudo dnf install asbru-cm
-  ````
+  ```bash
+  curl -s https://packagecloud.io/install/repositories/asbru-cm/asbru-cm/script.rpm.sh | sudo bash
+  dnf install asbru-cm
+  ```
 
-- Arch / Manjaro
+- Arch-based (Manjaro, ArcoLinux, KaOS, etc.)
 
-  ````
-  yaourt -S asbru-cm-git
-  ````
+  ```bash
+  yay asbru-cm-git
+  ```
 
-Once installed on your system, type ````/opt/asbru/asbru```` in your terminal.
+Once installed on your system, type ````/opt/asbru/asbru-cm```` in your terminal.
 
 ### Testing new features
 
@@ -125,7 +125,7 @@ Before contributing, please review our [contributing doc](https://github.com/asb
 
 ### License
 
-Ásbrú Connection Manager is licensed under the GNU General Public License version 3 <http://www.gnu.org/licenses/gpl-3.0.html>.  A full copy of the license can be found in the [LICENSE](https://github.com/asbru-cm/asbru-cm/blob/master/LICENSE) file.
+Ásbrú Connection Manager is licensed under the GNU General Public License version 3 <http://www.gnu.org/licenses/gpl-3.0.html>.  A full copy of the license can be found in the [LICENSE](LICENSE) file.
 
 ### Packages
 

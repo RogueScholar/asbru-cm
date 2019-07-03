@@ -1,0 +1,35 @@
+Source: asbru-cm
+Maintainer: Ásbrú Project Team <contact@asbru-cm.net>
+Uploaders: Peter J. Mello <admin@petermello.net>,
+ Klaas Tammling <klaas@tammling.hamburg>
+Section: net
+Priority: optional
+Build-Depends: debhelper-compat (= 12), perl (>= 5.8.0)
+Standards-Version: 4.3.0
+Homepage: https://www.asbru-cm.net
+Vcs-Git: https://github.com/asbru-cm/asbru-cm.git
+Vcs-Browser: https://github.com/asbru-cm/asbru-cm
+
+Package: asbru-cm
+Architecture: all
+Depends: dbus-x11, ftp, gtk2-engines-pixbuf, libcairo-perl,
+ libcanberra-gtk-module, libcrypt-blowfish-perl, libcrypt-cbc-perl,
+ libcrypt-rijndael-perl, libexpect-perl, libglib-perl, libgnome2-gconf-perl,
+ libgnome2-vte-perl, libgtk2-ex-simple-list-perl, libgtk2-gladexml-perl,
+ libgtk2-perl, libgtk2-unique-perl, libnet-arp-perl, libnet-proxy-perl,
+ libossp-uuid-perl, libpango-perl, libsocket6-perl, libvte9,
+ libxml-parser-perl, libyaml-perl, openssh-client, python, telnet,
+ ${misc:Depends}, ${perl:Depends}
+Description: Multi-session remote terminal (SSH) connection manager
+ Ásbrú Connection Manager is an SSH client that allows users to organize
+ multiple remote terminal sessions (SSH, Telnet, etc.) using a single client
+ application, thanks to a tabbed interface reminiscent of modern web browsers.
+ Connections can be grouped to allow launching multiple connections to related
+ hosts with a single command, or even multiplexed, with multiple client
+ sessions being opened to the same remote host.
+ .
+ Every aspect of each connection can be managed independently, from environment
+ variables to appearance, logging to crontabs. An advanced scripting interface
+ extends the functionality even further by simplifying the automation of
+ repetitive tasks while a live history panel displays the last 'n' commands
+ sent to each host, any of which can be replayed with a single mouse click.

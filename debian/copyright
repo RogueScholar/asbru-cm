@@ -1,0 +1,31 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: asbru-cm
+Upstream-Contact: Gaëtan Frenoy <info@frenoy.net>
+Source: https://www.asbru-cm.net/
+
+Files: *
+Copyright: 2017-2019 Ásbrú Project Team <contact@asbru-cm.net>
+           2010-2016 David Torrejón Vaquerizas
+License: GPL-3.0-or-later
+
+Files: debian/*
+Copyright: 2017-2019, Ásbrú Project Team <contact@asbru-cm.net>
+           2017, Klaas Tammling <klaas@tammling.hamburg>
+           2019, Peter J. Mello <admin@petermello.net>
+License: GPL-3.0-or-later
+
+License: GPL-3.0-or-later
+ This program is free software; you can redistribute it and/or modify it under
+ the terms of version 3.0 of the GNU General Public License, or (at your
+ option) any later version, as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along with
+ this package; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+ .
+ On Debian systems, the full text of the GNU General Public License,
+ version 3.0, can be found in the file `/usr/share/common-licenses/GPL-3'.
