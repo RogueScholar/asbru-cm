@@ -14,6 +14,7 @@ executors:
     shell: /bin/bash
     working_directory: /home/circleci/asbru-cm
     environment:
+      DEBIAN_FRONTEND: "noninteractive"
       DH_VERBOSE: "1"
   ubuntu-xenial-machine:
     machine:
@@ -21,6 +22,7 @@ executors:
     shell: /bin/bash
     working_directory: /home/circleci/asbru-cm
     environment:
+      DEBIAN_FRONTEND: "noninteractive"
       DH_VERBOSE: "1"
 jobs:
   test_scripts:
@@ -73,12 +75,12 @@ jobs:
           command: |
             sudo mv -f ./.circleci/disco-sources.list /etc/apt/sources.list
             curl -L https://packagecloud.io/asbru-cm/asbru-cm/gpgkey | sudo apt-key add -
-            sudo apt update && DEBIAN_FRONTEND=noninteractive sudo apt full-upgrade
-            DEBIAN_FRONTEND=noninteractive sudo apt install adequate autopkgtest build-essential dbus-user-session \
-            dbus-x11 debhelper devscripts dh-acc dh-autoreconf dh-buildinfo dh-exec dh-make dh-make-perl \
-            dh-strip-nondeterminism dpkg-dev equivs ftp gtk2-engines-pixbuf libcanberra-gtk-module \
-            libcrypt-blowfish-perl libcrypt-cbc-perl libcrypt-rijndael-perl libexpect-perl libnet-arp-perl \
-            libnet-proxy-perl libossp-uuid-perl libsocket6-perl man-db pkg-perl-autopkgtest quilt telnet
+            sudo apt update && sudo apt upgrade && sudo apt full-upgrade
+            sudo apt install adequate autopkgtest build-essential dbus-user-session dbus-x11 debhelper devscripts \
+            dh-acc dh-autoreconf dh-buildinfo dh-exec dh-make dh-make-perl dh-strip-nondeterminism dpkg-dev equivs ftp \
+            gtk2-engines-pixbuf libcanberra-gtk-module libcrypt-blowfish-perl libcrypt-cbc-perl libcrypt-rijndael-perl \
+            libexpect-perl libnet-arp-perl libnet-proxy-perl libossp-uuid-perl libsocket6-perl man-db \
+            pkg-perl-autopkgtest quilt telnet
       - run:
           name: Build asbru-cm Debian package
           command: sudo bash ./make_debian.sh
@@ -86,15 +88,8 @@ jobs:
           root: /home/circleci/asbru-cm/tmp
           paths: asbru-cm_*.deb
       - store_artifacts:
-          path: /home/circleci/packages/asbru-cm/tmp/asbru-cm_5.2.0-1~local_all.deb
-      - store_artifacts:
-          path: /home/circleci/packages/asbru-cm/tmp/asbru-cm_5.2.0-1~local.dsc
-      - store_artifacts:
-          path: /home/circleci/packages/asbru-cm/tmp/asbru-cm_5.2.0-1~local_amd64.changes
-      - store_artifacts:
-          path: /home/circleci/packages/asbru-cm/tmp/asbru-cm_5.2.0-1~local_amd64.buildinfo
-      - store_artifacts:
-          path: /home/circleci/packages/asbru-cm/tmp/asbru-cm_5.2.0-1~local.debian.tar.xz
+          path: /home/circleci/asbru-cm/tmp
+          destination: debian-package
   test_deb_package:
     executor: ubuntu-xenial-machine
     environment:
@@ -107,13 +102,17 @@ jobs:
           command: |
             sudo mv -f ./.circleci/xenial-sources.list /etc/apt/sources.list
             curl -L https://packagecloud.io/asbru-cm/asbru-cm/gpgkey | sudo apt-key add -
-            sudo apt update && DEBIAN_FRONTEND=noninteractive sudo apt install adequate check-all-the-things dbus \
-            dbus-user-session dbus-x11 debootstrap distro-info-data eatmydata gconf-service gconf-service-backend \
-            gconf2-common libeatmydata1 libgconf-2-4 lintian pbuilder piuparts ucf
+            sudo apt update && sudo apt install adequate check-all-the-things dbus dbus-user-session dbus-x11 \
+            debootstrap distro-info-data eatmydata gconf-service gconf-service-backend gconf2-common \
+            gtk2-engines-pixbuf libcairo-perl libcanberra-gtk-module libcrypt-blowfish-perl libcrypt-cbc-perl \
+            libcrypt-rijndael-perl libeatmydata1 libexpect-perl libgconf-2-4 libglib-perl libgnome2-gconf-perl \
+            libgnome2-vte-perl libgtk2-ex-simple-list-perl libgtk2-gladexml-perl libgtk2-perl libgtk2-unique-perl \
+            libnet-arp-perl libnet-proxy-perl libossp-uuid-perl libpango-perl libsocket6-perl libvte9 lintian pbuilder \
+            piuparts ucf
       - attach_workspace:
           at: deb
       - run:
-          name: Install freshly built packages with dpkg debug logging
+          name: Install freshly built package with dpkg debug logging
           command: >
             mkdir -p /home/circleci/deb-test-reports; echo -e "Installing package with dpkg...\n" |
             tee /home/circleci/deb-test-reports/dpkg-install-log.txt; sudo dpkg -D20600
@@ -133,13 +132,13 @@ jobs:
           paths: /home/circleci/piuparts/
       - run:
           name: Test package installation results with check-all-the-things
-          command: |
-            echo "Testing software environment results with check-all-the-things..."
-            find /home/circleci -type f -name '*.deb' | sudo xargs check-all-the-things -a -d ubuntu -r disco 2>&1 | \
-            tee -a /home/circleci/deb-test-reports/check-all-the-things.txt
+          command: >
+            echo "Testing software environment results with check-all-the-things..."; find /home/circleci -type f -name
+            '*.deb' | sudo xargs check-all-the-things -a -d ubuntu -r disco 2>&1 | tee -a
+            /home/circleci/deb-test-reports/check-all-the-things.txt
       - store_artifacts:
           path: /home/circleci/deb-test-reports
-          destination: deb-package-tests
+          destination: package-tests
       - irc/notify:
           channel: "#asbru-cm"
           # yamllint disable rule:line-length
