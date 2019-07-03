@@ -1,12 +1,13 @@
 Source: asbru-cm
 Maintainer: Ásbrú Project Team <contact@asbru-cm.net>
 Uploaders: Peter J. Mello <admin@petermello.net>,
- Klaas Tammling <klaas@tammling.hamburg>
+           Gaëtan Frenoy <info@frenoy.net>,
+           Klaas Tammling <klaas@tammling.hamburg>
 Section: net
 Priority: optional
-Build-Depends: debhelper-compat (= 12), perl (>= 5.8.0)
+Build-Depends: debhelper-compat (= 11), perl (>= 5.8.0)
 Standards-Version: 4.3.0
-Homepage: https://www.asbru-cm.net
+Homepage: https://www.asbru-cm.net/
 Vcs-Git: https://github.com/asbru-cm/asbru-cm.git
 Vcs-Browser: https://github.com/asbru-cm/asbru-cm
 
