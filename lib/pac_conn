@@ -2224,4 +2224,3 @@ Steps
 =head1 Perl particulars
 
     select(undef, undef, undef, 0.5)        ===>  sleep(500ms);
-
