@@ -1,0 +1,13 @@
+enabled: true
+exclude:
+  - ".github/workflows/**/*"
+auto: false
+remote_files: []
+pull_requests: true
+comments: true
+statuses: true
+request_review: none
+labels: []
+ignore_labels:
+  - restyled-ignore
+restylers: null
