@@ -1,0 +1,18 @@
+# List of source files containing translatable strings.
+# Copyright (C) 2020 Ásbrú Project Team <contact@asbru-cm.net>.
+
+lib/PACCluster.pm
+lib/PACConfig.pm
+lib/PACEdit.pm
+lib/PACGlobalVarEntry.pm
+lib/PACKeePass.pm
+lib/PACMain.pm
+lib/PACPCC.pm
+lib/PACPipe.pm
+lib/PACScreenshots.pm
+lib/PACScripts.pm
+lib/PACStatistics.pm
+lib/PACTerminal.pm
+lib/PACTray.pm
+lib/PACTrayUnity.pm
+lib/PACUtils.pm

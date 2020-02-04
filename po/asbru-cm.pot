@@ -1,0 +1,5198 @@
+# Localization template for Ásbrú Connection Manager
+# Copyright (C) 2020 Ásbrú Project Team <contact@asbru-cm.net>
+# This file is distributed under the same license as the asbru-cm package.
+# Peter J. Mello <admin@petermello.net>, 2020.
+#
+msgid   ""
+msgstr  "Project-Id-Version: asbru-cm 6.0.3\n"
+        "Report-Msgid-Bugs-To: https://github.com/asbru-cm/asbru-cm/issues\n"
+        "POT-Creation-Date: 2020-02-03 16:46-0800\n"
+        "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE\n"
+        "Language: LL\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/PACCluster.pm:107
+msgid   "Cluster Administration : $APPNAME (v$APPVERSION)"
+msgstr  ""
+
+#: lib/PACCluster.pm:145 lib/PACCluster.pm:398 lib/PACMain.pm:3423
+#: lib/PACMain.pm:4149
+msgid   "<b>AVAILABLE CONNECTIONS</b>"
+msgstr  ""
+
+#: lib/PACCluster.pm:145 lib/PACCluster.pm:167 lib/PACCluster.pm:176
+#: lib/PACCluster.pm:398 lib/PACConfig.pm:337 lib/PACEdit.pm:376
+#: lib/PACEdit.pm:499 lib/PACGlobalVarEntry.pm:90 lib/PACGlobalVarEntry.pm:105
+#: lib/PACGlobalVarEntry.pm:163 lib/PACMain.pm:3169 lib/PACMain.pm:3423
+#: lib/PACMain.pm:3445 lib/PACMain.pm:3454 lib/PACMain.pm:3804
+#: lib/PACMain.pm:3807 lib/PACMain.pm:3831 lib/PACMain.pm:4149
+#: lib/PACMain.pm:4316 lib/PACMain.pm:4477 lib/PACPCC.pm:554
+#: lib/PACScripts.pm:897 lib/PACTerminal.pm:2012 lib/PACUtils.pm:1302
+#: lib/PACUtils.pm:1304 lib/PACUtils.pm:1306 lib/PACUtils.pm:1307
+#: lib/PACUtils.pm:1405 lib/PACUtils.pm:1406 lib/PACUtils.pm:1407
+#: lib/PACUtils.pm:2651 lib/PACUtils.pm:2696 lib/PACUtils.pm:2761
+#: lib/PACUtils.pm:2770 lib/PACUtils.pm:2780 lib/PACUtils.pm:2929
+msgid   "value"
+msgstr  ""
+
+#: lib/PACCluster.pm:167 lib/PACCluster.pm:1340 lib/PACEdit.pm:846
+#: lib/PACMain.pm:1676 lib/PACMain.pm:3167 lib/PACMain.pm:3445
+#: lib/PACMain.pm:3822 lib/PACMain.pm:3976 lib/PACUtils.pm:420
+#: lib/PACUtils.pm:457 lib/PACUtils.pm:491 lib/PACUtils.pm:528
+#: lib/PACUtils.pm:597 lib/PACUtils.pm:615 lib/PACUtils.pm:648
+#: lib/PACUtils.pm:679 lib/PACUtils.pm:716 lib/PACUtils.pm:737
+#: lib/PACUtils.pm:769 lib/PACUtils.pm:841 lib/PACUtils.pm:869
+#: lib/PACUtils.pm:906 lib/PACUtils.pm:934 lib/PACUtils.pm:971
+#: lib/PACUtils.pm:1001 lib/PACUtils.pm:1038 lib/PACUtils.pm:1071
+#: lib/PACUtils.pm:1108 lib/PACUtils.pm:1136 lib/PACUtils.pm:1172
+#: lib/PACUtils.pm:1190 lib/PACUtils.pm:1222
+msgid   "icon"
+msgstr  ""
+
+#: lib/PACCluster.pm:167 lib/PACCluster.pm:1340 lib/PACEdit.pm:672
+#: lib/PACEdit.pm:673 lib/PACEdit.pm:801 lib/PACEdit.pm:846 lib/PACMain.pm:1100
+#: lib/PACMain.pm:1660 lib/PACMain.pm:1676 lib/PACMain.pm:1702
+#: lib/PACMain.pm:3167 lib/PACMain.pm:3445 lib/PACMain.pm:3822
+#: lib/PACMain.pm:3976 lib/PACTerminal.pm:311 lib/PACTerminal.pm:486
+#: lib/PACTerminal.pm:487 lib/PACTerminal.pm:1368 lib/PACUtils.pm:2144
+#: lib/PACUtils.pm:2265 lib/PACUtils.pm:2266 lib/PACUtils.pm:2267
+#: lib/PACUtils.pm:2269 lib/PACUtils.pm:2270 lib/PACUtils.pm:2272
+#: lib/PACUtils.pm:2273 lib/PACUtils.pm:2275 lib/PACUtils.pm:2276
+#: lib/PACUtils.pm:2278 lib/PACUtils.pm:2279 lib/PACUtils.pm:2281
+#: lib/PACUtils.pm:2282 lib/PACUtils.pm:2284 lib/PACUtils.pm:2285
+#: lib/PACUtils.pm:2287 lib/PACUtils.pm:2288 lib/PACUtils.pm:2290
+#: lib/PACUtils.pm:2291 lib/PACUtils.pm:2293 lib/PACUtils.pm:2294
+#: lib/PACUtils.pm:2298
+msgid   "method"
+msgstr  ""
+
+#: lib/PACCluster.pm:186 lib/PACMain.pm:2389 lib/PACUtils.pm:1300
+#: lib/PACUtils.pm:2057
+msgid   "sort groups first"
+msgstr  ""
+
+#: lib/PACCluster.pm:238
+msgid   "Cluster Management"
+msgstr  ""
+
+#: lib/PACCluster.pm:249
+msgid   "<b>RUNNING CLUSTERS </b>"
+msgstr  ""
+
+#: lib/PACCluster.pm:251 lib/PACCluster.pm:369 lib/PACCluster.pm:489
+#: lib/PACConfig.pm:239 lib/PACConfig.pm:712 lib/PACScreenshots.pm:167
+#: lib/PACScreenshots.pm:179 lib/PACScripts.pm:438 lib/PACScripts.pm:539
+#: lib/PACTerminal.pm:807 lib/PACTerminal.pm:2987 lib/PACTerminal.pm:3022
+#: lib/PACUtils.pm:3105 lib/PACUtils.pm:3121 lib/PACUtils.pm:3162
+msgid   "menu"
+msgstr  ""
+
+#: lib/PACCluster.pm:260
+msgid   " UNCLUSTERED TERMINALS: "
+msgstr  ""
+
+#: lib/PACCluster.pm:263
+msgid   " <b>UNCLUSTERED TERMINALS:</b> "
+msgstr  ""
+
+#: lib/PACCluster.pm:269 lib/PACCluster.pm:348 lib/PACCluster.pm:377
+#: lib/PACCluster.pm:471 lib/PACCluster.pm:517 lib/PACCluster.pm:1313
+#: lib/PACCluster.pm:1346 lib/PACGlobalVarEntry.pm:142 lib/PACKeePass.pm:225
+#: lib/PACPCC.pm:322 lib/PACPipe.pm:137 lib/PACPipe.pm:169 lib/PACPipe.pm:188
+#: lib/PACScreenshots.pm:192 lib/PACScreenshots.pm:448 lib/PACScripts.pm:417
+#: lib/PACScripts.pm:451 lib/PACScripts.pm:490 lib/PACScripts.pm:549
+#: lib/PACTerminal.pm:611 lib/PACTerminal.pm:627 lib/PACTerminal.pm:654
+#: lib/PACTerminal.pm:714 lib/PACTerminal.pm:2524 lib/PACTerminal.pm:3529
+#: lib/PACTerminal.pm:3629 lib/PACTerminal.pm:4111 lib/PACTerminal.pm:4172
+#: lib/PACTerminal.pm:4335 lib/PACUtils.pm:3484
+msgid   "automatic"
+msgstr  ""
+
+#: lib/PACCluster.pm:273
+msgid   "Opened Terminal(s):"
+msgstr  ""
+
+#: lib/PACCluster.pm:273 lib/PACCluster.pm:352 lib/PACCluster.pm:475
+#: lib/PACCluster.pm:521 lib/PACCluster.pm:1315 lib/PACEdit.pm:800
+#: lib/PACMain.pm:1133 lib/PACMain.pm:1136 lib/PACMain.pm:1138
+#: lib/PACMain.pm:1142 lib/PACMain.pm:2177 lib/PACMain.pm:2185 lib/PACPCC.pm:666
+#: lib/PACPCC.pm:701 lib/PACPCC.pm:903 lib/PACPCC.pm:1015 lib/PACPipe.pm:143
+#: lib/PACPipe.pm:144 lib/PACScripts.pm:422 lib/PACScripts.pm:1038
+#: lib/PACTerminal.pm:629 lib/PACTerminal.pm:3536 lib/PACTerminal.pm:3537
+#: lib/PACTerminal.pm:3539 lib/PACTerminal.pm:3540 lib/PACTerminal.pm:3541
+#: lib/PACTerminal.pm:3636 lib/PACTerminal.pm:3637 lib/PACTerminal.pm:4117
+#: lib/PACTerminal.pm:4118 lib/PACTerminal.pm:4341 lib/PACTerminal.pm:4342
+msgid   "text"
+msgstr  ""
+
+#: lib/PACCluster.pm:274 lib/PACCluster.pm:353 lib/PACCluster.pm:383
+#: lib/PACCluster.pm:384 lib/PACCluster.pm:476 lib/PACCluster.pm:1315
+#: lib/PACGlobalVarEntry.pm:90 lib/PACGlobalVarEntry.pm:106
+#: lib/PACGlobalVarEntry.pm:164 lib/PACPipe.pm:142 lib/PACScripts.pm:421
+#: lib/PACScripts.pm:494 lib/PACTerminal.pm:629 lib/PACTerminal.pm:3391
+#: lib/PACTerminal.pm:3455 lib/PACTerminal.pm:3638 lib/PACTerminal.pm:4343
+#: lib/PACUtils.pm:2407 lib/PACUtils.pm:2415 lib/PACUtils.pm:2650
+#: lib/PACUtils.pm:2673 lib/PACUtils.pm:2694 lib/PACUtils.pm:2724
+#: lib/PACUtils.pm:2787
+msgid   "hidden"
+msgstr  ""
+
+#: lib/PACCluster.pm:275 lib/PACCluster.pm:354
+msgid   "Status"
+msgstr  ""
+
+#: lib/PACCluster.pm:279
+msgid   "List of available-unclustered connections"
+msgstr  ""
+
+#: lib/PACCluster.pm:290 lib/PACCluster.pm:408
+msgid   "Add to\n"
+        "Cluster"
+msgstr  ""
+
+#: lib/PACCluster.pm:297 lib/PACCluster.pm:415
+msgid   "Del from\n"
+        "Cluster"
+msgstr  ""
+
+#: lib/PACCluster.pm:308
+msgid   " ACTIVE CLUSTERS: "
+msgstr  ""
+
+#: lib/PACCluster.pm:311
+msgid   " <b>ACTIVE CLUSTERS:</b> "
+msgstr  ""
+
+#: lib/PACCluster.pm:337 lib/PACCluster.pm:460
+msgid   " TERMINALS: "
+msgstr  ""
+
+#: lib/PACCluster.pm:340 lib/PACCluster.pm:463
+msgid   " <b>TERMINALS IN SELECTED CLUSTER:</b> "
+msgstr  ""
+
+#: lib/PACCluster.pm:352 lib/PACCluster.pm:475
+msgid   "Terminal(s) in cluster:"
+msgstr  ""
+
+#: lib/PACCluster.pm:358 lib/PACCluster.pm:480
+msgid   "List of connections included in the selected cluster above"
+msgstr  ""
+
+#: lib/PACCluster.pm:367
+msgid   "<b>SAVED CLUSTERS </b>"
+msgstr  ""
+
+#: lib/PACCluster.pm:382
+msgid   "Icon:"
+msgstr  ""
+
+#: lib/PACCluster.pm:383 lib/PACCluster.pm:540
+msgid   "Name:"
+msgstr  ""
+
+#: lib/PACCluster.pm:385
+msgid   "List:"
+msgstr  ""
+
+#: lib/PACCluster.pm:426
+msgid   " CONFIGURED CLUSTERS: "
+msgstr  ""
+
+#: lib/PACCluster.pm:429
+msgid   " <b>CONFIGURED CLUSTERS:</b> "
+msgstr  ""
+
+#: lib/PACCluster.pm:452 lib/PACCluster.pm:508
+msgid   "Rename"
+msgstr  ""
+
+#: lib/PACCluster.pm:487
+msgid   "<b>AUTO CLUSTERS </b>"
+msgstr  ""
+
+#: lib/PACCluster.pm:521
+msgid   "AUTOCLUSTER"
+msgstr  ""
+
+#: lib/PACCluster.pm:532
+msgid   " <b>AUTOCLUSTER MATCHING PROPERTIES:</b> "
+msgstr  ""
+
+#: lib/PACCluster.pm:534
+msgid   "These entries accept Regular Expressions,like:\n"
+        "^server\\d+\n"
+        "or\n"
+        "conn.*\\d{1,3}$\n"
+        "or any other Perl RegExp"
+msgstr  ""
+
+#: lib/PACCluster.pm:544 lib/PACKeePass.pm:263
+msgid   "Title:"
+msgstr  ""
+
+#: lib/PACCluster.pm:548
+msgid   "IP/Host:"
+msgstr  ""
+
+#: lib/PACCluster.pm:552
+msgid   "Description:"
+msgstr  ""
+
+#: lib/PACCluster.pm:557
+msgid   "Check Auto Cluster conditions"
+msgstr  ""
+
+#: lib/PACCluster.pm:561
+msgid   "_Power Cluster Controller"
+msgstr  ""
+
+#: lib/PACCluster.pm:584 lib/PACTerminal.pm:1274
+msgid   "PAC Connect"
+msgstr  ""
+
+#: lib/PACCluster.pm:585 lib/PACMain.pm:1053 lib/PACMain.pm:1124
+#: lib/PACScreenshots.pm:227 lib/PACScripts.pm:1066
+msgid   "copy"
+msgstr  ""
+
+#: lib/PACCluster.pm:585 lib/PACMain.pm:1053 lib/PACMain.pm:1124
+#: lib/PACScreenshots.pm:227 lib/PACScripts.pm:1066 lib/PACTerminal.pm:1275
+#: lib/PACTerminal.pm:3071 lib/PACTerminal.pm:3086
+msgid   "move"
+msgstr  ""
+
+#: lib/PACCluster.pm:595 lib/PACCluster.pm:665 lib/PACCluster.pm:962
+msgid   "Before Adding a Terminal to a Cluster, you MUST either:\n"
+        " - Select an existing CLUSTER\n"
+        "...or...\n"
+        " - Create a NEW Cluster"
+msgstr  ""
+
+#: lib/PACCluster.pm:601 lib/PACCluster.pm:616 lib/PACMain.pm:1060
+#: lib/PACMain.pm:1074 lib/PACMain.pm:1132 lib/PACMain.pm:1133
+#: lib/PACMain.pm:1134 lib/PACMain.pm:1136 lib/PACMain.pm:1138
+#: lib/PACMain.pm:1142 lib/PACMain.pm:1181 lib/PACTerminal.pm:1283
+#: lib/PACTerminal.pm:1284
+msgid   "DND"
+msgstr  ""
+
+#: lib/PACCluster.pm:745 lib/PACCluster.pm:774 lib/PACCluster.pm:964
+#: lib/PACMain.pm:2605 lib/PACMain.pm:2949 lib/PACTerminal.pm:1822
+#: lib/PACTerminal.pm:2777
+msgid   "Enter a name for the <b>New Cluster</b>"
+msgstr  ""
+
+#: lib/PACCluster.pm:750 lib/PACCluster.pm:780
+msgid   "Cluster '$new_cluster' already exists!!"
+msgstr  ""
+
+#: lib/PACCluster.pm:784 lib/PACCluster.pm:1200
+msgid   "Auto Cluster name '$new_cluster' already exists!!"
+msgstr  ""
+
+#: lib/PACCluster.pm:816
+msgid   "Enter a <b>NEW</b> name for cluster <b>$old_cluster</b>"
+msgstr  ""
+
+#: lib/PACCluster.pm:822 lib/PACCluster.pm:1196
+msgid   "Cluster name '$new_cluster' already exists!!"
+msgstr  ""
+
+#: lib/PACCluster.pm:857 lib/PACCluster.pm:894
+msgid   "Delete cluster <b>'$cluster'</b>?"
+msgstr  ""
+
+#: lib/PACCluster.pm:921 lib/PACCluster.pm:1235
+msgid   "Remove running terminals from deleted cluster <b>'$cluster'</b>?"
+msgstr  ""
+
+#: lib/PACCluster.pm:969
+msgid   "Cluster '$cluster' already exists!!"
+msgstr  ""
+
+#: lib/PACCluster.pm:1154
+msgid   "Enter new <b>AUTO CLUSTER</b> name"
+msgstr  ""
+
+#: lib/PACCluster.pm:1159
+msgid   "AutoCluster name '$new_ac' already exists!!"
+msgstr  ""
+
+#: lib/PACCluster.pm:1164
+msgid   "Cluster name '$new_ac' already exists!!"
+msgstr  ""
+
+#: lib/PACCluster.pm:1190
+msgid   "Enter a <b>NEW</b> name for Auto Cluster <b>$old_cluster</b>"
+msgstr  ""
+
+#: lib/PACCluster.pm:1222
+msgid   "Are you sure you want to delete Auto Cluster <b>$cluster</b>?"
+msgstr  ""
+
+#: lib/PACCluster.pm:1254 lib/PACCluster.pm:1264
+#, perl-brace-format
+msgid   "entry${entry}"
+msgstr  ""
+
+#: lib/PACCluster.pm:1302
+msgid   "Terminals matching Auto Cluster <b>$cluster</b> conditions:$cond"
+msgstr  ""
+
+#: lib/PACCluster.pm:1304
+msgid   "$APPNAME (v$APPVERSION) : Auto Cluster matching"
+msgstr  ""
+
+#: lib/PACCluster.pm:1315
+msgid   "Icon"
+msgstr  ""
+
+#: lib/PACCluster.pm:1315
+msgid   "Terminal(s) matching"
+msgstr  ""
+
+#: lib/PACCluster.pm:1315 lib/PACMain.pm:195
+msgid   "UUID"
+msgstr  ""
+
+#: lib/PACCluster.pm:1356 lib/PACPCC.pm:332 lib/PACPipe.pm:176
+#: lib/PACPipe.pm:195 lib/PACScripts.pm:464 lib/PACScripts.pm:559
+#: lib/PACTerminal.pm:4186 lib/PACUtils.pm:2089
+msgid   "monospace"
+msgstr  ""
+
+#: lib/PACCluster.pm:1366 lib/PACMain.pm:1215 lib/PACMain.pm:1260
+#: lib/PACMain.pm:1657 lib/PACMain.pm:1699 lib/PACMain.pm:3620
+#: lib/PACMain.pm:3621 lib/PACUtils.pm:1365 lib/PACUtils.pm:1427
+#: lib/PACUtils.pm:2136 lib/PACUtils.pm:2228 lib/PACUtils.pm:2236
+#: lib/PACUtils.pm:2256
+msgid   "description"
+msgstr  ""
+
+#: lib/PACCluster.pm:1370
+msgid   "Conditions for Auto Cluster <b>$cluster</b> match <b>"
+msgstr  ""
+
+#: lib/PACCluster.pm:1429
+msgid   "In CLUSTER: $cluster"
+msgstr  ""
+
+#: lib/PACCluster.pm:1446 lib/PACTerminal.pm:788
+msgid   "Unclustered"
+msgstr  ""
+
+#: lib/PACCluster.pm:1622 lib/PACPCC.pm:430 lib/PACPCC.pm:469
+#: lib/PACTerminal.pm:1444
+msgid   "CONNECTED"
+msgstr  ""
+
+#: lib/PACConfig.pm:70 lib/PACMain.pm:111 lib/PACUtils.pm:142
+msgid   "ERROR: $!"
+msgstr  ""
+
+#: lib/PACConfig.pm:131
+msgid   "Default Global Options : $APPNAME (v$APPVERSION)"
+msgstr  ""
+
+#: lib/PACConfig.pm:147 lib/PACEdit.pm:168
+msgid   "ERROR: Could not load GLADE file '$GLADE_FILE' ($!)"
+msgstr  ""
+
+#: lib/PACConfig.pm:154
+msgid   "Preferences"
+msgstr  ""
+
+#: lib/PACConfig.pm:163
+msgid   "_Reset to DEFAULT values"
+msgstr  ""
+
+#: lib/PACConfig.pm:175
+msgid   "Set..."
+msgstr  ""
+
+#: lib/PACConfig.pm:177
+msgid   "Export config..."
+msgstr  ""
+
+#: lib/PACConfig.pm:185 lib/PACEdit.pm:201 lib/PACEdit.pm:204
+#: lib/PACScreenshots.pm:382
+msgid   "Show _hidden files"
+msgstr  ""
+
+#: lib/PACConfig.pm:210 lib/PACConfig.pm:216 lib/PACConfig.pm:1015
+#: lib/PACConfig.pm:1021 lib/PACUtils.pm:2025
+msgid   "start at session startup"
+msgstr  ""
+
+#: lib/PACConfig.pm:256
+msgid   "Settings as yml"
+msgstr  ""
+
+#: lib/PACConfig.pm:258
+msgid   "Anonymized Data for DEBUG"
+msgstr  ""
+
+#: lib/PACConfig.pm:280
+msgid   "Enter current PAC GUI Password to remove protection..."
+msgstr  ""
+
+#: lib/PACConfig.pm:280
+msgid   "PAC GUI Password Removal"
+msgstr  ""
+
+#: lib/PACConfig.pm:281 lib/PACConfig.pm:289 lib/PACMain.pm:229
+#: lib/PACMain.pm:2336 lib/PACUtils.pm:1935 lib/PACUtils.pm:1958
+#: lib/PACUtils.pm:2072 lib/PACUtils.pm:2075
+msgid   "gui password"
+msgstr  ""
+
+#: lib/PACConfig.pm:285 lib/PACMain.pm:230 lib/PACMain.pm:2338
+msgid   "ERROR: Wrong password!!"
+msgstr  ""
+
+#: lib/PACConfig.pm:307 lib/PACEdit.pm:475
+msgid   "Interactive Password input"
+msgstr  ""
+
+#: lib/PACConfig.pm:310 lib/PACEdit.pm:476 lib/PACUtils.pm:2000
+msgid   "<<ASK_PASS>>"
+msgstr  ""
+
+#: lib/PACConfig.pm:328 lib/PACEdit.pm:368 lib/PACEdit.pm:491
+#: lib/PACTerminal.pm:2004
+msgid   "User variables..."
+msgstr  ""
+
+#: lib/PACConfig.pm:329 lib/PACConfig.pm:345 lib/PACEdit.pm:369
+#: lib/PACEdit.pm:384 lib/PACEdit.pm:492 lib/PACEdit.pm:507 lib/PACMain.pm:2512
+#: lib/PACMain.pm:2523 lib/PACMain.pm:2555 lib/PACMain.pm:2565
+#: lib/PACMain.pm:2591 lib/PACMain.pm:2603 lib/PACMain.pm:2635
+#: lib/PACMain.pm:2689 lib/PACMain.pm:2698 lib/PACMain.pm:2709
+#: lib/PACMain.pm:2720 lib/PACMain.pm:2730 lib/PACMain.pm:2743
+#: lib/PACMain.pm:2753 lib/PACMain.pm:2776 lib/PACMain.pm:2786
+#: lib/PACMain.pm:2816 lib/PACMain.pm:2844 lib/PACMain.pm:2851
+#: lib/PACMain.pm:2861 lib/PACMain.pm:2875 lib/PACMain.pm:2887
+#: lib/PACMain.pm:2895 lib/PACMain.pm:2912 lib/PACMain.pm:2936
+#: lib/PACMain.pm:2947 lib/PACMain.pm:2986 lib/PACMain.pm:4324
+#: lib/PACMain.pm:4485 lib/PACPCC.pm:564 lib/PACScreenshots.pm:301
+#: lib/PACScreenshots.pm:332 lib/PACScripts.pm:907 lib/PACTerminal.pm:1688
+#: lib/PACTerminal.pm:1755 lib/PACTerminal.pm:1782 lib/PACTerminal.pm:1789
+#: lib/PACTerminal.pm:1795 lib/PACTerminal.pm:1842 lib/PACTerminal.pm:1851
+#: lib/PACTerminal.pm:1861 lib/PACTerminal.pm:1869 lib/PACTerminal.pm:1884
+#: lib/PACTerminal.pm:2005 lib/PACTerminal.pm:2023 lib/PACTerminal.pm:2086
+#: lib/PACTerminal.pm:2098 lib/PACTerminal.pm:2110 lib/PACTerminal.pm:2128
+#: lib/PACTerminal.pm:2147 lib/PACTerminal.pm:2153 lib/PACTerminal.pm:2170
+#: lib/PACTerminal.pm:2173 lib/PACTerminal.pm:2176 lib/PACTerminal.pm:2195
+#: lib/PACTerminal.pm:2215 lib/PACTerminal.pm:2221 lib/PACTerminal.pm:2228
+#: lib/PACTerminal.pm:2240 lib/PACTerminal.pm:2247 lib/PACTerminal.pm:2676
+#: lib/PACTerminal.pm:2685 lib/PACTerminal.pm:2743 lib/PACTerminal.pm:2750
+#: lib/PACTerminal.pm:2756 lib/PACTerminal.pm:2801 lib/PACTerminal.pm:2809
+#: lib/PACTerminal.pm:2816 lib/PACTerminal.pm:2823 lib/PACTerminal.pm:2831
+#: lib/PACTerminal.pm:2837 lib/PACTerminal.pm:2860 lib/PACTerminal.pm:2865
+#: lib/PACTerminal.pm:2866 lib/PACUtils.pm:1435
+msgid   "sensitive"
+msgstr  ""
+
+#: lib/PACConfig.pm:330 lib/PACConfig.pm:346 lib/PACConfig.pm:361
+#: lib/PACConfig.pm:420 lib/PACConfig.pm:423 lib/PACConfig.pm:426
+#: lib/PACConfig.pm:429 lib/PACEdit.pm:370 lib/PACEdit.pm:385 lib/PACEdit.pm:400
+#: lib/PACEdit.pm:438 lib/PACEdit.pm:441 lib/PACEdit.pm:444 lib/PACEdit.pm:447
+#: lib/PACEdit.pm:493 lib/PACEdit.pm:508 lib/PACEdit.pm:524 lib/PACEdit.pm:584
+#: lib/PACEdit.pm:587 lib/PACEdit.pm:590 lib/PACEdit.pm:593 lib/PACMain.pm:2556
+#: lib/PACMain.pm:2592 lib/PACMain.pm:2653 lib/PACMain.pm:2817
+#: lib/PACMain.pm:2937 lib/PACMain.pm:3011 lib/PACMain.pm:4325
+#: lib/PACMain.pm:4340 lib/PACMain.pm:4394 lib/PACMain.pm:4397
+#: lib/PACMain.pm:4400 lib/PACMain.pm:4403 lib/PACMain.pm:4486
+#: lib/PACMain.pm:4500 lib/PACMain.pm:4559 lib/PACMain.pm:4562
+#: lib/PACMain.pm:4565 lib/PACMain.pm:4568 lib/PACPCC.pm:565 lib/PACPCC.pm:582
+#: lib/PACScripts.pm:682 lib/PACScripts.pm:789 lib/PACScripts.pm:888
+#: lib/PACScripts.pm:908 lib/PACScripts.pm:926 lib/PACScripts.pm:982
+#: lib/PACScripts.pm:986 lib/PACScripts.pm:989 lib/PACScripts.pm:992
+#: lib/PACTerminal.pm:1701 lib/PACTerminal.pm:1706 lib/PACTerminal.pm:1711
+#: lib/PACTerminal.pm:1783 lib/PACTerminal.pm:1788 lib/PACTerminal.pm:1794
+#: lib/PACTerminal.pm:1852 lib/PACTerminal.pm:1894 lib/PACTerminal.pm:1941
+#: lib/PACTerminal.pm:1982 lib/PACTerminal.pm:2006 lib/PACTerminal.pm:2024
+#: lib/PACTerminal.pm:2041 lib/PACTerminal.pm:2059 lib/PACTerminal.pm:2067
+#: lib/PACTerminal.pm:2216 lib/PACTerminal.pm:2241 lib/PACTerminal.pm:2675
+#: lib/PACTerminal.pm:2744 lib/PACTerminal.pm:2749 lib/PACTerminal.pm:2755
+#: lib/PACTerminal.pm:2810 lib/PACTerminal.pm:2857 lib/PACTray.pm:191
+#: lib/PACTray.pm:192 lib/PACTray.pm:193 lib/PACTrayUnity.pm:114
+#: lib/PACTrayUnity.pm:115 lib/PACUtils.pm:1428
+msgid   "submenu"
+msgstr  ""
+
+#: lib/PACConfig.pm:336 lib/PACConfig.pm:337 lib/PACConfig.pm:817
+#: lib/PACConfig.pm:1025 lib/PACEdit.pm:375 lib/PACEdit.pm:376
+#: lib/PACEdit.pm:498 lib/PACEdit.pm:499 lib/PACMain.pm:4315 lib/PACMain.pm:4316
+#: lib/PACMain.pm:4476 lib/PACMain.pm:4477 lib/PACPCC.pm:553 lib/PACPCC.pm:554
+#: lib/PACScripts.pm:895 lib/PACScripts.pm:897 lib/PACTerminal.pm:2011
+#: lib/PACTerminal.pm:2012 lib/PACUtils.pm:2102 lib/PACUtils.pm:2649
+#: lib/PACUtils.pm:2650 lib/PACUtils.pm:2651 lib/PACUtils.pm:2693
+#: lib/PACUtils.pm:2694 lib/PACUtils.pm:2696 lib/PACUtils.pm:2928
+#: lib/PACUtils.pm:2929
+msgid   "global variables"
+msgstr  ""
+
+#: lib/PACConfig.pm:344 lib/PACEdit.pm:383 lib/PACEdit.pm:506
+#: lib/PACMain.pm:4323 lib/PACMain.pm:4484 lib/PACPCC.pm:563
+#: lib/PACScripts.pm:906 lib/PACTerminal.pm:2022
+msgid   "Global variables..."
+msgstr  ""
+
+#: lib/PACConfig.pm:355 lib/PACConfig.pm:367 lib/PACConfig.pm:378
+#: lib/PACConfig.pm:389 lib/PACConfig.pm:403 lib/PACConfig.pm:408
+#: lib/PACConfig.pm:413 lib/PACConfig.pm:432 lib/PACEdit.pm:394
+#: lib/PACEdit.pm:406 lib/PACEdit.pm:420 lib/PACEdit.pm:425 lib/PACEdit.pm:430
+#: lib/PACEdit.pm:450 lib/PACEdit.pm:517 lib/PACEdit.pm:530 lib/PACEdit.pm:541
+#: lib/PACEdit.pm:552 lib/PACEdit.pm:566 lib/PACEdit.pm:571 lib/PACEdit.pm:576
+#: lib/PACEdit.pm:596 lib/PACMain.pm:2511 lib/PACMain.pm:2522
+#: lib/PACMain.pm:2634 lib/PACMain.pm:2688 lib/PACMain.pm:2697
+#: lib/PACMain.pm:2708 lib/PACMain.pm:2719 lib/PACMain.pm:2742
+#: lib/PACMain.pm:2752 lib/PACMain.pm:2775 lib/PACMain.pm:2785
+#: lib/PACMain.pm:2828 lib/PACMain.pm:2835 lib/PACMain.pm:2985
+#: lib/PACMain.pm:4334 lib/PACMain.pm:4354 lib/PACMain.pm:4364
+#: lib/PACMain.pm:4377 lib/PACMain.pm:4382 lib/PACMain.pm:4387
+#: lib/PACMain.pm:4406 lib/PACMain.pm:4494 lib/PACMain.pm:4516
+#: lib/PACMain.pm:4527 lib/PACMain.pm:4541 lib/PACMain.pm:4546
+#: lib/PACMain.pm:4551 lib/PACMain.pm:4571 lib/PACPCC.pm:575 lib/PACPCC.pm:596
+#: lib/PACPCC.pm:604 lib/PACPCC.pm:612 lib/PACPCC.pm:620 lib/PACPCC.pm:628
+#: lib/PACScripts.pm:651 lib/PACScripts.pm:658 lib/PACScripts.pm:665
+#: lib/PACScripts.pm:674 lib/PACScripts.pm:690 lib/PACScripts.pm:697
+#: lib/PACScripts.pm:704 lib/PACScripts.pm:711 lib/PACScripts.pm:718
+#: lib/PACScripts.pm:725 lib/PACScripts.pm:732 lib/PACScripts.pm:739
+#: lib/PACScripts.pm:746 lib/PACScripts.pm:753 lib/PACScripts.pm:760
+#: lib/PACScripts.pm:767 lib/PACScripts.pm:774 lib/PACScripts.pm:781
+#: lib/PACScripts.pm:797 lib/PACScripts.pm:804 lib/PACScripts.pm:811
+#: lib/PACScripts.pm:818 lib/PACScripts.pm:825 lib/PACScripts.pm:832
+#: lib/PACScripts.pm:839 lib/PACScripts.pm:846 lib/PACScripts.pm:853
+#: lib/PACScripts.pm:860 lib/PACScripts.pm:867 lib/PACScripts.pm:874
+#: lib/PACScripts.pm:919 lib/PACScripts.pm:940 lib/PACScripts.pm:948
+#: lib/PACScripts.pm:961 lib/PACScripts.pm:967 lib/PACScripts.pm:973
+#: lib/PACScripts.pm:995 lib/PACTerminal.pm:275 lib/PACTerminal.pm:1740
+#: lib/PACTerminal.pm:1746 lib/PACTerminal.pm:1758 lib/PACTerminal.pm:1767
+#: lib/PACTerminal.pm:1774 lib/PACTerminal.pm:1806 lib/PACTerminal.pm:1820
+#: lib/PACTerminal.pm:1841 lib/PACTerminal.pm:1860 lib/PACTerminal.pm:1870
+#: lib/PACTerminal.pm:1885 lib/PACTerminal.pm:1893 lib/PACTerminal.pm:1909
+#: lib/PACTerminal.pm:1925 lib/PACTerminal.pm:1940 lib/PACTerminal.pm:1956
+#: lib/PACTerminal.pm:1971 lib/PACTerminal.pm:1981 lib/PACTerminal.pm:1997
+#: lib/PACTerminal.pm:2016 lib/PACTerminal.pm:2034 lib/PACTerminal.pm:2051
+#: lib/PACTerminal.pm:2066 lib/PACTerminal.pm:2127 lib/PACTerminal.pm:2246
+#: lib/PACTerminal.pm:2800 lib/PACUtils.pm:1365 lib/PACUtils.pm:1427
+msgid   "tooltip"
+msgstr  ""
+
+#: lib/PACConfig.pm:356 lib/PACEdit.pm:395 lib/PACEdit.pm:518
+#: lib/PACMain.pm:4333 lib/PACMain.pm:4335 lib/PACMain.pm:4493
+#: lib/PACMain.pm:4495 lib/PACPCC.pm:574 lib/PACPCC.pm:576 lib/PACScripts.pm:918
+#: lib/PACTerminal.pm:2035
+msgid   "<ENV:$key>"
+msgstr  ""
+
+#: lib/PACConfig.pm:360 lib/PACEdit.pm:399 lib/PACEdit.pm:523
+#: lib/PACMain.pm:4339 lib/PACMain.pm:4499 lib/PACPCC.pm:581
+#: lib/PACScripts.pm:925 lib/PACTerminal.pm:2040
+msgid   "Environment variables..."
+msgstr  ""
+
+#: lib/PACConfig.pm:366 lib/PACEdit.pm:529
+msgid   "Interactive user input"
+msgstr  ""
+
+#: lib/PACConfig.pm:367 lib/PACEdit.pm:530
+msgid   "User will be prompted to provide a value with a text box (free data "
+        "type)"
+msgstr  ""
+
+#: lib/PACConfig.pm:377 lib/PACEdit.pm:540 lib/PACMain.pm:4353
+#: lib/PACMain.pm:4515 lib/PACPCC.pm:595 lib/PACScripts.pm:939
+msgid   "Interactive user choose from list"
+msgstr  ""
+
+#: lib/PACConfig.pm:378 lib/PACEdit.pm:541 lib/PACMain.pm:4354
+#: lib/PACMain.pm:4516 lib/PACPCC.pm:596
+msgid   "User will be prompted to choose a value form a user defined list "
+        "separated with \"|\" (pipes without quotes)"
+msgstr  ""
+
+#: lib/PACConfig.pm:381 lib/PACEdit.pm:544 lib/PACMain.pm:4357
+#: lib/PACMain.pm:4519
+msgid   "<ASK:descriptive line|opt1|opt2|...|optN>"
+msgstr  ""
+
+#: lib/PACConfig.pm:388 lib/PACEdit.pm:405 lib/PACEdit.pm:551
+#: lib/PACMain.pm:4363 lib/PACMain.pm:4526 lib/PACPCC.pm:603
+#: lib/PACScripts.pm:947
+msgid   "Use a command output as value"
+msgstr  ""
+
+#: lib/PACConfig.pm:389 lib/PACEdit.pm:406 lib/PACEdit.pm:552
+#: lib/PACMain.pm:4364 lib/PACMain.pm:4527 lib/PACPCC.pm:604
+#: lib/PACScripts.pm:948
+msgid   "The given command line will be locally executed, and its output (both "
+        "STDOUT and STDERR) will be used to replace this value"
+msgstr  ""
+
+#: lib/PACConfig.pm:392 lib/PACEdit.pm:409 lib/PACEdit.pm:555
+#: lib/PACMain.pm:4367 lib/PACMain.pm:4530
+msgid   "<CMD:command to launch>"
+msgstr  ""
+
+#: lib/PACConfig.pm:422 lib/PACEdit.pm:440 lib/PACEdit.pm:586
+#: lib/PACMain.pm:4396 lib/PACMain.pm:4561 lib/PACScripts.pm:985
+msgid   "KeePassX title values"
+msgstr  ""
+
+#: lib/PACConfig.pm:425 lib/PACEdit.pm:443 lib/PACEdit.pm:589
+#: lib/PACMain.pm:4399 lib/PACMain.pm:4564 lib/PACScripts.pm:988
+msgid   "KeePassX username values"
+msgstr  ""
+
+#: lib/PACConfig.pm:428 lib/PACEdit.pm:446 lib/PACEdit.pm:592
+#: lib/PACMain.pm:4402 lib/PACMain.pm:4567 lib/PACScripts.pm:991
+msgid   "KeePassX URL values"
+msgstr  ""
+
+#: lib/PACConfig.pm:431 lib/PACEdit.pm:449 lib/PACEdit.pm:595
+#: lib/PACMain.pm:4405 lib/PACMain.pm:4570 lib/PACPCC.pm:627
+#: lib/PACScripts.pm:994
+msgid   "KeePass Extended Query"
+msgstr  ""
+
+#: lib/PACConfig.pm:432 lib/PACEdit.pm:450 lib/PACEdit.pm:596
+#: lib/PACMain.pm:4406 lib/PACMain.pm:4571 lib/PACPCC.pm:628
+#: lib/PACScripts.pm:995
+msgid   "This allows you to select the value to be returned, based on another "
+        "value's match againt a Perl Regular Expression"
+msgstr  ""
+
+#: lib/PACConfig.pm:448 lib/PACConfig.pm:625 lib/PACConfig.pm:641
+#: lib/PACMain.pm:3412
+msgid   "Traditional"
+msgstr  ""
+
+#: lib/PACConfig.pm:485
+#, perl-brace-format
+msgid   "use Data::Dumper; $Data::Dumper::Indent = 1; $Data::Dumper::Purity = "
+        "1; open(F, \">:utf8\",$file) or die \"ERROR: Could not open file "
+        "'$file' for writting ($!)\"; print F Dumper($$self{_CFG}); close F;"
+msgstr  ""
+
+#: lib/PACConfig.pm:490
+msgid   "You are about to create a file containing an anonymized version of "
+        "your settings.\n"
+        "\n"
+        "This file will contain your configuration settings without any "
+        "sensitive personal data in it.  It is only useful for debugging "
+        "purposes only. Do not use this file for backup purposes.\n"
+        "\n"
+        "Care has been taken to remove all personal information but no "
+        "guarantee is given, you are the only responsible for any disclosed "
+        "information.\n"
+        "Please review the exported data before sharing it with a third "
+        "party.\n"
+        "\n"
+        "<b>Do you wish to continue?</b>"
+msgstr  ""
+
+#: lib/PACConfig.pm:492
+msgid   "Export process has been canceled."
+msgstr  ""
+
+#: lib/PACConfig.pm:500
+msgid   "$APPNAME (v.$APPVERSION) Choose file to Export configuration as "
+        "'$format'"
+msgstr  ""
+
+#: lib/PACConfig.pm:503 lib/PACMain.pm:4045
+msgid   "Export"
+msgstr  ""
+
+#: lib/PACConfig.pm:504 lib/PACMain.pm:4046 lib/PACMain.pm:4108
+#: lib/PACPCC.pm:711 lib/PACPCC.pm:764 lib/PACScripts.pm:1138
+msgid   "Cancel"
+msgstr  ""
+
+#: lib/PACConfig.pm:513 lib/PACMain.pm:4057 lib/PACMain.pm:4120
+#: lib/PACPCC.pm:718 lib/PACPCC.pm:772 lib/PACScreenshots.pm:387
+#: lib/PACScripts.pm:1151
+msgid   "accept"
+msgstr  ""
+
+#: lib/PACConfig.pm:517 lib/PACMain.pm:3105 lib/PACTerminal.pm:3258
+#: lib/PACTerminal.pm:3286 lib/PACTerminal.pm:4222
+msgid   "watch"
+msgstr  ""
+
+#: lib/PACConfig.pm:518
+msgid   "Please, wait while file '$file' is being created..."
+msgstr  ""
+
+#: lib/PACConfig.pm:534
+msgid   "'$format' file succesfully saved to:\n"
+        "\n"
+        "$file"
+msgstr  ""
+
+#: lib/PACConfig.pm:537
+msgid   "ERROR: Could not save PAC Config file '$file':\n"
+        "\n"
+        "$@"
+msgstr  ""
+
+#: lib/PACConfig.pm:556
+msgid   "SAVED IN : $file\n"
+        "OUT: $out\n"
+msgstr  ""
+
+#: lib/PACConfig.pm:625 lib/PACConfig.pm:831 lib/PACTerminal.pm:741
+#: lib/PACTray.pm:142
+msgid   "Compact"
+msgstr  ""
+
+#: lib/PACConfig.pm:649 lib/PACConfig.pm:866 lib/PACUtils.pm:1971
+msgid   "auto accept key"
+msgstr  ""
+
+#: lib/PACConfig.pm:650 lib/PACConfig.pm:875 lib/PACMain.pm:3110
+#: lib/PACUtils.pm:2007
+msgid   "hide on connect"
+msgstr  ""
+
+#: lib/PACConfig.pm:651 lib/PACConfig.pm:876 lib/PACUtils.pm:2008
+msgid   "force split tabs to 50%"
+msgstr  ""
+
+#: lib/PACConfig.pm:652 lib/PACConfig.pm:870 lib/PACMain.pm:2231
+#: lib/PACUtils.pm:1976
+msgid   "close to tray"
+msgstr  ""
+
+#: lib/PACConfig.pm:653 lib/PACConfig.pm:881 lib/PACMain.pm:950
+#: lib/PACUtils.pm:2024
+msgid   "start main maximized"
+msgstr  ""
+
+#: lib/PACConfig.pm:654 lib/PACConfig.pm:882 lib/PACUtils.pm:2026
+msgid   "remember main size"
+msgstr  ""
+
+#: lib/PACConfig.pm:655 lib/PACConfig.pm:879 lib/PACConfig.pm:1017
+#: lib/PACMain.pm:213 lib/PACMain.pm:370 lib/PACUtils.pm:2022
+msgid   "start iconified"
+msgstr  ""
+
+#: lib/PACConfig.pm:656 lib/PACConfig.pm:884 lib/PACUtils.pm:2020
+msgid   "auto save"
+msgstr  ""
+
+#: lib/PACConfig.pm:657 lib/PACConfig.pm:883 lib/PACMain.pm:3215
+#: lib/PACUtils.pm:2021
+msgid   "save on exit"
+msgstr  ""
+
+#: lib/PACConfig.pm:658 lib/PACConfig.pm:712 lib/PACConfig.pm:869
+#: lib/PACTray.pm:70 lib/PACTrayUnity.pm:70 lib/PACUtils.pm:2045
+msgid   "use bw icon"
+msgstr  ""
+
+#: lib/PACConfig.pm:659 lib/PACConfig.pm:877 lib/PACUtils.pm:2009
+msgid   "ping port before connect"
+msgstr  ""
+
+#: lib/PACConfig.pm:660 lib/PACConfig.pm:878 lib/PACUtils.pm:2010
+msgid   "ping port timeout"
+msgstr  ""
+
+#: lib/PACConfig.pm:662 lib/PACConfig.pm:871 lib/PACMain.pm:3633
+#: lib/PACUtils.pm:1973
+msgid   "show screenshots"
+msgstr  ""
+
+#: lib/PACConfig.pm:663 lib/PACConfig.pm:913 lib/PACMain.pm:3210
+#: lib/PACUtils.pm:2046
+msgid   "confirm exit"
+msgstr  ""
+
+#: lib/PACConfig.pm:664 lib/PACConfig.pm:665 lib/PACConfig.pm:667
+#: lib/PACConfig.pm:914 lib/PACScreenshots.pm:420 lib/PACUtils.pm:2056
+msgid   "screenshots use external viewer"
+msgstr  ""
+
+#: lib/PACConfig.pm:666 lib/PACConfig.pm:915 lib/PACScreenshots.pm:421
+#: lib/PACUtils.pm:2055
+msgid   "screenshots external viewer"
+msgstr  ""
+
+#: lib/PACConfig.pm:668 lib/PACConfig.pm:872 lib/PACMain.pm:918
+#: lib/PACMain.pm:1050 lib/PACMain.pm:2048 lib/PACMain.pm:2118
+#: lib/PACMain.pm:3110 lib/PACMain.pm:3117 lib/PACMain.pm:3181
+#: lib/PACTerminal.pm:949 lib/PACTerminal.pm:1197 lib/PACUtils.pm:2004
+msgid   "tabs in main window"
+msgstr  ""
+
+#: lib/PACConfig.pm:669 lib/PACConfig.pm:873 lib/PACMain.pm:3117
+#: lib/PACUtils.pm:2005
+msgid   "auto hide connections list"
+msgstr  ""
+
+#: lib/PACConfig.pm:671 lib/PACConfig.pm:874 lib/PACMain.pm:2225
+#: lib/PACMain.pm:3120 lib/PACTerminal.pm:744 lib/PACTerminal.pm:747
+#: lib/PACUtils.pm:2006
+msgid   "auto hide button bar"
+msgstr  ""
+
+#: lib/PACConfig.pm:673 lib/PACConfig.pm:848 lib/PACUtils.pm:1993
+#: lib/PACUtils.pm:2184 lib/PACUtils.pm:2484 lib/PACUtils.pm:2511
+msgid   "command prompt"
+msgstr  ""
+
+#: lib/PACConfig.pm:674 lib/PACConfig.pm:849 lib/PACUtils.pm:1994
+#: lib/PACUtils.pm:2185 lib/PACUtils.pm:2485 lib/PACUtils.pm:2512
+msgid   "username prompt"
+msgstr  ""
+
+#: lib/PACConfig.pm:675 lib/PACConfig.pm:850 lib/PACUtils.pm:1995
+#: lib/PACUtils.pm:2186 lib/PACUtils.pm:2486 lib/PACUtils.pm:2513
+msgid   "password prompt"
+msgstr  ""
+
+#: lib/PACConfig.pm:676 lib/PACConfig.pm:851 lib/PACUtils.pm:1996
+msgid   "hostkey changed prompt"
+msgstr  ""
+
+#: lib/PACConfig.pm:677 lib/PACConfig.pm:852 lib/PACUtils.pm:1997
+msgid   "press any key prompt"
+msgstr  ""
+
+#: lib/PACConfig.pm:678 lib/PACConfig.pm:856 lib/PACUtils.pm:1998
+msgid   "remote host changed prompt"
+msgstr  ""
+
+#: lib/PACConfig.pm:679 lib/PACConfig.pm:853 lib/PACUtils.pm:1999
+msgid   "sudo prompt"
+msgstr  ""
+
+#: lib/PACConfig.pm:680 lib/PACConfig.pm:854 lib/PACUtils.pm:2000
+#: lib/PACUtils.pm:2658 lib/PACUtils.pm:2708
+msgid   "sudo password"
+msgstr  ""
+
+#: lib/PACConfig.pm:681 lib/PACConfig.pm:855 lib/PACUtils.pm:2001
+msgid   "sudo show password"
+msgstr  ""
+
+#: lib/PACConfig.pm:683 lib/PACConfig.pm:917 lib/PACTerminal.pm:3989
+#: lib/PACUtils.pm:2058
+msgid   "word characters"
+msgstr  ""
+
+#: lib/PACConfig.pm:684 lib/PACConfig.pm:926 lib/PACMain.pm:3687
+#: lib/PACMain.pm:3689 lib/PACTray.pm:103 lib/PACTray.pm:136 lib/PACTray.pm:140
+#: lib/PACTrayUnity.pm:126 lib/PACTrayUnity.pm:130 lib/PACUtils.pm:2060
+msgid   "show tray icon"
+msgstr  ""
+
+#: lib/PACConfig.pm:689 lib/PACConfig.pm:769 lib/PACConfig.pm:933
+#: lib/PACMain.pm:3626 lib/PACUtils.pm:2067
+msgid   "show statistics"
+msgstr  ""
+
+#: lib/PACConfig.pm:690 lib/PACConfig.pm:934
+msgid   "foreground"
+msgstr  ""
+
+#: lib/PACConfig.pm:690 lib/PACConfig.pm:691 lib/PACConfig.pm:934
+#: lib/PACMain.pm:2432 lib/PACUtils.pm:2069
+msgid   "protected set"
+msgstr  ""
+
+#: lib/PACConfig.pm:691 lib/PACConfig.pm:934 lib/PACUtils.pm:2069
+msgid   "background"
+msgstr  ""
+
+#: lib/PACConfig.pm:692 lib/PACConfig.pm:935 lib/PACMain.pm:2433
+#: lib/PACUtils.pm:2068
+msgid   "protected color"
+msgstr  ""
+
+#: lib/PACConfig.pm:693 lib/PACConfig.pm:694 lib/PACConfig.pm:936
+#: lib/PACMain.pm:219 lib/PACMain.pm:2029 lib/PACMain.pm:2239
+#: lib/PACMain.pm:3692 lib/PACTray.pm:126 lib/PACTray.pm:132
+#: lib/PACTrayUnity.pm:122 lib/PACUtils.pm:2071 lib/PACUtils.pm:2074
+msgid   "use gui password"
+msgstr  ""
+
+#: lib/PACConfig.pm:695 lib/PACConfig.pm:937 lib/PACMain.pm:2029
+#: lib/PACMain.pm:2239 lib/PACTray.pm:126 lib/PACTray.pm:132
+#: lib/PACTrayUnity.pm:122 lib/PACUtils.pm:2077
+msgid   "use gui password tray"
+msgstr  ""
+
+#: lib/PACConfig.pm:696 lib/PACConfig.pm:938 lib/PACMain.pm:1407
+#: lib/PACMain.pm:2082 lib/PACMain.pm:2099 lib/PACMain.pm:2277
+#: lib/PACTerminal.pm:1037 lib/PACTerminal.pm:1050 lib/PACTerminal.pm:1062
+#: lib/PACTerminal.pm:1166 lib/PACUtils.pm:2078 lib/PACUtils.pm:2204
+#: lib/PACUtils.pm:2504 lib/PACUtils.pm:2531
+msgid   "disable CTRL key bindings"
+msgstr  ""
+
+#: lib/PACConfig.pm:697 lib/PACConfig.pm:939 lib/PACMain.pm:1311
+#: lib/PACMain.pm:1367 lib/PACMain.pm:1452 lib/PACMain.pm:2136
+#: lib/PACTerminal.pm:1037 lib/PACTerminal.pm:1050 lib/PACTerminal.pm:1194
+#: lib/PACUtils.pm:2080 lib/PACUtils.pm:2205 lib/PACUtils.pm:2505
+#: lib/PACUtils.pm:2532
+msgid   "disable ALT key bindings"
+msgstr  ""
+
+#: lib/PACConfig.pm:698 lib/PACConfig.pm:940 lib/PACMain.pm:2082
+#: lib/PACMain.pm:2277 lib/PACTerminal.pm:1037 lib/PACTerminal.pm:1062
+#: lib/PACTerminal.pm:1186 lib/PACUtils.pm:2079 lib/PACUtils.pm:2206
+#: lib/PACUtils.pm:2506 lib/PACUtils.pm:2533
+msgid   "disable SHIFT key bindings"
+msgstr  ""
+
+#: lib/PACConfig.pm:699 lib/PACConfig.pm:942 lib/PACMain.pm:359
+msgid   "autostart shell upon PAC start"
+msgstr  ""
+
+#: lib/PACConfig.pm:700 lib/PACConfig.pm:701 lib/PACConfig.pm:943
+#: lib/PACTerminal.pm:954 lib/PACUtils.pm:2083
+msgid   "tree on right side"
+msgstr  ""
+
+#: lib/PACConfig.pm:702 lib/PACConfig.pm:944 lib/PACTerminal.pm:950
+#: lib/PACUtils.pm:2084
+msgid   "prevent mouse over show tree"
+msgstr  ""
+
+#: lib/PACConfig.pm:703 lib/PACConfig.pm:1002 lib/PACUtils.pm:2085
+msgid   "connections"
+msgstr  ""
+
+#: lib/PACConfig.pm:703 lib/PACConfig.pm:704 lib/PACConfig.pm:705
+#: lib/PACConfig.pm:706 lib/PACConfig.pm:1002 lib/PACConfig.pm:1005
+#: lib/PACConfig.pm:1008 lib/PACConfig.pm:1011 lib/PACUtils.pm:2085
+msgid   "start PAC tree on"
+msgstr  ""
+
+#: lib/PACConfig.pm:704 lib/PACConfig.pm:1005
+msgid   "favourites"
+msgstr  ""
+
+#: lib/PACConfig.pm:705 lib/PACConfig.pm:1008
+msgid   "history"
+msgstr  ""
+
+#: lib/PACConfig.pm:706 lib/PACConfig.pm:1011
+msgid   "clusters"
+msgstr  ""
+
+#: lib/PACConfig.pm:707 lib/PACConfig.pm:945 lib/PACUtils.pm:2086
+msgid   "show connections tooltips"
+msgstr  ""
+
+#: lib/PACConfig.pm:708 lib/PACConfig.pm:949 lib/PACTerminal.pm:392
+#: lib/PACUtils.pm:2090
+msgid   "use login shell to connect"
+msgstr  ""
+
+#: lib/PACConfig.pm:709 lib/PACConfig.pm:710 lib/PACConfig.pm:952
+#: lib/PACMain.pm:2087 lib/PACMain.pm:2122 lib/PACUtils.pm:2093
+msgid   "ctrl tab"
+msgstr  ""
+
+#: lib/PACConfig.pm:709 lib/PACConfig.pm:710 lib/PACConfig.pm:952
+#: lib/PACConfig.pm:956 lib/PACMain.pm:2087 lib/PACMain.pm:2122
+#: lib/PACUtils.pm:2093
+msgid   "last"
+msgstr  ""
+
+#: lib/PACConfig.pm:711 lib/PACConfig.pm:954 lib/PACUtils.pm:1565
+#: lib/PACUtils.pm:1619 lib/PACUtils.pm:2094
+msgid   "append group name"
+msgstr  ""
+
+#: lib/PACConfig.pm:713 lib/PACConfig.pm:714 lib/PACConfig.pm:715
+#: lib/PACConfig.pm:956 lib/PACConfig.pm:983 lib/PACConfig.pm:985
+#: lib/PACConfig.pm:987 lib/PACMain.pm:2014 lib/PACMain.pm:2017
+#: lib/PACMain.pm:2021 lib/PACUtils.pm:2095
+msgid   "when no more tabs"
+msgstr  ""
+
+#: lib/PACConfig.pm:716 lib/PACConfig.pm:957 lib/PACTerminal.pm:1258
+#: lib/PACUtils.pm:2096
+msgid   "selection to clipboard"
+msgstr  ""
+
+#: lib/PACConfig.pm:717 lib/PACConfig.pm:959 lib/PACEdit.pm:693
+#: lib/PACEdit.pm:817 lib/PACUtils.pm:2098 lib/PACUtils.pm:2167
+#: lib/PACUtils.pm:2338
+msgid   "remove control chars"
+msgstr  ""
+
+#: lib/PACConfig.pm:718 lib/PACConfig.pm:960 lib/PACMain.pm:259
+#: lib/PACMain.pm:262 lib/PACUtils.pm:2099
+msgid   "allow more instances"
+msgstr  ""
+
+#: lib/PACConfig.pm:719 lib/PACConfig.pm:961 lib/PACUtils.pm:2100
+#: lib/PACUtils.pm:3772
+msgid   "show favourites in unity"
+msgstr  ""
+
+#: lib/PACConfig.pm:723 lib/PACConfig.pm:857 lib/PACUtils.pm:2044
+#: lib/PACUtils.pm:2202 lib/PACUtils.pm:2502 lib/PACUtils.pm:2529
+msgid   "timeout connect"
+msgstr  ""
+
+#: lib/PACConfig.pm:724 lib/PACConfig.pm:858 lib/PACUtils.pm:2043
+#: lib/PACUtils.pm:2201 lib/PACUtils.pm:2501 lib/PACUtils.pm:2528
+msgid   "timeout command"
+msgstr  ""
+
+#: lib/PACConfig.pm:725 lib/PACConfig.pm:859 lib/PACTerminal.pm:859
+#: lib/PACTerminal.pm:2551 lib/PACUtils.pm:2034
+msgid   "terminal windows hsize"
+msgstr  ""
+
+#: lib/PACConfig.pm:726 lib/PACConfig.pm:860 lib/PACTerminal.pm:860
+#: lib/PACTerminal.pm:2552 lib/PACUtils.pm:2035
+msgid   "terminal windows vsize"
+msgstr  ""
+
+#: lib/PACConfig.pm:730 lib/PACConfig.pm:861 lib/PACTerminal.pm:792
+#: lib/PACUtils.pm:2033 lib/PACUtils.pm:2194 lib/PACUtils.pm:2494
+#: lib/PACUtils.pm:2521
+msgid   "terminal scrollback lines"
+msgstr  ""
+
+#: lib/PACConfig.pm:731 lib/PACConfig.pm:862 lib/PACConfig.pm:863
+#: lib/PACUtils.pm:2030 lib/PACUtils.pm:2195 lib/PACUtils.pm:2495
+#: lib/PACUtils.pm:2522
+msgid   "terminal transparency"
+msgstr  ""
+
+#: lib/PACConfig.pm:732 lib/PACConfig.pm:867 lib/PACTerminal.pm:1149
+#: lib/PACTerminal.pm:1213 lib/PACTerminal.pm:1266 lib/PACTerminal.pm:2147
+#: lib/PACTerminal.pm:2831 lib/PACTerminal.pm:3730 lib/PACUtils.pm:1972
+msgid   "record command history"
+msgstr  ""
+
+#: lib/PACConfig.pm:734 lib/PACConfig.pm:880 lib/PACMain.pm:931
+#: lib/PACTerminal.pm:846 lib/PACTerminal.pm:875 lib/PACUtils.pm:2023
+msgid   "start maximized"
+msgstr  ""
+
+#: lib/PACConfig.pm:735 lib/PACConfig.pm:736 lib/PACConfig.pm:737
+#: lib/PACConfig.pm:738 lib/PACConfig.pm:894 lib/PACConfig.pm:895
+#: lib/PACConfig.pm:896 lib/PACConfig.pm:897 lib/PACMain.pm:937
+#: lib/PACMain.pm:3682 lib/PACUtils.pm:2019
+msgid   "tabs position"
+msgstr  ""
+
+#: lib/PACConfig.pm:736 lib/PACConfig.pm:895
+msgid   "bottom"
+msgstr  ""
+
+#: lib/PACConfig.pm:737 lib/PACConfig.pm:896 lib/PACStatistics.pm:295
+#: lib/PACStatistics.pm:302 lib/PACStatistics.pm:309
+msgid   "left"
+msgstr  ""
+
+#: lib/PACConfig.pm:738 lib/PACConfig.pm:897
+msgid   "right"
+msgstr  ""
+
+#: lib/PACConfig.pm:739 lib/PACConfig.pm:898 lib/PACTerminal.pm:1418
+#: lib/PACUtils.pm:1975
+msgid   "close terminal on disconnect"
+msgstr  ""
+
+#: lib/PACConfig.pm:740 lib/PACConfig.pm:741 lib/PACConfig.pm:899
+#: lib/PACMain.pm:3139 lib/PACMain.pm:3181 lib/PACTerminal.pm:108
+#: lib/PACUtils.pm:2011
+msgid   "open connections in tabs"
+msgstr  ""
+
+#: lib/PACConfig.pm:742 lib/PACConfig.pm:743 lib/PACConfig.pm:744
+#: lib/PACConfig.pm:919 lib/PACConfig.pm:921 lib/PACConfig.pm:923
+#: lib/PACTerminal.pm:664 lib/PACTerminal.pm:711 lib/PACTerminal.pm:3743
+#: lib/PACUtils.pm:2027
+msgid   "show commands box"
+msgstr  ""
+
+#: lib/PACConfig.pm:745 lib/PACConfig.pm:925 lib/PACUtils.pm:2028
+msgid   "show global commands box"
+msgstr  ""
+
+#: lib/PACConfig.pm:746 lib/PACConfig.pm:900 lib/PACTerminal.pm:3968
+#: lib/PACTerminal.pm:3980 lib/PACTerminal.pm:3981 lib/PACTerminal.pm:3983
+#: lib/PACUtils.pm:2037 lib/PACUtils.pm:2038 lib/PACUtils.pm:2198
+#: lib/PACUtils.pm:2199 lib/PACUtils.pm:2498 lib/PACUtils.pm:2499
+#: lib/PACUtils.pm:2525 lib/PACUtils.pm:2526
+msgid   "text color"
+msgstr  ""
+
+#: lib/PACConfig.pm:747 lib/PACConfig.pm:901 lib/PACTerminal.pm:3980
+#: lib/PACTerminal.pm:3982 lib/PACUtils.pm:1974 lib/PACUtils.pm:2183
+#: lib/PACUtils.pm:2483 lib/PACUtils.pm:2510
+msgid   "back color"
+msgstr  ""
+
+#: lib/PACConfig.pm:748 lib/PACConfig.pm:902 lib/PACTerminal.pm:3968
+#: lib/PACTerminal.pm:3983 lib/PACUtils.pm:2038 lib/PACUtils.pm:2199
+#: lib/PACUtils.pm:2499 lib/PACUtils.pm:2526
+msgid   "bold color"
+msgstr  ""
+
+#: lib/PACConfig.pm:750 lib/PACConfig.pm:903 lib/PACTerminal.pm:3983
+#: lib/PACUtils.pm:2039 lib/PACUtils.pm:2200 lib/PACUtils.pm:2500
+#: lib/PACUtils.pm:2527
+msgid   "bold color like text"
+msgstr  ""
+
+#: lib/PACConfig.pm:751 lib/PACConfig.pm:904 lib/PACTerminal.pm:2398
+#: lib/PACTerminal.pm:2400 lib/PACUtils.pm:2040
+msgid   "connected color"
+msgstr  ""
+
+#: lib/PACConfig.pm:752 lib/PACConfig.pm:905 lib/PACTerminal.pm:2399
+#: lib/PACUtils.pm:2041
+msgid   "disconnected color"
+msgstr  ""
+
+#: lib/PACConfig.pm:753 lib/PACConfig.pm:906 lib/PACTerminal.pm:2398
+#: lib/PACTerminal.pm:2400 lib/PACUtils.pm:2042
+msgid   "new data color"
+msgstr  ""
+
+#: lib/PACConfig.pm:754 lib/PACConfig.pm:907 lib/PACTerminal.pm:3969
+#: lib/PACTerminal.pm:3984 lib/PACUtils.pm:2031 lib/PACUtils.pm:2189
+#: lib/PACUtils.pm:2489 lib/PACUtils.pm:2516
+msgid   "terminal font"
+msgstr  ""
+
+#: lib/PACConfig.pm:755 lib/PACConfig.pm:908 lib/PACTerminal.pm:3970
+#: lib/PACTerminal.pm:3985 lib/PACUtils.pm:2002 lib/PACUtils.pm:2187
+#: lib/PACUtils.pm:2487 lib/PACUtils.pm:2514
+msgid   "cursor shape"
+msgstr  ""
+
+#: lib/PACConfig.pm:756 lib/PACConfig.pm:758 lib/PACConfig.pm:909
+#: lib/PACEdit.pm:654 lib/PACEdit.pm:660 lib/PACEdit.pm:793
+#: lib/PACTerminal.pm:149 lib/PACTerminal.pm:152 lib/PACTerminal.pm:381
+#: lib/PACTerminal.pm:383 lib/PACTerminal.pm:555 lib/PACUtils.pm:2049
+#: lib/PACUtils.pm:2153 lib/PACUtils.pm:2318
+msgid   "save session logs"
+msgstr  ""
+
+#: lib/PACConfig.pm:757 lib/PACConfig.pm:910 lib/PACEdit.pm:661
+#: lib/PACEdit.pm:794 lib/PACTerminal.pm:151 lib/PACTerminal.pm:154
+#: lib/PACUtils.pm:2050 lib/PACUtils.pm:2154 lib/PACUtils.pm:2319
+msgid   "session log pattern"
+msgstr  ""
+
+#: lib/PACConfig.pm:759 lib/PACConfig.pm:911 lib/PACEdit.pm:662
+#: lib/PACEdit.pm:795 lib/PACTerminal.pm:150 lib/PACTerminal.pm:153
+#: lib/PACTerminal.pm:382 lib/PACTerminal.pm:384 lib/PACUtils.pm:2051
+#: lib/PACUtils.pm:2155 lib/PACUtils.pm:2320
+msgid   "session logs folder"
+msgstr  ""
+
+#: lib/PACConfig.pm:760 lib/PACConfig.pm:912 lib/PACEdit.pm:663
+#: lib/PACEdit.pm:796 lib/PACTerminal.pm:382 lib/PACTerminal.pm:384
+#: lib/PACUtils.pm:2054 lib/PACUtils.pm:2156 lib/PACUtils.pm:2323
+msgid   "session logs amount"
+msgstr  ""
+
+#: lib/PACConfig.pm:761 lib/PACConfig.pm:762 lib/PACConfig.pm:916
+#: lib/PACTerminal.pm:3971 lib/PACTerminal.pm:3986 lib/PACUtils.pm:2032
+#: lib/PACUtils.pm:2193 lib/PACUtils.pm:2493 lib/PACUtils.pm:2520
+msgid   "terminal character encoding"
+msgstr  ""
+
+#: lib/PACConfig.pm:763 lib/PACConfig.pm:864 lib/PACTerminal.pm:3972
+#: lib/PACTerminal.pm:3987 lib/PACUtils.pm:2029 lib/PACUtils.pm:2191
+#: lib/PACUtils.pm:2492 lib/PACUtils.pm:2519
+msgid   "terminal backspace"
+msgstr  ""
+
+#: lib/PACConfig.pm:764 lib/PACConfig.pm:865 lib/PACUtils.pm:2059
+#: lib/PACUtils.pm:2190 lib/PACUtils.pm:2491 lib/PACUtils.pm:2518
+msgid   "terminal emulation"
+msgstr  ""
+
+#: lib/PACConfig.pm:765 lib/PACConfig.pm:927 lib/PACTerminal.pm:1404
+#: lib/PACUtils.pm:2061
+msgid   "unsplit disconnected terminals"
+msgstr  ""
+
+#: lib/PACConfig.pm:766 lib/PACConfig.pm:928 lib/PACTerminal.pm:3415
+#: lib/PACUtils.pm:2062
+msgid   "confirm chains"
+msgstr  ""
+
+#: lib/PACConfig.pm:767 lib/PACConfig.pm:929 lib/PACTerminal.pm:3448
+#: lib/PACUtils.pm:2063
+msgid   "skip first chain expect"
+msgstr  ""
+
+#: lib/PACConfig.pm:768 lib/PACConfig.pm:930 lib/PACMain.pm:3683
+#: lib/PACUtils.pm:2064
+msgid   "enable tree lines"
+msgstr  ""
+
+#: lib/PACConfig.pm:770 lib/PACConfig.pm:941 lib/PACTerminal.pm:1017
+#: lib/PACUtils.pm:2081
+msgid   "prevent F11"
+msgstr  ""
+
+#: lib/PACConfig.pm:771 lib/PACConfig.pm:946 lib/PACTerminal.pm:1696
+#: lib/PACUtils.pm:2087
+msgid   "hide connections submenu"
+msgstr  ""
+
+#: lib/PACConfig.pm:772 lib/PACConfig.pm:947 lib/PACMain.pm:910
+#: lib/PACUtils.pm:2088
+msgid   "tree font"
+msgstr  ""
+
+#: lib/PACConfig.pm:773 lib/PACConfig.pm:948 lib/PACMain.pm:3684
+#: lib/PACUtils.pm:2089
+msgid   "info font"
+msgstr  ""
+
+#: lib/PACConfig.pm:774 lib/PACConfig.pm:950 lib/PACTerminal.pm:3975
+#: lib/PACTerminal.pm:3990 lib/PACUtils.pm:2091 lib/PACUtils.pm:2207
+#: lib/PACUtils.pm:2534
+msgid   "audible bell"
+msgstr  ""
+
+#: lib/PACConfig.pm:775 lib/PACConfig.pm:951 lib/PACUtils.pm:2092
+#: lib/PACUtils.pm:2208 lib/PACUtils.pm:2535
+msgid   "visible bell"
+msgstr  ""
+
+#: lib/PACConfig.pm:776 lib/PACConfig.pm:953 lib/PACTerminal.pm:727
+#: lib/PACUtils.pm:2036
+msgid   "terminal show status bar"
+msgstr  ""
+
+#: lib/PACConfig.pm:777 lib/PACConfig.pm:955 lib/PACTerminal.pm:974
+msgid   "change main title"
+msgstr  ""
+
+#: lib/PACConfig.pm:778 lib/PACConfig.pm:779 lib/PACConfig.pm:958
+#: lib/PACMain.pm:2101 lib/PACMain.pm:2109 lib/PACMain.pm:2136
+#: lib/PACUtils.pm:2097
+msgid   "how to switch tabs"
+msgstr  ""
+
+#: lib/PACConfig.pm:782 lib/PACConfig.pm:965 lib/PACUtils.pm:1977
+msgid   "color black"
+msgstr  ""
+
+#: lib/PACConfig.pm:783 lib/PACConfig.pm:966 lib/PACUtils.pm:1990
+msgid   "color red"
+msgstr  ""
+
+#: lib/PACConfig.pm:784 lib/PACConfig.pm:967 lib/PACUtils.pm:1988
+msgid   "color green"
+msgstr  ""
+
+#: lib/PACConfig.pm:785 lib/PACConfig.pm:968 lib/PACUtils.pm:1992
+msgid   "color yellow"
+msgstr  ""
+
+#: lib/PACConfig.pm:786 lib/PACConfig.pm:969 lib/PACUtils.pm:1978
+msgid   "color blue"
+msgstr  ""
+
+#: lib/PACConfig.pm:787 lib/PACConfig.pm:970 lib/PACUtils.pm:1989
+msgid   "color magenta"
+msgstr  ""
+
+#: lib/PACConfig.pm:788 lib/PACConfig.pm:971 lib/PACUtils.pm:1987
+msgid   "color cyan"
+msgstr  ""
+
+#: lib/PACConfig.pm:789 lib/PACConfig.pm:972 lib/PACUtils.pm:1991
+msgid   "color white"
+msgstr  ""
+
+#: lib/PACConfig.pm:790 lib/PACConfig.pm:973 lib/PACUtils.pm:1979
+msgid   "color bright black"
+msgstr  ""
+
+#: lib/PACConfig.pm:791 lib/PACConfig.pm:974 lib/PACUtils.pm:1984
+msgid   "color bright red"
+msgstr  ""
+
+#: lib/PACConfig.pm:792 lib/PACConfig.pm:975 lib/PACUtils.pm:1982
+msgid   "color bright green"
+msgstr  ""
+
+#: lib/PACConfig.pm:793 lib/PACConfig.pm:976 lib/PACUtils.pm:1986
+msgid   "color bright yellow"
+msgstr  ""
+
+#: lib/PACConfig.pm:794 lib/PACConfig.pm:977 lib/PACUtils.pm:1980
+msgid   "color bright blue"
+msgstr  ""
+
+#: lib/PACConfig.pm:795 lib/PACConfig.pm:978 lib/PACUtils.pm:1983
+msgid   "color bright magenta"
+msgstr  ""
+
+#: lib/PACConfig.pm:796 lib/PACConfig.pm:979 lib/PACUtils.pm:1981
+msgid   "color bright cyan"
+msgstr  ""
+
+#: lib/PACConfig.pm:797 lib/PACConfig.pm:980 lib/PACUtils.pm:1985
+msgid   "color bright white"
+msgstr  ""
+
+#: lib/PACConfig.pm:800 lib/PACConfig.pm:891 lib/PACUtils.pm:2016
+msgid   "shell binary"
+msgstr  ""
+
+#: lib/PACConfig.pm:801 lib/PACConfig.pm:892 lib/PACUtils.pm:2017
+msgid   "shell options"
+msgstr  ""
+
+#: lib/PACConfig.pm:802 lib/PACConfig.pm:893 lib/PACTerminal.pm:394
+#: lib/PACUtils.pm:2018
+msgid   "shell directory"
+msgstr  ""
+
+#: lib/PACConfig.pm:805 lib/PACConfig.pm:885 lib/PACEdit.pm:644
+#: lib/PACEdit.pm:645 lib/PACEdit.pm:646 lib/PACEdit.pm:775 lib/PACEdit.pm:776
+#: lib/PACEdit.pm:777 lib/PACMain.pm:1665 lib/PACMain.pm:1707
+#: lib/PACMain.pm:2563 lib/PACMain.pm:2565 lib/PACMain.pm:2910
+#: lib/PACMain.pm:2912 lib/PACUtils.pm:2047 lib/PACUtils.pm:2151
+#: lib/PACUtils.pm:2152 lib/PACUtils.pm:2312 lib/PACUtils.pm:2313
+msgid   "use proxy"
+msgstr  ""
+
+#: lib/PACConfig.pm:807 lib/PACConfig.pm:809 lib/PACConfig.pm:886
+#: lib/PACUtils.pm:2048
+msgid   "use system proxy"
+msgstr  ""
+
+#: lib/PACConfig.pm:808
+msgid   "Use system proxy settings ("
+msgstr  ""
+
+#: lib/PACConfig.pm:810 lib/PACConfig.pm:887 lib/PACEdit.pm:648
+#: lib/PACEdit.pm:778 lib/PACUtils.pm:2012 lib/PACUtils.pm:2314
+msgid   "proxy ip"
+msgstr  ""
+
+#: lib/PACConfig.pm:811 lib/PACConfig.pm:888 lib/PACEdit.pm:649
+#: lib/PACEdit.pm:779 lib/PACUtils.pm:2014 lib/PACUtils.pm:2315
+msgid   "proxy port"
+msgstr  ""
+
+#: lib/PACConfig.pm:812 lib/PACConfig.pm:889 lib/PACEdit.pm:650
+#: lib/PACEdit.pm:780 lib/PACUtils.pm:2015 lib/PACUtils.pm:2316
+msgid   "proxy user"
+msgstr  ""
+
+#: lib/PACConfig.pm:813 lib/PACConfig.pm:890 lib/PACEdit.pm:651
+#: lib/PACEdit.pm:781 lib/PACUtils.pm:2013 lib/PACUtils.pm:2317
+msgid   "proxy pass"
+msgstr  ""
+
+#: lib/PACConfig.pm:816 lib/PACConfig.pm:1024 lib/PACEdit.pm:717
+#: lib/PACEdit.pm:823 lib/PACMain.pm:3138 lib/PACMain.pm:3140
+#: lib/PACTerminal.pm:108 lib/PACTerminal.pm:859 lib/PACTerminal.pm:860
+#: lib/PACTerminal.pm:1037 lib/PACTerminal.pm:1050 lib/PACTerminal.pm:1062
+#: lib/PACTerminal.pm:1166 lib/PACTerminal.pm:1186 lib/PACTerminal.pm:1194
+#: lib/PACTerminal.pm:2403 lib/PACTerminal.pm:2405 lib/PACTerminal.pm:2412
+#: lib/PACTerminal.pm:2551 lib/PACTerminal.pm:2552 lib/PACTerminal.pm:3968
+#: lib/PACTerminal.pm:3969 lib/PACTerminal.pm:3970 lib/PACTerminal.pm:3971
+#: lib/PACTerminal.pm:3972 lib/PACTerminal.pm:3974 lib/PACTerminal.pm:3975
+#: lib/PACTerminal.pm:3980 lib/PACUtils.pm:2181 lib/PACUtils.pm:2182
+#: lib/PACUtils.pm:2183 lib/PACUtils.pm:2184 lib/PACUtils.pm:2185
+#: lib/PACUtils.pm:2186 lib/PACUtils.pm:2187 lib/PACUtils.pm:2188
+#: lib/PACUtils.pm:2189 lib/PACUtils.pm:2190 lib/PACUtils.pm:2191
+#: lib/PACUtils.pm:2192 lib/PACUtils.pm:2193 lib/PACUtils.pm:2194
+#: lib/PACUtils.pm:2195 lib/PACUtils.pm:2196 lib/PACUtils.pm:2197
+#: lib/PACUtils.pm:2198 lib/PACUtils.pm:2199 lib/PACUtils.pm:2200
+#: lib/PACUtils.pm:2201 lib/PACUtils.pm:2202 lib/PACUtils.pm:2203
+#: lib/PACUtils.pm:2204 lib/PACUtils.pm:2205 lib/PACUtils.pm:2206
+#: lib/PACUtils.pm:2207 lib/PACUtils.pm:2208 lib/PACUtils.pm:2480
+#: lib/PACUtils.pm:2481 lib/PACUtils.pm:2482 lib/PACUtils.pm:2483
+#: lib/PACUtils.pm:2484 lib/PACUtils.pm:2485 lib/PACUtils.pm:2486
+#: lib/PACUtils.pm:2487 lib/PACUtils.pm:2488 lib/PACUtils.pm:2489
+#: lib/PACUtils.pm:2490 lib/PACUtils.pm:2491 lib/PACUtils.pm:2492
+#: lib/PACUtils.pm:2493 lib/PACUtils.pm:2494 lib/PACUtils.pm:2495
+#: lib/PACUtils.pm:2496 lib/PACUtils.pm:2497 lib/PACUtils.pm:2498
+#: lib/PACUtils.pm:2499 lib/PACUtils.pm:2500 lib/PACUtils.pm:2501
+#: lib/PACUtils.pm:2502 lib/PACUtils.pm:2503 lib/PACUtils.pm:2504
+#: lib/PACUtils.pm:2505 lib/PACUtils.pm:2506 lib/PACUtils.pm:2508
+#: lib/PACUtils.pm:2509 lib/PACUtils.pm:2510 lib/PACUtils.pm:2511
+#: lib/PACUtils.pm:2512 lib/PACUtils.pm:2513 lib/PACUtils.pm:2514
+#: lib/PACUtils.pm:2515 lib/PACUtils.pm:2516 lib/PACUtils.pm:2517
+#: lib/PACUtils.pm:2518 lib/PACUtils.pm:2519 lib/PACUtils.pm:2520
+#: lib/PACUtils.pm:2521 lib/PACUtils.pm:2522 lib/PACUtils.pm:2523
+#: lib/PACUtils.pm:2524 lib/PACUtils.pm:2525 lib/PACUtils.pm:2526
+#: lib/PACUtils.pm:2527 lib/PACUtils.pm:2528 lib/PACUtils.pm:2529
+#: lib/PACUtils.pm:2530 lib/PACUtils.pm:2531 lib/PACUtils.pm:2532
+#: lib/PACUtils.pm:2533 lib/PACUtils.pm:2534 lib/PACUtils.pm:2535
+msgid   "terminal options"
+msgstr  ""
+
+#: lib/PACConfig.pm:818 lib/PACEdit.pm:722 lib/PACTerminal.pm:1958
+#: lib/PACTerminal.pm:1974 lib/PACTerminal.pm:3193
+msgid   "local"
+msgstr  ""
+
+#: lib/PACConfig.pm:818 lib/PACConfig.pm:1026 lib/PACTerminal.pm:1961
+#: lib/PACUtils.pm:2103
+msgid   "local commands"
+msgstr  ""
+
+#: lib/PACConfig.pm:819 lib/PACEdit.pm:721 lib/PACPCC.pm:940
+#: lib/PACTerminal.pm:915 lib/PACTerminal.pm:1100 lib/PACTerminal.pm:1912
+#: lib/PACTerminal.pm:1929 lib/PACTerminal.pm:2170 lib/PACTerminal.pm:2173
+#: lib/PACTerminal.pm:3155 lib/PACTerminal.pm:3166 lib/PACTerminal.pm:4388
+msgid   "remote"
+msgstr  ""
+
+#: lib/PACConfig.pm:819 lib/PACConfig.pm:1027 lib/PACTerminal.pm:1915
+#: lib/PACTerminal.pm:3775 lib/PACUtils.pm:2104
+msgid   "remote commands"
+msgstr  ""
+
+#: lib/PACConfig.pm:826 lib/PACTray.pm:104 lib/PACTrayUnity.pm:100
+msgid   "tray available"
+msgstr  ""
+
+#: lib/PACConfig.pm:826 lib/PACTray.pm:104
+msgid   "warning"
+msgstr  ""
+
+#: lib/PACConfig.pm:827
+msgid   "(*) Requires restarting PAC for the change(s) to take effect\n"
+        "\n"
+msgstr  ""
+
+#: lib/PACConfig.pm:952 lib/PACConfig.pm:956
+msgid   "next"
+msgstr  ""
+
+#: lib/PACEdit.pm:133 lib/PACEdit.pm:279 lib/PACEdit.pm:833 lib/PACMain.pm:1717
+msgid   "quick"
+msgstr  ""
+
+#: lib/PACEdit.pm:134
+msgid   "_Start Connection"
+msgstr  ""
+
+#: lib/PACEdit.pm:136
+msgid   "_Cancel Quick connect"
+msgstr  ""
+
+#: lib/PACEdit.pm:138
+msgid   "Quick Connect : $APPNAME (v$APPVERSION)"
+msgstr  ""
+
+#: lib/PACEdit.pm:140
+msgid   "_Save and Close"
+msgstr  ""
+
+#: lib/PACEdit.pm:142
+msgid   "_Close without saving"
+msgstr  ""
+
+#: lib/PACEdit.pm:192 lib/PACEdit.pm:672
+msgid   "position"
+msgstr  ""
+
+#: lib/PACEdit.pm:195 lib/PACKeePass.pm:147 lib/PACKeePass.pm:160
+#: lib/PACUtils.pm:285
+msgid   "comment"
+msgstr  ""
+
+#: lib/PACEdit.pm:195 lib/PACKeePass.pm:159 lib/PACUtils.pm:284
+msgid   "created"
+msgstr  ""
+
+#: lib/PACEdit.pm:195 lib/PACKeePass.pm:100 lib/PACKeePass.pm:139
+#: lib/PACKeePass.pm:158 lib/PACUtils.pm:283 lib/PACUtils.pm:2115
+#: lib/PACUtils.pm:2121 lib/PACUtils.pm:2126 lib/PACUtils.pm:2656
+#: lib/PACUtils.pm:2704
+msgid   "password"
+msgstr  ""
+
+#: lib/PACEdit.pm:195 lib/PACKeePass.pm:156 lib/PACUtils.pm:281
+msgid   "url"
+msgstr  ""
+
+#: lib/PACEdit.pm:195 lib/PACKeePass.pm:157 lib/PACUtils.pm:282
+msgid   "username"
+msgstr  ""
+
+#: lib/PACEdit.pm:222 lib/PACEdit.pm:223
+msgid   "Authentication is set to Manual.\n"
+        "Expect disabled."
+msgstr  ""
+
+#: lib/PACEdit.pm:228
+msgid   "EXPECT remote patterns AND-THEN-EXECUTE remote commands"
+msgstr  ""
+
+#: lib/PACEdit.pm:254 lib/PACUtils.pm:537 lib/PACUtils.pm:1043
+#: lib/PACUtils.pm:1112 lib/PACUtils.pm:1176
+msgid   "installed"
+msgstr  ""
+
+#: lib/PACEdit.pm:298
+msgid   "<b>COMMAND LINE:</b>\n"
+        "$cmd"
+msgstr  ""
+
+#: lib/PACEdit.pm:321
+msgid   "ERROR: <b>KeePassX</b> can not be used because\n"
+        "it is not enabled under <b>'Preferences->KeePass Options'</b>"
+msgstr  ""
+
+#: lib/PACEdit.pm:331
+msgid   "ERROR: No entry '<b>$where</b>' found on KeePassX matching '<b>"
+msgstr  ""
+
+#: lib/PACEdit.pm:340
+msgid   "\n"
+        " - <b>Comment:</b> "
+msgstr  ""
+
+#: lib/PACEdit.pm:340
+msgid   "\n"
+        " - <b>Created:</b> "
+msgstr  ""
+
+#: lib/PACEdit.pm:340
+msgid   "\n"
+        " - <b>Password:</b> "
+msgstr  ""
+
+#: lib/PACEdit.pm:340
+msgid   "</b>'\n"
+        " - <b>User:</b> "
+msgstr  ""
+
+#: lib/PACEdit.pm:340
+msgid   "KeePass data inferred for $where '<b>"
+msgstr  ""
+
+#: lib/PACEdit.pm:466
+msgid   "Passphrase"
+msgstr  ""
+
+#: lib/PACEdit.pm:466 lib/PACEdit.pm:477 lib/PACEdit.pm:536
+msgid   "Password"
+msgstr  ""
+
+#: lib/PACEdit.pm:466 lib/PACUtils.pm:403 lib/PACUtils.pm:474
+#: lib/PACUtils.pm:987 lib/PACUtils.pm:1052 lib/PACUtils.pm:1122
+msgid   "Port"
+msgstr  ""
+
+#: lib/PACEdit.pm:466 lib/PACEdit.pm:536 lib/PACEdit.pm:547
+msgid   "TabWindowTitle"
+msgstr  ""
+
+#: lib/PACEdit.pm:466
+msgid   "User"
+msgstr  ""
+
+#: lib/PACEdit.pm:466
+msgid   "UserPassphrase"
+msgstr  ""
+
+#: lib/PACEdit.pm:653 lib/PACEdit.pm:792 lib/PACUtils.pm:2341
+msgid   "use sudo"
+msgstr  ""
+
+#: lib/PACEdit.pm:655 lib/PACEdit.pm:789 lib/PACUtils.pm:2157
+#: lib/PACUtils.pm:2324
+msgid   "use prepend command"
+msgstr  ""
+
+#: lib/PACEdit.pm:656 lib/PACEdit.pm:790 lib/PACUtils.pm:2158
+#: lib/PACUtils.pm:2325
+msgid   "prepend command"
+msgstr  ""
+
+#: lib/PACEdit.pm:658 lib/PACEdit.pm:791 lib/PACUtils.pm:2159
+#: lib/PACUtils.pm:2326
+msgid   "quote command"
+msgstr  ""
+
+#: lib/PACEdit.pm:664 lib/PACEdit.pm:787 lib/PACEdit.pm:788 lib/PACUtils.pm:828
+#: lib/PACUtils.pm:893 lib/PACUtils.pm:958 lib/PACUtils.pm:1095
+#: lib/PACUtils.pm:2148 lib/PACUtils.pm:2306 lib/PACUtils.pm:2309
+msgid   "public key"
+msgstr  ""
+
+#: lib/PACEdit.pm:665 lib/PACEdit.pm:785 lib/PACMain.pm:4270 lib/PACMain.pm:4604
+#: lib/PACUtils.pm:2149 lib/PACUtils.pm:2304 lib/PACUtils.pm:2310
+msgid   "passphrase user"
+msgstr  ""
+
+#: lib/PACEdit.pm:666 lib/PACEdit.pm:786 lib/PACMain.pm:2725 lib/PACMain.pm:4270
+#: lib/PACMain.pm:4604 lib/PACTerminal.pm:2081 lib/PACTerminal.pm:2105
+#: lib/PACTerminal.pm:2113 lib/PACTerminal.pm:2114 lib/PACUtils.pm:2150
+#: lib/PACUtils.pm:2305 lib/PACUtils.pm:2311 lib/PACUtils.pm:2670
+#: lib/PACUtils.pm:2721 lib/PACUtils.pm:3928 lib/PACUtils.pm:3929
+msgid   "passphrase"
+msgstr  ""
+
+#: lib/PACEdit.pm:669 lib/PACEdit.pm:799 lib/PACMain.pm:1103 lib/PACMain.pm:1663
+#: lib/PACMain.pm:1705 lib/PACMain.pm:4270 lib/PACMain.pm:4604
+#: lib/PACUtils.pm:2140 lib/PACUtils.pm:2260 lib/PACUtils.pm:2304
+msgid   "user"
+msgstr  ""
+
+#: lib/PACEdit.pm:670 lib/PACEdit.pm:800 lib/PACMain.pm:1664 lib/PACMain.pm:1706
+#: lib/PACMain.pm:2725 lib/PACMain.pm:4270 lib/PACMain.pm:4604
+#: lib/PACTerminal.pm:1075 lib/PACTerminal.pm:1076 lib/PACTerminal.pm:2081
+#: lib/PACTerminal.pm:2105 lib/PACTerminal.pm:2116 lib/PACUtils.pm:2141
+#: lib/PACUtils.pm:2261 lib/PACUtils.pm:2305 lib/PACUtils.pm:2666
+#: lib/PACUtils.pm:2669 lib/PACUtils.pm:2717 lib/PACUtils.pm:2720
+#: lib/PACUtils.pm:3931
+msgid   "pass"
+msgstr  ""
+
+#: lib/PACEdit.pm:671 lib/PACEdit.pm:803 lib/PACUtils.pm:2145
+#: lib/PACUtils.pm:2296
+msgid   "auth fallback"
+msgstr  ""
+
+#: lib/PACEdit.pm:675 lib/PACEdit.pm:676 lib/PACEdit.pm:804
+#: lib/PACTerminal.pm:420 lib/PACTerminal.pm:423 lib/PACUtils.pm:2160
+#: lib/PACUtils.pm:2327
+msgid   "send string active"
+msgstr  ""
+
+#: lib/PACEdit.pm:677 lib/PACEdit.pm:806 lib/PACTerminal.pm:428
+#: lib/PACTerminal.pm:2261 lib/PACUtils.pm:2162 lib/PACUtils.pm:2329
+msgid   "send string intro"
+msgstr  ""
+
+#: lib/PACEdit.pm:678 lib/PACEdit.pm:805 lib/PACTerminal.pm:427
+#: lib/PACTerminal.pm:2246 lib/PACTerminal.pm:2247 lib/PACTerminal.pm:2260
+#: lib/PACUtils.pm:2161 lib/PACUtils.pm:2328
+msgid   "send string txt"
+msgstr  ""
+
+#: lib/PACEdit.pm:679 lib/PACEdit.pm:807 lib/PACTerminal.pm:421
+#: lib/PACTerminal.pm:2246 lib/PACTerminal.pm:2255 lib/PACUtils.pm:2163
+#: lib/PACUtils.pm:2330
+msgid   "send string every"
+msgstr  ""
+
+#: lib/PACEdit.pm:680 lib/PACEdit.pm:808 lib/PACUtils.pm:2166
+#: lib/PACUtils.pm:2333
+msgid   "autoreconnect"
+msgstr  ""
+
+#: lib/PACEdit.pm:681 lib/PACEdit.pm:809 lib/PACMain.pm:354 lib/PACUtils.pm:2168
+#: lib/PACUtils.pm:2334
+msgid   "startup launch"
+msgstr  ""
+
+#: lib/PACEdit.pm:682 lib/PACEdit.pm:810 lib/PACTerminal.pm:1071
+#: lib/PACTerminal.pm:1090 lib/PACTerminal.pm:1232 lib/PACTerminal.pm:1236
+#: lib/PACTerminal.pm:2101 lib/PACTerminal.pm:2138 lib/PACUtils.pm:2143
+#: lib/PACUtils.pm:2264
+msgid   "send slow"
+msgstr  ""
+
+#: lib/PACEdit.pm:683 lib/PACEdit.pm:813 lib/PACUtils.pm:839
+#: lib/PACUtils.pm:2172 lib/PACUtils.pm:2339
+msgid   "autossh"
+msgstr  ""
+
+#: lib/PACEdit.pm:684 lib/PACEdit.pm:686 lib/PACEdit.pm:687 lib/PACEdit.pm:692
+#: lib/PACEdit.pm:814
+msgid   "infer user pass from KPX"
+msgstr  ""
+
+#: lib/PACEdit.pm:685 lib/PACEdit.pm:815 lib/PACUtils.pm:2263
+msgid   "KPX title regexp"
+msgstr  ""
+
+#: lib/PACEdit.pm:691 lib/PACEdit.pm:816
+msgid   "infer from KPX where"
+msgstr  ""
+
+#: lib/PACEdit.pm:701 lib/PACEdit.pm:702 lib/PACEdit.pm:812 lib/PACUtils.pm:2170
+#: lib/PACUtils.pm:2336
+msgid   "startup script name"
+msgstr  ""
+
+#: lib/PACEdit.pm:705 lib/PACEdit.pm:706 lib/PACEdit.pm:811 lib/PACUtils.pm:2169
+#: lib/PACUtils.pm:2335
+msgid   "startup script"
+msgstr  ""
+
+#: lib/PACEdit.pm:718 lib/PACEdit.pm:719 lib/PACEdit.pm:720 lib/PACEdit.pm:721
+#: lib/PACEdit.pm:722 lib/PACEdit.pm:725 lib/PACEdit.pm:824 lib/PACMain.pm:2531
+#: lib/PACMain.pm:2545 lib/PACMain.pm:2793 lib/PACMain.pm:2807
+#: lib/PACUtils.pm:2174 lib/PACUtils.pm:2343 lib/PACUtils.pm:2344
+#: lib/PACUtils.pm:2347 lib/PACUtils.pm:2349 lib/PACUtils.pm:2350
+#: lib/PACUtils.pm:2351 lib/PACUtils.pm:2678 lib/PACUtils.pm:2731
+#: lib/PACUtils.pm:2939 lib/PACUtils.pm:2940
+msgid   "variables"
+msgstr  ""
+
+#: lib/PACEdit.pm:719 lib/PACEdit.pm:825 lib/PACMain.pm:1667 lib/PACMain.pm:1709
+#: lib/PACTerminal.pm:319 lib/PACTerminal.pm:3268 lib/PACUtils.pm:2176
+#: lib/PACUtils.pm:2378 lib/PACUtils.pm:2379 lib/PACUtils.pm:2382
+#: lib/PACUtils.pm:2384 lib/PACUtils.pm:2385 lib/PACUtils.pm:2386
+#: lib/PACUtils.pm:2387
+msgid   "local before"
+msgstr  ""
+
+#: lib/PACEdit.pm:720 lib/PACEdit.pm:826 lib/PACMain.pm:1669 lib/PACMain.pm:1711
+#: lib/PACTerminal.pm:476 lib/PACTerminal.pm:481 lib/PACTerminal.pm:1415
+#: lib/PACUtils.pm:2180 lib/PACUtils.pm:2462 lib/PACUtils.pm:2463
+#: lib/PACUtils.pm:2466 lib/PACUtils.pm:2468 lib/PACUtils.pm:2469
+#: lib/PACUtils.pm:2470 lib/PACUtils.pm:2471
+msgid   "local after"
+msgstr  ""
+
+#: lib/PACEdit.pm:721 lib/PACEdit.pm:828 lib/PACMain.pm:1670 lib/PACMain.pm:1712
+#: lib/PACTerminal.pm:1899 lib/PACTerminal.pm:3757 lib/PACTerminal.pm:3798
+#: lib/PACTerminal.pm:3888 lib/PACUtils.pm:2179 lib/PACUtils.pm:2443
+#: lib/PACUtils.pm:2444 lib/PACUtils.pm:2447 lib/PACUtils.pm:2449
+#: lib/PACUtils.pm:2450 lib/PACUtils.pm:2451 lib/PACUtils.pm:2452
+msgid   "macros"
+msgstr  ""
+
+#: lib/PACEdit.pm:722 lib/PACEdit.pm:829 lib/PACMain.pm:1668 lib/PACMain.pm:1710
+#: lib/PACTerminal.pm:1946 lib/PACTerminal.pm:3859 lib/PACUtils.pm:2178
+#: lib/PACUtils.pm:2426 lib/PACUtils.pm:2427 lib/PACUtils.pm:2430
+#: lib/PACUtils.pm:2432 lib/PACUtils.pm:2433 lib/PACUtils.pm:2434
+msgid   "local connected"
+msgstr  ""
+
+#: lib/PACEdit.pm:725 lib/PACEdit.pm:827 lib/PACMain.pm:1106 lib/PACMain.pm:1671
+#: lib/PACMain.pm:1713 lib/PACMain.pm:4429 lib/PACMain.pm:4604
+#: lib/PACMain.pm:4606 lib/PACTerminal.pm:404 lib/PACTerminal.pm:3445
+#: lib/PACTerminal.pm:3452 lib/PACTerminal.pm:3453 lib/PACUtils.pm:2177
+#: lib/PACUtils.pm:2397 lib/PACUtils.pm:2398 lib/PACUtils.pm:2401
+#: lib/PACUtils.pm:2403 lib/PACUtils.pm:2404 lib/PACUtils.pm:2405
+#: lib/PACUtils.pm:2406 lib/PACUtils.pm:2407 lib/PACUtils.pm:2408
+#: lib/PACUtils.pm:2409 lib/PACUtils.pm:2410 lib/PACUtils.pm:2411
+#: lib/PACUtils.pm:2414 lib/PACUtils.pm:2672 lib/PACUtils.pm:2723
+#: lib/PACUtils.pm:2766 lib/PACUtils.pm:2768 lib/PACUtils.pm:2770
+#: lib/PACUtils.pm:2776 lib/PACUtils.pm:2786
+msgid   "expect"
+msgstr  ""
+
+#: lib/PACEdit.pm:733 lib/PACEdit.pm:734 lib/PACEdit.pm:735 lib/PACEdit.pm:782
+#: lib/PACEdit.pm:783 lib/PACEdit.pm:784 lib/PACTerminal.pm:375
+#: lib/PACUtils.pm:436 lib/PACUtils.pm:439 lib/PACUtils.pm:507
+#: lib/PACUtils.pm:510 lib/PACUtils.pm:576 lib/PACUtils.pm:579
+#: lib/PACUtils.pm:701 lib/PACUtils.pm:704 lib/PACUtils.pm:825
+#: lib/PACUtils.pm:829 lib/PACUtils.pm:831 lib/PACUtils.pm:890
+#: lib/PACUtils.pm:894 lib/PACUtils.pm:896 lib/PACUtils.pm:955
+#: lib/PACUtils.pm:959 lib/PACUtils.pm:961 lib/PACUtils.pm:1023
+#: lib/PACUtils.pm:1026 lib/PACUtils.pm:1092 lib/PACUtils.pm:1096
+#: lib/PACUtils.pm:1098 lib/PACUtils.pm:1157 lib/PACUtils.pm:1162
+#: lib/PACUtils.pm:2147 lib/PACUtils.pm:2303 lib/PACUtils.pm:2308
+msgid   "auth type"
+msgstr  ""
+
+#: lib/PACEdit.pm:733 lib/PACEdit.pm:782 lib/PACUtils.pm:436 lib/PACUtils.pm:507
+#: lib/PACUtils.pm:576 lib/PACUtils.pm:701 lib/PACUtils.pm:825
+#: lib/PACUtils.pm:890 lib/PACUtils.pm:955 lib/PACUtils.pm:1023
+#: lib/PACUtils.pm:1092 lib/PACUtils.pm:1157 lib/PACUtils.pm:2308
+msgid   "userpass"
+msgstr  ""
+
+#: lib/PACEdit.pm:734 lib/PACEdit.pm:783 lib/PACUtils.pm:829 lib/PACUtils.pm:894
+#: lib/PACUtils.pm:959 lib/PACUtils.pm:1096 lib/PACUtils.pm:2303
+msgid   "publickey"
+msgstr  ""
+
+#: lib/PACEdit.pm:735 lib/PACEdit.pm:784 lib/PACScripts.pm:1540
+#: lib/PACScripts.pm:1553 lib/PACUtils.pm:439 lib/PACUtils.pm:510
+#: lib/PACUtils.pm:579 lib/PACUtils.pm:704 lib/PACUtils.pm:831
+#: lib/PACUtils.pm:896 lib/PACUtils.pm:961 lib/PACUtils.pm:1026
+#: lib/PACUtils.pm:1098 lib/PACUtils.pm:1162 lib/PACUtils.pm:2147
+#: lib/PACUtils.pm:2308
+msgid   "manual"
+msgstr  ""
+
+#: lib/PACEdit.pm:738 lib/PACMain.pm:1243 lib/PACMain.pm:2431
+#: lib/PACMain.pm:2464 lib/PACMain.pm:2468 lib/PACMain.pm:2485
+#: lib/PACMain.pm:2705 lib/PACMain.pm:2706 lib/PACMain.pm:3658
+#: lib/PACUtils.pm:2133 lib/PACUtils.pm:2232 lib/PACUtils.pm:2240
+#: lib/PACUtils.pm:2254
+msgid   "_protected"
+msgstr  ""
+
+#: lib/PACEdit.pm:741
+msgid   "Connection is <b><span foreground=\"#E60023\">PROTECTED</span></b> "
+        "against changes. You <b>can not</b> save changes."
+msgstr  ""
+
+#: lib/PACEdit.pm:745
+msgid   "Connection is <b><span foreground=\"#04C100\">UNPROTECTED</span></b> "
+        "against changes. You <b>can</b> save changes."
+msgstr  ""
+
+#: lib/PACEdit.pm:761
+msgid   "\n"
+        "\n"
+        "<b>before saving this connection data!!</b>"
+msgstr  ""
+
+#: lib/PACEdit.pm:761
+msgid   "<b>Please, check:</b>\n"
+        "\n"
+msgstr  ""
+
+#: lib/PACEdit.pm:767
+msgid   "<b>Please, check:</b>\n"
+        "\n"
+        "PROXY IP / PORT can't be empty if 'always use proxy' is active\n"
+        "\n"
+        "<b>before saving this connection data!!</b>"
+msgstr  ""
+
+#: lib/PACEdit.pm:822 lib/PACMain.pm:1666 lib/PACMain.pm:1708
+#: lib/PACUtils.pm:2146 lib/PACUtils.pm:2297 lib/PACUtils.pm:2299
+#: lib/PACUtils.pm:2301
+msgid   "options"
+msgstr  ""
+
+#: lib/PACEdit.pm:831 lib/PACTerminal.pm:144 lib/PACTerminal.pm:838
+#: lib/PACUtils.pm:2164 lib/PACUtils.pm:2331
+msgid   "embed"
+msgstr  ""
+
+#: lib/PACGlobalVarEntry.pm:192
+msgid   "Variable:"
+msgstr  ""
+
+#: lib/PACGlobalVarEntry.pm:201
+msgid   " Value:"
+msgstr  ""
+
+#: lib/PACGlobalVarEntry.pm:209 lib/PACKeePass.pm:310
+msgid   "Hide"
+msgstr  ""
+
+#: lib/PACKeePass.pm:87 lib/PACKeePass.pm:94 lib/PACKeePass.pm:139
+#: lib/PACUtils.pm:2114 lib/PACUtils.pm:2120 lib/PACUtils.pm:2125
+msgid   "database"
+msgstr  ""
+
+#: lib/PACKeePass.pm:95
+msgid   "KeePassX Integration"
+msgstr  ""
+
+#: lib/PACKeePass.pm:95
+#, perl-brace-format
+msgid   "Please, enter KeePassX MASTER password\n"
+        "to unlock database file '$$self{cfg}{'database'}'"
+msgstr  ""
+
+#: lib/PACKeePass.pm:141
+#, perl-brace-format
+msgid   "ERROR: Could not open '$$cfg{database}' for reading as KeePass "
+        "Database file:\n"
+        "$@"
+msgstr  ""
+
+#: lib/PACKeePass.pm:194
+msgid   "Use KeePassX"
+msgstr  ""
+
+#: lib/PACKeePass.pm:197
+msgid   "Ask user when multiple matches are found"
+msgstr  ""
+
+#: lib/PACKeePass.pm:203
+msgid   "KeePass Database file:"
+msgstr  ""
+
+#: lib/PACKeePass.pm:209
+msgid   " Master Password:"
+msgstr  ""
+
+#: lib/PACKeePass.pm:215
+msgid   " Available passwords in given Database file: "
+msgstr  ""
+
+#: lib/PACKeePass.pm:234 lib/PACMain.pm:1758
+msgid   "activate"
+msgstr  ""
+
+#: lib/PACKeePass.pm:242 lib/PACMain.pm:138 lib/PACMain.pm:2060
+#: lib/PACPCC.pm:880 lib/PACTerminal.pm:2874
+msgid   "force"
+msgstr  ""
+
+#: lib/PACKeePass.pm:260
+msgid   "Use <KPX_(title|username):title or user name> anywhere to refer to "
+        "given password"
+msgstr  ""
+
+#: lib/PACKeePass.pm:275
+msgid   "URL:"
+msgstr  ""
+
+#: lib/PACKeePass.pm:287
+msgid   "Username:"
+msgstr  ""
+
+#: lib/PACKeePass.pm:299
+msgid   " Password:"
+msgstr  ""
+
+#: lib/PACMain.pm:128
+msgid   "INFO: Using config directory '$CFG_DIR'\n"
+msgstr  ""
+
+#: lib/PACMain.pm:137
+msgid   "INFO: Signal '$_[0]' received. Exiting Ásbrú...\n"
+msgstr  ""
+
+#: lib/PACMain.pm:150 lib/PACMain.pm:3900 lib/PACMain.pm:3927
+msgid   "cut"
+msgstr  ""
+
+#: lib/PACMain.pm:164
+msgid   "ERROR: Failed to register Gtk3 application.\n"
+msgstr  ""
+
+#: lib/PACMain.pm:172
+msgid   "Starting $PACUtils::APPNAME (v$PACUtils::APPVERSION)"
+msgstr  ""
+
+#: lib/PACMain.pm:174 lib/PACUtils.pm:3175
+msgid   "tcp"
+msgstr  ""
+
+#: lib/PACMain.pm:178
+msgid   "Reading config..."
+msgstr  ""
+
+#: lib/PACMain.pm:195
+msgid   "METHOD"
+msgstr  ""
+
+#: lib/PACMain.pm:195 lib/PACPipe.pm:143
+msgid   "NAME"
+msgstr  ""
+
+#: lib/PACMain.pm:195
+msgid   "PARENT_UUID"
+msgstr  ""
+
+#: lib/PACMain.pm:195
+msgid   "TYPE"
+msgstr  ""
+
+#: lib/PACMain.pm:203
+msgid   "GROUP"
+msgstr  ""
+
+#: lib/PACMain.pm:223
+msgid   "Waiting for password..."
+msgstr  ""
+
+#: lib/PACMain.pm:224
+msgid   "GUI Password Protection"
+msgstr  ""
+
+#: lib/PACMain.pm:224
+msgid   "Please, enter GUI Password..."
+msgstr  ""
+
+#: lib/PACMain.pm:238
+msgid   "INFO: Ásbrú is already running.\n"
+msgstr  ""
+
+#: lib/PACMain.pm:260 lib/PACMain.pm:275
+msgid   "INFO: Starting '$0' in READ ONLY mode!\n"
+msgstr  ""
+
+#: lib/PACMain.pm:263
+msgid   "INFO: No more instances allowed!\n"
+msgstr  ""
+
+#: lib/PACMain.pm:310
+msgid   "Building GUI..."
+msgstr  ""
+
+#: lib/PACMain.pm:317
+msgid   "Loading Connections..."
+msgstr  ""
+
+#: lib/PACMain.pm:324
+msgid   "Finalizing..."
+msgstr  ""
+
+#: lib/PACMain.pm:367
+msgid   "WARNING: Tray icon may not be available: Install Unite Extension is "
+        "recomended.\n"
+        "https://extensions.gnome.org/extension/1287/unite/"
+msgstr  ""
+
+#: lib/PACMain.pm:376
+msgid   "INFO: Using "
+msgstr  ""
+
+#: lib/PACMain.pm:898
+msgid   " - READ ONLY MODE"
+msgstr  ""
+
+#: lib/PACMain.pm:904 lib/PACMain.pm:906
+msgid   "Connections"
+msgstr  ""
+
+#: lib/PACMain.pm:904 lib/PACTerminal.pm:1704
+msgid   "Favourites"
+msgstr  ""
+
+#: lib/PACMain.pm:904
+msgid   "History"
+msgstr  ""
+
+#: lib/PACMain.pm:910
+msgid   "font"
+msgstr  ""
+
+#: lib/PACMain.pm:925
+msgid   "Terminals Tabbed Window : $APPNAME (v$APPVERSION)"
+msgstr  ""
+
+#: lib/PACMain.pm:954 lib/PACMain.pm:2301 lib/PACMain.pm:3548
+#: lib/PACMain.pm:3579 lib/PACMain.pm:3580
+msgid   "maximized"
+msgstr  ""
+
+#: lib/PACMain.pm:1022
+msgid   "INFO: Received message : [$command]-[$message]\n"
+msgstr  ""
+
+#: lib/PACMain.pm:1039
+msgid   "WARN: Unknown command received ($command)\n"
+msgstr  ""
+
+#: lib/PACMain.pm:1052
+msgid   "Connect"
+msgstr  ""
+
+#: lib/PACMain.pm:1062
+msgid   "<b>ATTENTION!!</b> You have dropped some group(s)\n"
+        "Are you sure you want to start <b>ALL</b> of its child connections?"
+msgstr  ""
+
+#: lib/PACMain.pm:1071 lib/PACMain.pm:3138 lib/PACMain.pm:3139
+msgid   "tab"
+msgstr  ""
+
+#: lib/PACMain.pm:1107 lib/PACTerminal.pm:405 lib/PACTerminal.pm:3392
+#: lib/PACTerminal.pm:3456 lib/PACUtils.pm:2404 lib/PACUtils.pm:2413
+msgid   "active"
+msgstr  ""
+
+#: lib/PACMain.pm:1113
+msgid   "- <b>Method</b>: $method\n"
+msgstr  ""
+
+#: lib/PACMain.pm:1114
+msgid   "- <b>IP / port</b>: $ip / $port\n"
+msgstr  ""
+
+#: lib/PACMain.pm:1115
+msgid   "- <b>User</b>: $user"
+msgstr  ""
+
+#: lib/PACMain.pm:1117
+msgid   "- With $total_exp active <b>Expects</b>"
+msgstr  ""
+
+#: lib/PACMain.pm:1132
+msgid   "context"
+msgstr  ""
+
+#: lib/PACMain.pm:1136
+msgid   "<b> - Start / Chain(drop over connected Terminal):</b>"
+msgstr  ""
+
+#: lib/PACMain.pm:1138
+msgid   "<b>Connection:</b> "
+msgstr  ""
+
+#: lib/PACMain.pm:1138
+msgid   "<b>Group:</b> "
+msgstr  ""
+
+#: lib/PACMain.pm:1178 lib/PACMain.pm:3138 lib/PACMain.pm:3139
+#: lib/PACUtils.pm:3410 lib/PACUtils.pm:3414
+msgid   "window"
+msgstr  ""
+
+#: lib/PACMain.pm:1193
+msgid   "AVAILABLE CONNECTIONS"
+msgstr  ""
+
+#: lib/PACMain.pm:1198
+msgid   "<b>Creating new group</b>"
+msgstr  ""
+
+#: lib/PACMain.pm:1198
+msgid   "Enter a name for the new group under '$parent_name'"
+msgstr  ""
+
+#: lib/PACMain.pm:1215
+msgid   "Connection group '$new_group'"
+msgstr  ""
+
+#: lib/PACMain.pm:1216 lib/PACMain.pm:1658 lib/PACMain.pm:1700
+#: lib/PACMain.pm:4018 lib/PACUtils.pm:2175 lib/PACUtils.pm:2231
+#: lib/PACUtils.pm:2239 lib/PACUtils.pm:2360 lib/PACUtils.pm:2361
+#: lib/PACUtils.pm:2364 lib/PACUtils.pm:3377 lib/PACUtils.pm:3379
+msgid   "screenshots"
+msgstr  ""
+
+#: lib/PACMain.pm:1244
+msgid   "Can not rename selection:\n"
+        "Selected node is <b>'Protected'</b>"
+msgstr  ""
+
+#: lib/PACMain.pm:1249
+msgid   "<b>Renaming Group</b>"
+msgstr  ""
+
+#: lib/PACMain.pm:1249
+msgid   "Enter a new name for Group '$node'"
+msgstr  ""
+
+#: lib/PACMain.pm:1252 lib/PACUtils.pm:1557
+msgid   "rename"
+msgstr  ""
+
+#: lib/PACMain.pm:1282
+msgid   "Can not delete selection:\n"
+        "There are <b>'Protected'</b> nodes selected"
+msgstr  ""
+
+#: lib/PACMain.pm:1286
+msgid   "'</b> nodes and ALL of their contents?"
+msgstr  ""
+
+#: lib/PACMain.pm:1286
+msgid   "Delete <b>'"
+msgstr  ""
+
+#: lib/PACMain.pm:1289
+msgid   "'</b> and ALL of its contents?"
+msgstr  ""
+
+#: lib/PACMain.pm:1289
+msgid   "Delete node <b>'"
+msgstr  ""
+
+#: lib/PACMain.pm:1645 lib/PACUtils.pm:1562
+msgid   "add"
+msgstr  ""
+
+#: lib/PACMain.pm:1657
+msgid   "Connection with '$new_conn'"
+msgstr  ""
+
+#: lib/PACMain.pm:1660 lib/PACMain.pm:1702
+msgid   "ssh"
+msgstr  ""
+
+#: lib/PACMain.pm:1684
+msgid   "new"
+msgstr  ""
+
+#: lib/PACMain.pm:1697 lib/PACMain.pm:1701
+msgid   "Quick Connect"
+msgstr  ""
+
+#: lib/PACMain.pm:1699
+msgid   "Quick Connection"
+msgstr  ""
+
+#: lib/PACMain.pm:1769
+msgid   "Desc"
+msgstr  ""
+
+#: lib/PACMain.pm:1769
+msgid   "Host"
+msgstr  ""
+
+#: lib/PACMain.pm:1769
+msgid   "Name"
+msgstr  ""
+
+#: lib/PACMain.pm:1909
+msgid   "Bulk "
+msgstr  ""
+
+#: lib/PACMain.pm:1909
+msgid   "Can not "
+msgstr  ""
+
+#: lib/PACMain.pm:1909
+msgid   "Edit selection:\n"
+        "There are <b>'Protected'</b> nodes selected"
+msgstr  ""
+
+#: lib/PACMain.pm:1915 lib/PACMain.pm:4200
+msgid   "$APPNAME (v$APPVERSION) : Bulk Edit"
+msgstr  ""
+
+#: lib/PACMain.pm:1915
+msgid   "</b> nodes.\n"
+        "Select and change the values you want to modify in the list below.\n"
+        "<b>Only those checked will be affected.</b>\n"
+        "For Regular Expressions, <b>Match pattern</b> will substituted with "
+        "<b>New value</b>,\n"
+        "much like Perl's: <b>s/<span foreground=\"#E60023\">Match pattern</"
+        "span>/<span foreground=\"#04C100\">New value</span>/g</b>"
+msgstr  ""
+
+#: lib/PACMain.pm:1915
+msgid   "Bulk Editing <b>"
+msgstr  ""
+
+#: lib/PACMain.pm:1949 lib/PACMain.pm:3678 lib/PACMain.pm:3679
+#: lib/PACMain.pm:3758 lib/PACMain.pm:3759 lib/PACMain.pm:3819
+#: lib/PACUtils.pm:1338 lib/PACUtils.pm:2171 lib/PACUtils.pm:2337
+msgid   "favourite"
+msgstr  ""
+
+#: lib/PACMain.pm:1955 lib/PACMain.pm:3679 lib/PACMain.pm:3759
+msgid   "off"
+msgstr  ""
+
+#: lib/PACMain.pm:1955 lib/PACMain.pm:3679 lib/PACMain.pm:3759
+msgid   "on"
+msgstr  ""
+
+#: lib/PACMain.pm:2049
+msgid   "Close <b>TABBED TERMINALS</b> Window ?"
+msgstr  ""
+
+#: lib/PACMain.pm:2101
+msgid   "Page_Up"
+msgstr  ""
+
+#: lib/PACMain.pm:2109
+msgid   "Page_Down"
+msgstr  ""
+
+#: lib/PACMain.pm:2121
+msgid   "Tab"
+msgstr  ""
+
+#: lib/PACMain.pm:2138
+msgid   "Left"
+msgstr  ""
+
+#: lib/PACMain.pm:2146
+msgid   "Right"
+msgstr  ""
+
+#: lib/PACMain.pm:2253
+msgid   "destroy"
+msgstr  ""
+
+#: lib/PACMain.pm:2258 lib/PACTerminal.pm:1336 lib/PACTerminal.pm:1342
+msgid   "map"
+msgstr  ""
+
+#: lib/PACMain.pm:2335
+msgid   "Enter current GUI Password to remove protection..."
+msgstr  ""
+
+#: lib/PACMain.pm:2335
+msgid   "GUI Unlock"
+msgstr  ""
+
+#: lib/PACMain.pm:2463 lib/PACMain.pm:4024 lib/PACScreenshots.pm:227
+#: lib/PACScripts.pm:1066
+msgid   "all"
+msgstr  ""
+
+#: lib/PACMain.pm:2508
+msgid   "Edit connection"
+msgstr  ""
+
+#: lib/PACMain.pm:2510 lib/PACMain.pm:2521 lib/PACMain.pm:2602
+#: lib/PACMain.pm:2687 lib/PACMain.pm:2696 lib/PACMain.pm:2707
+#: lib/PACMain.pm:2718 lib/PACMain.pm:2729 lib/PACMain.pm:2741
+#: lib/PACMain.pm:2751 lib/PACMain.pm:2774 lib/PACMain.pm:2784
+#: lib/PACMain.pm:2843 lib/PACMain.pm:2860 lib/PACMain.pm:2874
+#: lib/PACMain.pm:2886 lib/PACMain.pm:2893 lib/PACMain.pm:2946
+#: lib/PACTerminal.pm:1819 lib/PACTerminal.pm:1858 lib/PACTerminal.pm:2077
+#: lib/PACTerminal.pm:2085 lib/PACTerminal.pm:2097 lib/PACTerminal.pm:2111
+#: lib/PACTerminal.pm:2126 lib/PACTerminal.pm:2144 lib/PACTerminal.pm:2147
+#: lib/PACTerminal.pm:2150 lib/PACTerminal.pm:2153 lib/PACTerminal.pm:2170
+#: lib/PACTerminal.pm:2173 lib/PACTerminal.pm:2222 lib/PACTerminal.pm:2229
+#: lib/PACTerminal.pm:2775 lib/PACTerminal.pm:2828 lib/PACTerminal.pm:2834
+#: lib/PACTerminal.pm:2860 lib/PACTerminal.pm:2867 lib/PACTerminal.pm:2868
+msgid   "shortcut"
+msgstr  ""
+
+#: lib/PACMain.pm:2511 lib/PACMain.pm:2719
+msgid   "Edit this connection's data"
+msgstr  ""
+
+#: lib/PACMain.pm:2519 lib/PACMain.pm:2739
+msgid   "Bulk Edit connections..."
+msgstr  ""
+
+#: lib/PACMain.pm:2522 lib/PACMain.pm:2742
+msgid   "Bulk edit some values of selected connection's"
+msgstr  ""
+
+#: lib/PACMain.pm:2538 lib/PACMain.pm:2800
+msgid   "Change variable <b>"
+msgstr  ""
+
+#: lib/PACMain.pm:2539 lib/PACMain.pm:2801
+msgid   "Enter a NEW value or close to keep this value..."
+msgstr  ""
+
+#: lib/PACMain.pm:2553 lib/PACMain.pm:2814
+msgid   "Edit Local Variables"
+msgstr  ""
+
+#: lib/PACMain.pm:2563 lib/PACMain.pm:2910
+msgid   "(can't, PROXY configured!!)"
+msgstr  ""
+
+#: lib/PACMain.pm:2563 lib/PACMain.pm:2910
+msgid   "Wake On LAN..."
+msgstr  ""
+
+#: lib/PACMain.pm:2574 lib/PACMain.pm:2920
+msgid   "$i instances"
+msgstr  ""
+
+#: lib/PACMain.pm:2589 lib/PACMain.pm:2934 lib/PACTerminal.pm:2245
+#: lib/PACUtils.pm:1429
+msgid   "Start"
+msgstr  ""
+
+#: lib/PACMain.pm:2596 lib/PACMain.pm:2701 lib/PACMain.pm:2821
+#: lib/PACMain.pm:2855 lib/PACMain.pm:2905 lib/PACMain.pm:2941
+#: lib/PACScripts.pm:891 lib/PACTerminal.pm:1714 lib/PACTerminal.pm:1800
+#: lib/PACTerminal.pm:1809 lib/PACTerminal.pm:1873 lib/PACTerminal.pm:2070
+#: lib/PACTerminal.pm:2143 lib/PACTerminal.pm:2188 lib/PACTerminal.pm:2761
+#: lib/PACTerminal.pm:2764 lib/PACTerminal.pm:2826 lib/PACTerminal.pm:2856
+#: lib/PACTerminal.pm:2863
+msgid   "separator"
+msgstr  ""
+
+#: lib/PACMain.pm:2600 lib/PACMain.pm:2944
+msgid   "Execute in New Cluster..."
+msgstr  ""
+
+#: lib/PACMain.pm:2633 lib/PACMain.pm:2984 lib/PACTerminal.pm:1840
+#: lib/PACTerminal.pm:2799
+#, perl-brace-format
+msgid   "$cluster ($clusters{$cluster}{total} terminals connected)"
+msgstr  ""
+
+#: lib/PACMain.pm:2651 lib/PACMain.pm:3009
+msgid   "Execute in existing Cluster"
+msgstr  ""
+
+#: lib/PACMain.pm:2685
+msgid   "Expand all"
+msgstr  ""
+
+#: lib/PACMain.pm:2688
+msgid   "Expand ALL (including sub-nodes)"
+msgstr  ""
+
+#: lib/PACMain.pm:2694
+msgid   "Collapse all"
+msgstr  ""
+
+#: lib/PACMain.pm:2697
+msgid   "Collapse ALL (including sub-nodes)"
+msgstr  ""
+
+#: lib/PACMain.pm:2705
+msgid   "Protect"
+msgstr  ""
+
+#: lib/PACMain.pm:2705
+msgid   "Toggle Protected state"
+msgstr  ""
+
+#: lib/PACMain.pm:2705
+msgid   "Un-"
+msgstr  ""
+
+#: lib/PACMain.pm:2706
+msgid   "protected"
+msgstr  ""
+
+#: lib/PACMain.pm:2708
+msgid   "Protect or not this node, in order to avoid any changes (Edit, "
+        "Delete, Rename, ...)"
+msgstr  ""
+
+#: lib/PACMain.pm:2716
+msgid   "Edit connection$p"
+msgstr  ""
+
+#: lib/PACMain.pm:2727
+msgid   "Copy Password"
+msgstr  ""
+
+#: lib/PACMain.pm:2749
+msgid   " connection(s)..."
+msgstr  ""
+
+#: lib/PACMain.pm:2749
+msgid   "ALL"
+msgstr  ""
+
+#: lib/PACMain.pm:2749
+msgid   "Export "
+msgstr  ""
+
+#: lib/PACMain.pm:2749
+msgid   "SELECTED"
+msgstr  ""
+
+#: lib/PACMain.pm:2752
+msgid   "Export connection(s) to a YAML file"
+msgstr  ""
+
+#: lib/PACMain.pm:2772
+msgid   "Import connection(s)..."
+msgstr  ""
+
+#: lib/PACMain.pm:2775
+msgid   "Import connection(s) from a file"
+msgstr  ""
+
+#: lib/PACMain.pm:2782
+msgid   "Settings..."
+msgstr  ""
+
+#: lib/PACMain.pm:2785
+msgid   "Settings"
+msgstr  ""
+
+#: lib/PACMain.pm:2826
+msgid   "Add Connection"
+msgstr  ""
+
+#: lib/PACMain.pm:2828
+msgid   "Create a new CONNECTION under '"
+msgstr  ""
+
+#: lib/PACMain.pm:2828 lib/PACMain.pm:2835 lib/PACUtils.pm:1566
+msgid   "ROOT"
+msgstr  ""
+
+#: lib/PACMain.pm:2833
+msgid   "Add Group"
+msgstr  ""
+
+#: lib/PACMain.pm:2835
+msgid   "Create a new GROUP under '"
+msgstr  ""
+
+#: lib/PACMain.pm:2841 lib/PACTerminal.pm:1699
+msgid   "Connection"
+msgstr  ""
+
+#: lib/PACMain.pm:2841
+msgid   "Group"
+msgstr  ""
+
+#: lib/PACMain.pm:2841
+msgid   "Rename "
+msgstr  ""
+
+#: lib/PACMain.pm:2849
+msgid   "Delete..."
+msgstr  ""
+
+#: lib/PACMain.pm:2858
+msgid   "Clone connection$p"
+msgstr  ""
+
+#: lib/PACMain.pm:2872
+msgid   "Copy node$p"
+msgstr  ""
+
+#: lib/PACMain.pm:2884
+msgid   "Cut node$p"
+msgstr  ""
+
+#: lib/PACMain.pm:2891
+msgid   "Paste node$p"
+msgstr  ""
+
+#: lib/PACMain.pm:3025 lib/PACUtils.pm:1969 lib/PACUtils.pm:2070
+msgid   "version"
+msgstr  ""
+
+#: lib/PACMain.pm:3026
+msgid   "logo"
+msgstr  ""
+
+#: lib/PACMain.pm:3027
+msgid   "copyright"
+msgstr  ""
+
+#: lib/PACMain.pm:3028
+msgid   "website"
+msgstr  ""
+
+msgstr  ""
+
+#: lib/PACMain.pm:3029
+msgid   "license"
+msgstr  ""
+
+#: lib/PACMain.pm:3088
+msgid   " terminals from cluster '$cluster'</b> ?"
+msgstr  ""
+
+#: lib/PACMain.pm:3088
+msgid   "Are you sure you want to start <b>"
+msgstr  ""
+
+#: lib/PACMain.pm:3091
+msgid   "Cluster <b>$cluster</b> contains no elements"
+msgstr  ""
+
+#: lib/PACMain.pm:3125
+msgid   "</big></b>' terminals..."
+msgstr  ""
+
+#: lib/PACMain.pm:3125
+msgid   "Starting '<b><big>"
+msgstr  ""
+
+#: lib/PACMain.pm:3126 lib/PACTerminal.pm:864 lib/PACTerminal.pm:868
+#: lib/PACTerminal.pm:869
+msgid   "NTERMINALES"
+msgstr  ""
+
+#: lib/PACMain.pm:3132
+msgid   "ERROR: UUID <b>$uuid</b> does not exist in DDBB\n"
+        "Not starting connection!"
+msgstr  ""
+
+#: lib/PACMain.pm:3135
+msgid   "ERROR: UUID <b>$uuid</b> is a GROUP\n"
+        "Not starting anything!"
+msgstr  ""
+
+#: lib/PACMain.pm:3138 lib/PACTerminal.pm:108 lib/PACUtils.pm:2188
+#: lib/PACUtils.pm:2488 lib/PACUtils.pm:2515
+msgid   "open in tab"
+msgstr  ""
+
+#: lib/PACMain.pm:3140 lib/PACTerminal.pm:108 lib/PACTerminal.pm:859
+#: lib/PACTerminal.pm:860 lib/PACTerminal.pm:2403 lib/PACTerminal.pm:2405
+#: lib/PACTerminal.pm:2412 lib/PACTerminal.pm:2551 lib/PACTerminal.pm:2552
+#: lib/PACUtils.pm:2203 lib/PACUtils.pm:2503 lib/PACUtils.pm:2530
+msgid   "use personal settings"
+msgstr  ""
+
+#: lib/PACMain.pm:3208
+msgid   "Are you sure you want to <b>exit</b> $APPNAME ?"
+msgstr  ""
+
+#: lib/PACMain.pm:3209
+msgid   "there are $rc open terminals"
+msgstr  ""
+
+#: lib/PACMain.pm:3209
+msgid   "there is $rc open terminal"
+msgstr  ""
+
+#: lib/PACMain.pm:3216
+msgid   "<b>Configuration has changed.</b>\n"
+        "\n"
+        "Save changes?"
+msgstr  ""
+
+#: lib/PACMain.pm:3217 lib/PACScripts.pm:1166 lib/PACTerminal.pm:3123
+msgid   "yes"
+msgstr  ""
+
+#: lib/PACMain.pm:3218 lib/PACMain.pm:4213 lib/PACScripts.pm:1167
+#: lib/PACTerminal.pm:3508 lib/PACUtils.pm:1578 lib/PACUtils.pm:3061
+msgid   "cancel"
+msgstr  ""
+
+#: lib/PACMain.pm:3226
+msgid   "INFO: Finishing ($Script) with pid $$\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3286
+msgid   "ERROR: Could not save config file '$CFG_FILE_NFREEZE':\n"
+        "\n"
+        "$!"
+msgstr  ""
+
+#: lib/PACMain.pm:3288
+msgid   "ERROR: Could not save config file '$R_CFG_FILE':\n"
+        "\n"
+        "$!\n"
+        "\n"
+        "Local copy saved at '$CFG_FILE_NFREEZE'"
+msgstr  ""
+
+#: lib/PACMain.pm:3312
+msgid   "WARNING: There were errors reading remote file '$R_CFG_FILE' config "
+        "file: $@\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3314
+msgid   "INFO: Used remote config file '$R_CFG_FILE'\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3322
+msgid   "WARNING: There were errors reading '$CFG_FILE_NFREEZE' config file: "
+        "$@\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3324
+msgid   "INFO: Used config file '$CFG_FILE_NFREEZE'\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3326 lib/PACMain.pm:3338 lib/PACMain.pm:3363
+#: lib/PACMain.pm:3379 lib/PACMain.pm:3394
+msgid   "ERROR: Could not save remote config file '$R_CFG_FILE': $!"
+msgstr  ""
+
+#: lib/PACMain.pm:3334
+msgid   "WARNING: Could not load config file '$CFG_FILE': $!\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3336
+msgid   "INFO: Used config file '$CFG_FILE'\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3340 lib/PACMain.pm:3361 lib/PACMain.pm:3377
+#: lib/PACMain.pm:3392
+msgid   "ERROR: Could not save config file '$CFG_FILE_NFREEZE': $!"
+msgstr  ""
+
+#: lib/PACMain.pm:3347
+msgid   "ERROR: Could open for reading file '$CFG_FILE_DUMPER': $!"
+msgstr  ""
+
+#: lib/PACMain.pm:3357
+msgid   "ERROR: Could not load config file from '$CFG_FILE_DUMPER': $@\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3359
+msgid   "INFO: Used config file '$CFG_FILE_DUMPER'\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3374
+msgid   "WARNING: There were errors reading the '$CFG_FILE_FREEZE' config "
+        "file: $@\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3376
+msgid   "INFO: Used config file '$CFG_FILE_FREEZE'\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3388
+msgid   "INFO: Migrating config file to v3...\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3389
+msgid   "$APPNAME (v$APPVERSION):Migrating config..."
+msgstr  ""
+
+#: lib/PACMain.pm:3391
+msgid   "ERROR: Could not copy pre v.3 cfg file '$CFG_FILE' to '$CFG_FILE."
+        "prev3': $!"
+msgstr  ""
+
+#: lib/PACMain.pm:3401
+msgid   "WARN: No configuration file in (remote) '$CFG_DIR', creating a new "
+        "one...\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3404
+msgid   "WARN: No configuration file found in '$CFG_DIR', creating a new "
+        "one...\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3408
+msgid   "$APPNAME (v$APPVERSION):Checking config..."
+msgstr  ""
+
+#: lib/PACMain.pm:3470
+msgid   "ERROR: Could not save Tree Config file '$CFG_FILE.tree': $!"
+msgstr  ""
+
+#: lib/PACMain.pm:3519
+msgid   "ERROR: Could not read Tree Config file '$CFG_FILE.tree': $!"
+msgstr  ""
+
+#: lib/PACMain.pm:3544
+msgid   "ERROR: Could not save GUI Config file '$CFG_FILE.gui': $!"
+msgstr  ""
+
+#: lib/PACMain.pm:3572
+msgid   "ERROR: Could not read GUI Config file '$CFG_FILE.gui': $!"
+msgstr  ""
+
+#: lib/PACMain.pm:3600
+msgid   "\n"
+        "\n"
+        " * Welcome to $APPNAME version $APPVERSION *\n"
+        "\n"
+        " - To create a New GROUP of Connections:\n"
+        "\n"
+        "   1- 'click' over 'AVAILABLE CONNECTIONS' (to create it at root) or "
+        "any other GROUP\n"
+        "   2- 'click' on the most left icon over the connections tree (or "
+        "right-click over selected GROUP)\n"
+        "   3- Follow instructions\n"
+        "\n"
+        " - To create a New CONNECTION in a selected Group or at root:\n"
+        "\n"
+        "   1- Select the container group to create the new connection into "
+        "(or 'AVAILABLE CONNECTIONS' to create it at root)\n"
+        "   2- 'click' on the second most left icon over the connections tree "
+        "(or right-click over selected GROUP)\n"
+        "   3- Follow instructions\n"
+        "\n"
+        " - For the latest news, check the project website (https://asbru-cm."
+        "net/).\n"
+        "\n"
+msgstr  ""
+
+#: lib/PACMain.pm:3621
+msgid   "Insert your comments for this connection here ..."
+msgstr  ""
+
+#: lib/PACMain.pm:3661
+msgid   " Connections"
+msgstr  ""
+
+#: lib/PACMain.pm:3707
+msgid   " Favourites"
+msgstr  ""
+
+#: lib/PACMain.pm:3743
+msgid   " History"
+msgstr  ""
+
+#: lib/PACMain.pm:3777
+msgid   " Clusters"
+msgstr  ""
+
+#: lib/PACMain.pm:3923
+msgid   "Can not CUT selection:\n"
+        "There are <b>'Protected'</b> nodes selected"
+msgstr  ""
+
+#: lib/PACMain.pm:4035
+msgid   "$APPNAME (v.$APPVERSION) Choose fields to skip during Export phase"
+msgstr  ""
+
+#: lib/PACMain.pm:4035
+msgid   "Please, <b>check</b> the fields to be changed during the Export "
+        "phase\n"
+        "and put a new (may be empty) value for them.\n"
+        "<b>Unchecked</b> elements will be exported with their original values."
+msgstr  ""
+
+#: lib/PACMain.pm:4035
+msgid   "ask for cipher"
+msgstr  ""
+
+#: lib/PACMain.pm:4042
+msgid   "$APPNAME (v.$APPVERSION) Choose file to Export"
+msgstr  ""
+
+#: lib/PACMain.pm:4061
+msgid   "Please, wait while file '$file' is being exported..."
+msgstr  ""
+
+#: lib/PACMain.pm:4086
+msgid   "Connection(s) succesfully exported to:\n"
+        "\n"
+        "$file"
+msgstr  ""
+
+#: lib/PACMain.pm:4089
+msgid   "ERROR: Could not export connection(s) to file '$file':\n"
+        "\n"
+        "$!"
+msgstr  ""
+
+#: lib/PACMain.pm:4104
+msgid   "$APPNAME (v.$APPVERSION) Choose a YAML file to Import"
+msgstr  ""
+
+#: lib/PACMain.pm:4107 lib/PACScripts.pm:1353 lib/PACScripts.pm:1354
+msgid   "Import"
+msgstr  ""
+
+#: lib/PACMain.pm:4113
+msgid   "YAML Files"
+msgstr  ""
+
+#: lib/PACMain.pm:4124
+msgid   "Please, wait while file '$file' is being imported..."
+msgstr  ""
+
+#: lib/PACMain.pm:4132
+msgid   "ERROR: Could not import connection from file '$file':\n"
+        "\n"
+        "$@"
+msgstr  ""
+
+#: lib/PACMain.pm:4140
+msgid   "Selected config file is a <b>FULL</b> backup.\n"
+        "Importing it will result in all current data being <b>substituted</b> "
+        "by the new one.\n"
+        "<b>Plus, it REQUIRES restarting the application</b>.\n"
+        "Replace current configuration?"
+msgstr  ""
+
+#: lib/PACMain.pm:4163
+msgid   "File '$file' succesfully imported.\n"
+        " now <b>restarting</b> (wait 3 seconds...)"
+msgstr  ""
+
+#: lib/PACMain.pm:4172
+msgid   "File '$file' does not look like a valid exported connection!"
+msgstr  ""
+
+#: lib/PACMain.pm:4185
+msgid   "File '<b>$file</b>' succesfully imported:\n"
+        "<b>$i</b> element(s) added"
+msgstr  ""
+
+#: lib/PACMain.pm:4201
+msgid   "Select and change the values you want to modify in the list below.\n"
+        "<b>Only those checked will be affected.</b>\n"
+        "For Regular Expressions, <b>Match pattern</b> will be substituted "
+        "with <b>New value</b>,\n"
+        "much like Perl's: <b>s/Match pattern/New value/g</b>"
+msgstr  ""
+
+#: lib/PACMain.pm:4244
+msgid   " There are <b>GROUP(S)</b> in the selection. Apply to: "
+msgstr  ""
+
+#: lib/PACMain.pm:4251
+msgid   "1st level children"
+msgstr  ""
+
+#: lib/PACMain.pm:4251
+msgid   "level affected"
+msgstr  ""
+
+#: lib/PACMain.pm:4253
+msgid   "ALL sub-levels children"
+msgstr  ""
+
+#: lib/PACMain.pm:4262
+msgid   " <b><span foreground=\"orange\">COMMON</span></b> entries: "
+msgstr  ""
+
+#: lib/PACMain.pm:4274 lib/PACMain.pm:4433
+msgid   "Set '$key': "
+msgstr  ""
+
+#: lib/PACMain.pm:4281 lib/PACMain.pm:4440
+msgid   "change "
+msgstr  ""
+
+#: lib/PACMain.pm:4288 lib/PACMain.pm:4447
+msgid   " with "
+msgstr  ""
+
+#: lib/PACMain.pm:4294 lib/PACMain.pm:4453
+msgid   "RegExp"
+msgstr  ""
+
+#: lib/PACMain.pm:4344 lib/PACMain.pm:4505 lib/PACPCC.pm:588
+#: lib/PACScripts.pm:932
+msgid   "Runtime substitution (<ASK:change_by_number>)"
+msgstr  ""
+
+#: lib/PACMain.pm:4421
+msgid   " <b><span foreground=\"orange\">EXPECT</span></b> entries: "
+msgstr  ""
+
+#: lib/PACMain.pm:4429 lib/PACMain.pm:4604 lib/PACMain.pm:4607
+#: lib/PACTerminal.pm:3390 lib/PACTerminal.pm:3454 lib/PACUtils.pm:2406
+#: lib/PACUtils.pm:2416 lib/PACUtils.pm:2674 lib/PACUtils.pm:2726
+#: lib/PACUtils.pm:2778 lib/PACUtils.pm:2780 lib/PACUtils.pm:2788
+msgid   "send"
+msgstr  ""
+
+#: lib/PACMain.pm:4584
+msgid   "Remove strings checked 'Hide' from the 'Expect' configuration"
+msgstr  ""
+
+#: lib/PACMain.pm:4586
+msgid   "If checked, every field marked as 'hide' (for example, under 'Expect' "
+        "TAB) will be erased.\n"
+        "This overrides any value set for both 'pass' and 'passphrase'"
+msgstr  ""
+
+#: lib/PACMain.pm:4589
+msgid   "Cipher secure strings"
+msgstr  ""
+
+#: lib/PACMain.pm:4591
+msgid   "If checked, every passord-like and field marked as 'hide' (for "
+        "example, under 'Expect' TAB) will be ciphered.\n"
+        "This may cause incompatibilities when importing from a server other "
+        "than this."
+msgstr  ""
+
+#: lib/PACMain.pm:4606 lib/PACMain.pm:4607
+msgid   "EXPECT:"
+msgstr  ""
+
+#: lib/PACPCC.pm:158
+msgid   "$APPNAME (v$APPVERSION): Power Cluster Controller"
+msgstr  ""
+
+#: lib/PACPCC.pm:193 lib/PACTerminal.pm:1867
+msgid   "Power Cluster Controller"
+msgstr  ""
+
+#: lib/PACPCC.pm:201
+msgid   "Send to Cluster: "
+msgstr  ""
+
+#: lib/PACPCC.pm:207
+msgid   "Selected cluster will be the one used to send the keystrokes and for "
+        "both the \"Explode\" and \"Close ALL\" buttons"
+msgstr  ""
+
+#: lib/PACPCC.pm:209
+msgid   "Send to ALL terminals"
+msgstr  ""
+
+#: lib/PACPCC.pm:213
+msgid   "If checked, commands will be sent to *EVERY* terminal opened, either "
+        "clustered or unclustered"
+msgstr  ""
+
+#: lib/PACPCC.pm:215
+msgid   "_Restart all"
+msgstr  ""
+
+#: lib/PACPCC.pm:217
+msgid   "Restart (stop->start) *every* terminal in selected cluster"
+msgstr  ""
+
+#: lib/PACPCC.pm:221
+msgid   "Close _ALL"
+msgstr  ""
+
+#: lib/PACPCC.pm:223
+msgid   "Close *every* terminal in selected cluster"
+msgstr  ""
+
+#: lib/PACPCC.pm:232
+msgid   "Prevent single window keys broadcast"
+msgstr  ""
+
+#: lib/PACPCC.pm:236
+msgid   "If checked, any kestroke over a single connection will not be "
+        "propagated to the rest of the elements of the selected cluster"
+msgstr  ""
+
+#: lib/PACPCC.pm:238
+msgid   "PCC Window Always on top"
+msgstr  ""
+
+#: lib/PACPCC.pm:242
+msgid   "If checked, this window will always stay on top (over) the rest of "
+        "windows"
+msgstr  ""
+
+#: lib/PACPCC.pm:244
+msgid   "Use Multi-Line Text Entry"
+msgstr  ""
+
+#: lib/PACPCC.pm:248
+msgid   "If checked, you will have a bigger text entry to write your commands, "
+        "ready to be sent to the selected cluster all at once when clicking on "
+        "any of the buttons below"
+msgstr  ""
+
+#: lib/PACPCC.pm:255
+msgid   "Type commands here: "
+msgstr  ""
+
+#: lib/PACPCC.pm:260
+msgid   "primary"
+msgstr  ""
+
+#: lib/PACPCC.pm:263
+msgid   "Send on <INTRO>"
+msgstr  ""
+
+#: lib/PACPCC.pm:267
+msgid   "If checked, keypresses will appear here, and will be sent on <INTRO> "
+        "keypress\n"
+        "Other else, they will not be echoed out, but sent each of them "
+        "instantly"
+msgstr  ""
+
+#: lib/PACPCC.pm:277
+msgid   "_Open"
+msgstr  ""
+
+#: lib/PACPCC.pm:278
+msgid   "Load a text file"
+msgstr  ""
+
+#: lib/PACPCC.pm:283
+msgid   "_Save as..."
+msgstr  ""
+
+#: lib/PACPCC.pm:284
+msgid   "Save as a text file"
+msgstr  ""
+
+#: lib/PACPCC.pm:289
+msgid   "Auto save/load..."
+msgstr  ""
+
+#: lib/PACPCC.pm:290
+msgid   "Automatically save/load current text"
+msgstr  ""
+
+#: lib/PACPCC.pm:292 lib/PACPCC.pm:911
+msgid   "autosave PCC text"
+msgstr  ""
+
+#: lib/PACPCC.pm:297
+msgid   "Syntax highlight: "
+msgstr  ""
+
+#: lib/PACPCC.pm:301
+msgid   "Force selected language for syntax highlighting"
+msgstr  ""
+
+#: lib/PACPCC.pm:311
+msgid   "Clea_r"
+msgstr  ""
+
+#: lib/PACPCC.pm:312
+msgid   "Clear out all the data from the edit box"
+msgstr  ""
+
+#: lib/PACPCC.pm:346
+msgid   " Execute: "
+msgstr  ""
+
+#: lib/PACPCC.pm:353
+msgid   "A_ll"
+msgstr  ""
+
+#: lib/PACPCC.pm:354
+msgid   "Send the *all* the text to cluster (<Ctrl><INTRO>)"
+msgstr  ""
+
+#: lib/PACPCC.pm:358
+msgid   "_Block"
+msgstr  ""
+
+#: lib/PACPCC.pm:359
+msgid   "Send current *block* text (that separated with blank lines up and "
+        "down from the cursor position) to cluster (<Alt><INTRO>)"
+msgstr  ""
+
+#: lib/PACPCC.pm:363
+msgid   "_Selection"
+msgstr  ""
+
+#: lib/PACPCC.pm:364
+msgid   "Send the *selected* text to cluster"
+msgstr  ""
+
+#: lib/PACPCC.pm:368
+msgid   "Use PAC variables"
+msgstr  ""
+
+#: lib/PACPCC.pm:369
+msgid   "Allow PAC to replace standard known variables (ie: <GV:var_name>, "
+        "<CMD:command>, ...)"
+msgstr  ""
+
+#: lib/PACPCC.pm:381
+msgid   "Cl_usters"
+msgstr  ""
+
+#: lib/PACPCC.pm:384
+msgid   "_Explode"
+msgstr  ""
+
+#: lib/PACPCC.pm:386
+msgid   "Separate and resize clustered windows to fit screen"
+msgstr  ""
+
+#: lib/PACPCC.pm:388
+msgid   "Re_Tab"
+msgstr  ""
+
+#: lib/PACPCC.pm:390
+msgid   "Put every independent connection window in PAC's main TAB"
+msgstr  ""
+
+#: lib/PACPCC.pm:392
+msgid   "_Piped Output"
+msgstr  ""
+
+#: lib/PACPCC.pm:394
+msgid   "Show the window with the locally piped data"
+msgstr  ""
+
+#: lib/PACPCC.pm:431 lib/PACPCC.pm:470 lib/PACPCC.pm:933
+msgid   "_CLUSTER"
+msgstr  ""
+
+#: lib/PACPCC.pm:432 lib/PACPCC.pm:471 lib/PACPCC.pm:934
+msgid   "_GUI"
+msgstr  ""
+
+#: lib/PACPCC.pm:530 lib/PACPCC.pm:536 lib/PACTerminal.pm:1235
+msgid   "PRIMARY"
+msgstr  ""
+
+#: lib/PACPCC.pm:611
+msgid   "Tee remote output to a local file"
+msgstr  ""
+
+#: lib/PACPCC.pm:612
+msgid   "The given command line will be executed, and its output will be saved "
+        "in provided file (after TEE:...) LOCALLY"
+msgstr  ""
+
+#: lib/PACPCC.pm:619
+msgid   "Pipe remote output throught local command"
+msgstr  ""
+
+#: lib/PACPCC.pm:620
+msgid   "The given command line will be remotely executed, and its output will "
+        "be piped throught the provide command (after PIPE:...) LOCALLY"
+msgstr  ""
+
+#: lib/PACPCC.pm:648 lib/PACPCC.pm:650 lib/PACScripts.pm:1019
+#: lib/PACTerminal.pm:1009 lib/PACTerminal.pm:1012
+msgid   "Return"
+msgstr  ""
+
+#: lib/PACPCC.pm:707
+msgid   "$APPNAME (v.$APPVERSION) Choose a text file to load"
+msgstr  ""
+
+#: lib/PACPCC.pm:710 lib/PACScripts.pm:1137
+msgid   "Open"
+msgstr  ""
+
+#: lib/PACPCC.pm:728
+msgid   "ERROR: Can not open for reading '$file' ($!)"
+msgstr  ""
+
+#: lib/PACPCC.pm:740 lib/PACScripts.pm:1273
+msgid   "WARNING: file '$file' is "
+msgstr  ""
+
+#: lib/PACPCC.pm:760
+msgid   "$APPNAME (v.$APPVERSION) Choose a file to save"
+msgstr  ""
+
+#: lib/PACPCC.pm:763
+msgid   "Save"
+msgstr  ""
+
+#: lib/PACPCC.pm:778 lib/PACScripts.pm:1241
+msgid   "ERROR: Can not open for writting '$file' ($!)"
+msgstr  ""
+
+#: lib/PACPCC.pm:815 lib/PACPCC.pm:877
+msgid   " in cluster '$cluster'"
+msgstr  ""
+
+#: lib/PACPCC.pm:815
+msgid   "Are you sure you want to RESTART <b>every</b> terminal"
+msgstr  ""
+
+#: lib/PACPCC.pm:877
+msgid   "Are you sure you want to CLOSE <b>every</b> terminal"
+msgstr  ""
+
+#: lib/PACPCC.pm:880 lib/PACTerminal.pm:2874
+msgid   "deep"
+msgstr  ""
+
+#: lib/PACPipe.pm:112
+msgid   "$APPNAME : Pipe output"
+msgstr  ""
+
+#: lib/PACPipe.pm:130
+msgid   " <b>Terminals:</b> "
+msgstr  ""
+
+#: lib/PACPipe.pm:144
+msgid   "TITLE"
+msgstr  ""
+
+#: lib/PACPipe.pm:148
+msgid   "List of Terminals where the locally PIPEd command was executed"
+msgstr  ""
+
+#: lib/PACPipe.pm:163
+msgid   " <b>Expanded command:</b> "
+msgstr  ""
+
+#: lib/PACPipe.pm:182
+msgid   " <b>Final output (locally piped):</b> "
+msgstr  ""
+
+#: lib/PACPipe.pm:202
+msgid   "Always On Top"
+msgstr  ""
+
+#: lib/PACPipe.pm:246
+msgid   "* CONNECTION: NAME '$name' TITLE '$title'\n"
+msgstr  ""
+
+#: lib/PACPipe.pm:248
+msgid   "* ORIGINAL COMMAND:\n"
+msgstr  ""
+
+#: lib/PACPipe.pm:251
+msgid   "* EXPANDED COMMAND:\n"
+msgstr  ""
+
+#: lib/PACPipe.pm:254
+#, perl-brace-format
+msgid   "* EXPECTED PROMPT: '$$exec{PROMPT}' \n"
+msgstr  ""
+
+#: lib/PACPipe.pm:258
+msgid   "* CONNECTION: NAME '$name' TITLE '$title' OUTPUT:\n"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:117
+msgid   "File '$file' could not be loaded as a screenshot file"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:168
+msgid   "Add\n"
+        "Screenshot"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:180
+msgid   "Open Folder"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:224
+msgid   "/usr/bin/xdg-open $CFG_DIR/screenshots"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:226 lib/PACScreenshots.pm:230 lib/PACScripts.pm:1065
+#: lib/PACScripts.pm:1070
+msgid   "STRING"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:286
+msgid   "Change Screenshot file..."
+msgstr  ""
+
+#: lib/PACScreenshots.pm:292
+msgid   "keep aspect ratio"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:300
+msgid   "Save picture as..."
+msgstr  ""
+
+#: lib/PACScreenshots.pm:301 lib/PACScreenshots.pm:332
+msgid   "stock"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:304 lib/PACScripts.pm:421
+msgid   "FILE"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:304
+msgid   "SCREENSHOT"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:308
+msgid   "Select file to save screenshot"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:331
+msgid   "Remove Screenshot"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:335
+#, perl-brace-format
+msgid   "Remove Screenshot file '$w{file}'?"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:359
+msgid   "Images"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:363
+msgid   "Choose Screenshot"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:430
+msgid   "$APPNAME (v$APPVERSION) : Screenshot '$file'"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:433 lib/PACScreenshots.pm:436
+msgid   "close"
+msgstr  ""
+
+#: lib/PACScreenshots.pm:464 lib/PACTerminal.pm:3419 lib/PACUtils.pm:3477
+#: lib/PACUtils.pm:3494
+msgid   "response"
+msgstr  ""
+
+#: lib/PACScripts.pm:371
+msgid   "red"
+msgstr  ""
+
+#: lib/PACScripts.pm:396
+msgid   "$APPNAME (v$APPVERSION) : Scripts"
+msgstr  ""
+
+#: lib/PACScripts.pm:408
+msgid   "Scripts Manager"
+msgstr  ""
+
+#: lib/PACScripts.pm:422
+msgid   "SCRIPT"
+msgstr  ""
+
+#: lib/PACScripts.pm:426
+msgid   "PAC Scripts. You may Drag 'n Drop Perl (.pl) files here to import "
+        "them."
+msgstr  ""
+
+#: lib/PACScripts.pm:437
+msgid   " Script Editor "
+msgstr  ""
+
+#: lib/PACScripts.pm:457
+msgid   "before"
+msgstr  ""
+
+#: lib/PACScripts.pm:480
+msgid   "Install 'libgtk2-sourceview2-perl' to enjoy Syntax Highlight"
+msgstr  ""
+
+#: lib/PACScripts.pm:494
+msgid   "API NAME"
+msgstr  ""
+
+#: lib/PACScripts.pm:495
+msgid   "API CALL"
+msgstr  ""
+
+#: lib/PACScripts.pm:495
+msgid   "markup"
+msgstr  ""
+
+#: lib/PACScripts.pm:538
+msgid   " PAC Script Help "
+msgstr  ""
+
+#: lib/PACScripts.pm:593
+msgid   "E_xecute"
+msgstr  ""
+
+#: lib/PACScripts.pm:604
+msgid   "Import..."
+msgstr  ""
+
+#: lib/PACScripts.pm:651
+msgid   "Remove ESCape sequences (mainly used for removing ANSI colouring "
+        "output)"
+msgstr  ""
+
+#: lib/PACScripts.pm:658
+msgid   "Substitute given text with PAC internal variables (<ASK:a>, "
+        "<GV:2>, ...)"
+msgstr  ""
+
+#: lib/PACScripts.pm:665
+msgid   "Retrieve a copy (0->default) or a reference (1) to *whole* PAC's "
+        "configuration\n"
+        "*ATTENTION* Retrieving a REFERENCE (1) to PAC's config may lead to "
+        "PAC misconfiguration!!\n"
+        "NOT RECOMMENDED!! USE AT YOUR VERY OWN RISK!!!!!!"
+msgstr  ""
+
+#: lib/PACScripts.pm:674
+#, perl-format
+msgid   "Perform a sanity check for given %cfg, which may be empty, in which "
+        "case it will"
+msgstr  ""
+
+#: lib/PACScripts.pm:680
+msgid   "COMMON methods"
+msgstr  ""
+
+#: lib/PACScripts.pm:690
+msgid   "Start session with 'UUID' (optionally in cluster 'cluster')"
+msgstr  ""
+
+#: lib/PACScripts.pm:697
+msgid   "Start session with 'UUID' with manual login (you must write your "
+        "login code under CONNECTION)"
+msgstr  ""
+
+#: lib/PACScripts.pm:704
+msgid   "Start session named 'name' (optionally in cluster 'cluster')"
+msgstr  ""
+
+#: lib/PACScripts.pm:711
+msgid   "Start session named 'name' with manual login (you must write your "
+        "login code under CONNECTION)"
+msgstr  ""
+
+#: lib/PACScripts.pm:732
+msgid   "Stop and close session identified by $tmp_uuid"
+msgstr  ""
+
+#: lib/PACScripts.pm:739
+msgid   "Show/hide a message window with an OK (1) or not (0 - default) button"
+msgstr  ""
+
+#: lib/PACScripts.pm:746
+msgid   "Split horizontally (0->default) or vertically (1) given connections"
+msgstr  ""
+
+#: lib/PACScripts.pm:753
+msgid   "Unsplit given connection"
+msgstr  ""
+
+#: lib/PACScripts.pm:760
+msgid   "Untab given connection"
+msgstr  ""
+
+#: lib/PACScripts.pm:767
+msgid   "Retab given connection"
+msgstr  ""
+
+#: lib/PACScripts.pm:774
+msgid   "Save current PAC cfg to standard PAC config file"
+msgstr  ""
+
+#: lib/PACScripts.pm:781
+msgid   "Save current PAC cfg to given file (or ask for a file through a GUI "
+        "if no file provided)"
+msgstr  ""
+
+#: lib/PACScripts.pm:787
+msgid   "PAC methods"
+msgstr  ""
+
+#: lib/PACScripts.pm:797
+msgid   "Function to set/remove output log file. Returns the log filehandle "
+        "applied"
+msgstr  ""
+
+#: lib/PACScripts.pm:804
+msgid   "Ask user for input, showing (1->default) or not (0)  user input"
+msgstr  ""
+
+#: lib/PACScripts.pm:811
+msgid   "Returns the Perl Expect object for this connection (*WARNING*, "
+        "dangerous function! Not recommended!)"
+msgstr  ""
+
+#: lib/PACScripts.pm:818
+msgid   "Variable with the Name of the connection"
+msgstr  ""
+
+#: lib/PACScripts.pm:825
+msgid   "Variable with the UUID of the connection"
+msgstr  ""
+
+#: lib/PACScripts.pm:832
+msgid   "Variable with the Temporal UUID of current executing connection"
+msgstr  ""
+
+#: lib/PACScripts.pm:839
+msgid   "Variable with the latest error from the \"expect\" function"
+msgstr  ""
+
+#: lib/PACScripts.pm:846
+msgid   "Function to print a message on the Terminal"
+msgstr  ""
+
+#: lib/PACScripts.pm:853
+msgid   "Function retrieve connection prompt and remove (1) or not (0-"
+        ">default) any ESCape sequence. Returns a Quoted string \\Qprompt_sting"
+        "\\E valid for RegExp matching"
+msgstr  ""
+
+#: lib/PACScripts.pm:860
+msgid   "Function to SEND some string (input) to the connection (\\n sends a "
+        "<INTRO>)"
+msgstr  ""
+
+#: lib/PACScripts.pm:867
+msgid   "Function to SEND some string (input) to the connection (\\n is "
+        "automatically appended)"
+msgstr  ""
+
+#: lib/PACScripts.pm:886
+msgid   "TERMINAL methods"
+msgstr  ""
+
+#: lib/PACScripts.pm:940
+msgid   "User will be prompted to choose a value form a user defined list "
+        "separated with \"|\" (pipes)"
+msgstr  ""
+
+#: lib/PACScripts.pm:961 lib/PACScripts.pm:967 lib/PACScripts.pm:973
+msgid   "The given command line will be substituted real-timefor it's "
+        "corresponding KeePassX value"
+msgstr  ""
+
+#: lib/PACScripts.pm:1079
+msgid   "File '$file' does not end with a '.pl' Perl extension"
+msgstr  ""
+
+#: lib/PACScripts.pm:1082
+msgid   "File '$filename.pl' already exists. Overwrite it?"
+msgstr  ""
+
+#: lib/PACScripts.pm:1115
+msgid   "<b>Creating new Script</b>"
+msgstr  ""
+
+#: lib/PACScripts.pm:1115
+msgid   "Enter a name for the new PAC Script"
+msgstr  ""
+
+#: lib/PACScripts.pm:1117
+msgid   "File '$name.pl' already exists. Overwrite it?"
+msgstr  ""
+
+#: lib/PACScripts.pm:1120
+msgid   "ERROR: Can not open file '$name.pl' for writting ($!)"
+msgstr  ""
+
+#: lib/PACScripts.pm:1134
+msgid   "$APPNAME (v.$APPVERSION) Choose a text file to Import"
+msgstr  ""
+
+#: lib/PACScripts.pm:1144
+msgid   "Perl files (.pl)"
+msgstr  ""
+
+#: lib/PACScripts.pm:1165
+msgid   "PAC Script '$name' has changed.\n"
+        "Save data before closing PAC Script window?"
+msgstr  ""
+
+#: lib/PACScripts.pm:1168 lib/PACTerminal.pm:3137
+msgid   "no"
+msgstr  ""
+
+#: lib/PACScripts.pm:1182
+msgid   "PAC Script '$name' has changed.\n"
+        "Save data before loading another script?"
+msgstr  ""
+
+#: lib/PACScripts.pm:1187
+msgid   " PAC Scripts?"
+msgstr  ""
+
+#: lib/PACScripts.pm:1187
+msgid   "Are you sure you want to remove "
+msgstr  ""
+
+#: lib/PACScripts.pm:1263
+msgid   "ERROR: Can not read file '$file' ($!)\n"
+        "Delete it?"
+msgstr  ""
+
+#: lib/PACScripts.pm:1353
+msgid   "Execute"
+msgstr  ""
+
+#: lib/PACScripts.pm:1353
+msgid   "New"
+msgstr  ""
+
+#: lib/PACScripts.pm:1577
+msgid   "*ALL*"
+msgstr  ""
+
+#: lib/PACScripts.pm:1615
+msgid   "Could not open PAC Script file '$file' for reading: $!"
+msgstr  ""
+
+#: lib/PACScripts.pm:1622
+msgid   "redefine"
+msgstr  ""
+
+#: lib/PACScripts.pm:1625
+msgid   "Error parsing PAC Script: $@"
+msgstr  ""
+
+#: lib/PACScripts.pm:1635
+msgid   "Error executing PAC Script:\n"
+        "No 'SESSION' function declaration found, and script not being "
+        "executed directly from any Terminal!"
+msgstr  ""
+
+#: lib/PACScripts.pm:1640
+msgid   "Error executing PAC Script: $@"
+msgstr  ""
+
+#: lib/PACScripts.pm:1670 lib/PACTerminal.pm:214 lib/PACTerminal.pm:220
+#: lib/PACTerminal.pm:3192 lib/PACTerminal.pm:3475 lib/PACTerminal.pm:3486
+msgid   "ERROR:$!"
+msgstr  ""
+
+#: lib/PACStatistics.pm:127 lib/PACStatistics.pm:205
+msgid   " hours, "
+msgstr  ""
+
+#: lib/PACStatistics.pm:200
+msgid   "NO DATA AVAILABLE"
+msgstr  ""
+
+#: lib/PACStatistics.pm:281
+msgid   "Reset Statistics..."
+msgstr  ""
+
+#: lib/PACStatistics.pm:323
+msgid   "Are you sure you want to reset <b>ALL PAC</b> statistics?\n"
+        "(This action can not be undone!)"
+msgstr  ""
+
+#: lib/PACStatistics.pm:333
+msgid   "Are you sure you want to reset statistics for group '<b>$name</b>'?\n"
+        "(This action can not be undone!)"
+msgstr  ""
+
+#: lib/PACStatistics.pm:342
+msgid   "Are you sure you want to reset statistics for connection '<b>$name</"
+        "b>'?\n"
+        "(This action can not be undone!)"
+msgstr  ""
+
+#: lib/PACTerminal.pm:108 lib/PACTerminal.pm:109 lib/PACTerminal.pm:199
+msgid   "_UUID"
+msgstr  ""
+
+#: lib/PACTerminal.pm:116 lib/PACTerminal.pm:1364 lib/PACTerminal.pm:1588
+msgid   "DISCONNECTED"
+msgstr  ""
+
+#: lib/PACTerminal.pm:211 lib/PACTerminal.pm:217
+msgid   "Type"
+msgstr  ""
+
+#: lib/PACTerminal.pm:212 lib/PACTerminal.pm:218
+msgid   "Listen"
+msgstr  ""
+
+#: lib/PACTerminal.pm:213 lib/PACTerminal.pm:219 lib/PACUtils.pm:2137
+msgid   "Local"
+msgstr  ""
+
+#: lib/PACTerminal.pm:224 lib/PACTerminal.pm:238 lib/PACTerminal.pm:241
+#: lib/PACTerminal.pm:263 lib/PACTerminal.pm:1434
+msgid   "err"
+msgstr  ""
+
+#: lib/PACTerminal.pm:224 lib/PACTerminal.pm:238 lib/PACTerminal.pm:241
+#: lib/PACTerminal.pm:263 lib/PACTerminal.pm:1434
+msgid   "hup"
+msgstr  ""
+
+#: lib/PACTerminal.pm:224 lib/PACTerminal.pm:238 lib/PACTerminal.pm:263
+msgid   "in"
+msgstr  ""
+
+#: lib/PACTerminal.pm:245
+msgid   " was closed !!"
+msgstr  ""
+
+#: lib/PACTerminal.pm:245
+msgid   "Master socket at port "
+msgstr  ""
+
+#: lib/PACTerminal.pm:274
+#, perl-brace-format
+msgid   "Title: '$$hash{title}', Username: '$$hash{username}'"
+msgstr  ""
+
+#: lib/PACTerminal.pm:313
+msgid   "CONNECTING WITH '$title'"
+msgstr  ""
+
+#: lib/PACTerminal.pm:313
+msgid   "LAUNCHING '$title'"
+msgstr  ""
+
+#: lib/PACTerminal.pm:313 lib/PACTerminal.pm:1368
+msgid   "generic"
+msgstr  ""
+
+#: lib/PACTerminal.pm:323 lib/PACTerminal.pm:1580
+msgid   "visible"
+msgstr  ""
+
+#: lib/PACTerminal.pm:332
+msgid   "log file"
+msgstr  ""
+
+#: lib/PACTerminal.pm:333
+msgid   "socket"
+msgstr  ""
+
+#: lib/PACTerminal.pm:334
+msgid   "socket exec"
+msgstr  ""
+
+#: lib/PACTerminal.pm:337 lib/PACTerminal.pm:617 lib/PACTerminal.pm:642
+#: lib/PACTerminal.pm:758
+msgid   "EMBED"
+msgstr  ""
+
+#: lib/PACTerminal.pm:350
+#, perl-brace-format
+msgid   " !! ${COL_RED}ERROR${COL_RESET}: unable to created embedded window.  "
+        "Terminal will be started in a separated window.\r\n"
+        "\n"
+msgstr  ""
+
+#: lib/PACTerminal.pm:353 lib/PACTerminal.pm:355 lib/PACTerminal.pm:356
+#: lib/PACTerminal.pm:360 lib/PACTerminal.pm:364
+msgid   "width"
+msgstr  ""
+
+#: lib/PACTerminal.pm:354 lib/PACTerminal.pm:357 lib/PACTerminal.pm:365
+msgid   "height"
+msgstr  ""
+
+#: lib/PACTerminal.pm:377
+#, perl-brace-format
+msgid   "ERROR: Could not save PAC config file '$$self{_TMPCFG}': $!"
+msgstr  ""
+
+#: lib/PACTerminal.pm:395
+#, perl-brace-format
+msgid   "ERROR: VTE could not fork command '$PAC_CONN $$self{_TMPCFG} $"
+        "$self{_UUID}'!!"
+msgstr  ""
+
+#: lib/PACTerminal.pm:470
+msgid   "this split tab"
+msgstr  ""
+
+#: lib/PACTerminal.pm:486 lib/PACTerminal.pm:487 lib/PACUtils.pm:458
+#: lib/PACUtils.pm:529 lib/PACUtils.pm:598 lib/PACUtils.pm:649
+#: lib/PACUtils.pm:842 lib/PACUtils.pm:907 lib/PACUtils.pm:972
+#: lib/PACUtils.pm:1039
+msgid   "escape"
+msgstr  ""
+
+#: lib/PACTerminal.pm:629
+msgid   " HISTORY"
+msgstr  ""
+
+#: lib/PACTerminal.pm:629
+msgid   "TIME"
+msgstr  ""
+
+#: lib/PACTerminal.pm:630 lib/PACTerminal.pm:3642 lib/PACTerminal.pm:4347
+msgid   "single"
+msgstr  ""
+
+#: lib/PACTerminal.pm:637 lib/PACTerminal.pm:4403
+msgid   "Forget history"
+msgstr  ""
+
+#: lib/PACTerminal.pm:669
+msgid   "_Local"
+msgstr  ""
+
+#: lib/PACTerminal.pm:687 lib/PACTerminal.pm:689 lib/PACTerminal.pm:3882
+msgid   "Sending THIS: "
+msgstr  ""
+
+#: lib/PACTerminal.pm:689 lib/PACTerminal.pm:3882
+msgid   "Sending CLUSTER: "
+msgstr  ""
+
+#: lib/PACTerminal.pm:702
+msgid   "_Remote"
+msgstr  ""
+
+#: lib/PACTerminal.pm:733
+msgid   "Show/Hide command history"
+msgstr  ""
+
+#: lib/PACTerminal.pm:746
+msgid   "Show/Hide button bar"
+msgstr  ""
+
+#: lib/PACTerminal.pm:754
+msgid   "Show information tab (Shift+Ctrl+I)"
+msgstr  ""
+
+#: lib/PACTerminal.pm:759
+msgid   "Hide _messages"
+msgstr  ""
+
+#: lib/PACTerminal.pm:765 lib/PACTerminal.pm:2530
+msgid   "Set _keyboard focus"
+msgstr  ""
+
+#: lib/PACTerminal.pm:778 lib/PACTerminal.pm:783 lib/PACTerminal.pm:1354
+msgid   "Disconnected"
+msgstr  ""
+
+#: lib/PACTerminal.pm:859 lib/PACTerminal.pm:2551 lib/PACUtils.pm:2196
+#: lib/PACUtils.pm:2496 lib/PACUtils.pm:2523
+msgid   "terminal window hsize"
+msgstr  ""
+
+#: lib/PACTerminal.pm:860 lib/PACTerminal.pm:2552 lib/PACUtils.pm:2197
+#: lib/PACUtils.pm:2497 lib/PACUtils.pm:2524
+msgid   "terminal window vsize"
+msgstr  ""
+
+#: lib/PACTerminal.pm:900 lib/PACTerminal.pm:4407
+msgid   "Are you sure you want to <b>DELETE ALL</b> commands history?"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1070 lib/PACTerminal.pm:1082 lib/PACTerminal.pm:2098
+#: lib/PACTerminal.pm:2100 lib/PACTerminal.pm:2128 lib/PACTerminal.pm:2130
+#: lib/PACTerminal.pm:4150 lib/PACTerminal.pm:4397 lib/PACUtils.pm:3927
+msgid   "CLIPBOARD"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1085 lib/PACTerminal.pm:2133
+msgid   "Enter the String/RegExp of text to be *deleted* when pasting.\n"
+        "Useful for, for example, deleting 'carriage return' from the text "
+        "before pasting it."
+msgstr  ""
+
+#: lib/PACTerminal.pm:1086 lib/PACTerminal.pm:2134
+msgid   "Use string or Perl RegExps (ex: \\n means \"carriage return\")"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1180 lib/PACTerminal.pm:1188
+msgid   "Insert"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1265
+msgid   "commit"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1278
+msgid   "This terminal is <b>DISCONNECTED</b>.\n"
+        "Please, start the connection before trying to <b>chain</b>."
+msgstr  ""
+
+#: lib/PACTerminal.pm:1281
+msgid   "Please, <b>WAIT for current chain to finish</b> before starting a new "
+        "one."
+msgstr  ""
+
+#: lib/PACTerminal.pm:1288
+msgid   "No '<b>Expect/Send</b>' data available in:\n"
+        "<b>$name ($title)</b>\n"
+        "So, there are <b>no commands to chain</b>"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1368
+msgid   "DISCONNECTED (PRESS <ENTER> TO RECONNECT)"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1368
+msgid   "EXECUTION FINISHED (PRESS <ENTER> TO EXECUTE AGAIN)"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1446
+msgid   "Connected"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1468
+msgid   "FreeRDP: "
+msgstr  ""
+
+#: lib/PACTerminal.pm:1514
+msgid   "START"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1546
+msgid   "RESTART"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1551
+msgid   "Expect / Execute: $1 / $2"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1600
+msgid   "Expecting '$1'"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1686 lib/PACTerminal.pm:2683
+#, perl-brace-format
+msgid   "Stop script '$$self{_SCRIPT_NAME}'"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1709
+msgid   "All"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1713
+msgid   "Local Shell"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1731 lib/PACTerminal.pm:2703
+msgid   "Info "
+msgstr  ""
+
+#: lib/PACTerminal.pm:1740
+#, perl-brace-format
+msgid   "Arrange both connections ($$self{_TITLE}) and ($PACMain::"
+        "RUNNING{$uuid_tmp}{terminal}{_TITLE}) into the same vertically split "
+        "window."
+msgstr  ""
+
+#: lib/PACTerminal.pm:1746
+#, perl-brace-format
+msgid   "Arrange both connections ($$self{_TITLE}) and ($PACMain::"
+        "RUNNING{$uuid_tmp}{terminal}{_TITLE}) into the same horizontally "
+        "split window ."
+msgstr  ""
+
+#: lib/PACTerminal.pm:1756
+msgid   "Detach tab to a new Window"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1758
+msgid   "Separate this connection window from the tabbed view, and put it in a "
+        "separate window"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1765 lib/PACTerminal.pm:2728
+msgid   "Unsplit"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1767
+msgid   "Remove the split view and put each connection into its own tab"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1772 lib/PACTerminal.pm:2734
+msgid   "Equally resize terminals"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1774
+msgid   "Resize terminals equally"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1780 lib/PACTerminal.pm:2741
+msgid   "Split"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1786
+msgid   "Vertically"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1792 lib/PACTerminal.pm:2753
+msgid   "Horizontally"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1804
+msgid   "Attach Window to main tab bar"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1806
+msgid   "Put this connection window into main tabbed window"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1817 lib/PACTerminal.pm:2773
+msgid   "New Cluster..."
+msgstr  ""
+
+#: lib/PACTerminal.pm:1820
+msgid   "Create a new cluster and put this connection in it"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1841
+msgid   "Add to selected cluster, with connections:\n"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1849 lib/PACTerminal.pm:2807
+msgid   " to Cluster"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1849 lib/PACTerminal.pm:2807
+msgid   "Add"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1849 lib/PACTerminal.pm:2807
+msgid   "Change"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1857 lib/PACTerminal.pm:2814
+msgid   "Remove from Cluster"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1860
+#, perl-brace-format
+msgid   "Remove this connection from cluster '$$self{_CLUSTER}'"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1870
+msgid   "Bring up the Power Cluster Controller GUI"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1885
+msgid   "Exec the CONNECTIONS part of '$name' in this connection"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1891
+msgid   "Execute Script"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1893
+msgid   "Execute selected PAC Script in this connection"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1938
+msgid   "Remote commands"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1940
+msgid   "Send to this connection the selected command (keypresses)"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1979
+msgid   "Local commands"
+msgstr  ""
+
+#: lib/PACTerminal.pm:1981
+msgid   "Execute LOCALLY (in YOUR computer) the selected command"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2050
+#, perl-brace-format
+msgid   "Title:$$entry{title},User:$$entry{username}"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2051
+#, perl-brace-format
+msgid   "Password:$$entry{password}"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2064
+msgid   "Insert value"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2066
+msgid   "Send selected local/global/environment value to terminal"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2075
+msgid   "Copy"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2083
+msgid   "Copy Connection Password"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2095
+msgid   "Paste"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2108
+msgid   "Paste Connection Password"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2124
+msgid   "Paste and Delete..."
+msgstr  ""
+
+#: lib/PACTerminal.pm:2127
+msgid   "Paste clipboard contents, but remove any Perl RegExp matching string "
+        "from the appearing prompt GUI"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2144 lib/PACTerminal.pm:2828
+msgid   "Find..."
+msgstr  ""
+
+#: lib/PACTerminal.pm:2147 lib/PACTerminal.pm:2831
+msgid   "Command History..."
+msgstr  ""
+
+#: lib/PACTerminal.pm:2150 lib/PACTerminal.pm:2834
+msgid   "Save session log..."
+msgstr  ""
+
+#: lib/PACTerminal.pm:2153 lib/PACTerminal.pm:2837
+msgid   "Edit session..."
+msgstr  ""
+
+#: lib/PACTerminal.pm:2156 lib/PACTerminal.pm:2840
+msgid   "Temporary TAB Label change..."
+msgstr  ""
+
+#: lib/PACTerminal.pm:2160 lib/PACTerminal.pm:2844
+#, perl-brace-format
+msgid   "<b>Temporaly renaming label '@{[__($$self{_TITLE})]}'</b>"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2161 lib/PACTerminal.pm:2845
+msgid   "Enter the new temporal label:"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2170
+msgid   "Set title with guessed hostname"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2173
+msgid   "Open file manager on current dir"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2176
+msgid   "Take Screenshot"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2193
+msgid   "Open new SFTP window"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2213
+msgid   "Terminal"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2219
+msgid   "Reset"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2226
+msgid   "Reset and clear"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2238
+msgid   "Session"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2245
+msgid   " programatically string sending"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2245
+msgid   "Stop"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2246
+msgid   "\n"
+        "Every: "
+msgstr  ""
+
+#: lib/PACTerminal.pm:2246
+msgid   " seconds"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2403 lib/PACTerminal.pm:2405 lib/PACTerminal.pm:2412
+#: lib/PACUtils.pm:2181 lib/PACUtils.pm:2481 lib/PACUtils.pm:2508
+msgid   "use tab back color"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2433
+msgid   "(... older status skipped...)"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2439
+#, perl-brace-format
+msgid   "[IN CLUSTER: $$self{_CLUSTER}] - Status: $$self{_LAST_STATUS}"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2441
+#, perl-brace-format
+msgid   "Status: $$self{_LAST_STATUS}"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2673
+msgid   "Goto TAB"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2723
+msgid   "Detach TAB to a new Window"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2747
+msgid   "Vertically "
+msgstr  ""
+
+#: lib/PACTerminal.pm:2763
+msgid   "Attach Window to main TAB bar"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2821
+msgid   "Cluster Admin..."
+msgstr  ""
+
+#: lib/PACTerminal.pm:2857
+msgid   "New connection"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2860
+msgid   "Duplicate connection"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2865
+msgid   "Disconnect session"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2866
+msgid   "Restart session"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2867
+msgid   "Close terminal"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2868
+msgid   "Close ALL terminals"
+msgstr  ""
+
+#: lib/PACTerminal.pm:2870
+msgid   "Are you sure you want to CLOSE <b>every</b> terminal?"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3070
+msgid   "PAC Tabbed"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3103
+msgid   "Select file to save session log"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3121
+msgid   "Do you want to remove escape sequences from the saved log?"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3125
+#, perl-brace-format
+msgid   "ERROR: Could not open file '$$self{_LOGFILE}' for reading!! ($!)"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3132
+msgid   "ERROR: Could not open file '$new_file' for writting!! ($!)"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3155
+msgid   "Execute <b>'$comm'</b> "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3155
+msgid   "LOCALLY"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3155
+msgid   "REMOTELY"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3161
+msgid   "Canceled '<b>$where</b>' execution of '<b>$comm</b>'"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3176
+msgid   "Please, wait at least <b>$EXEC_STORM_TIME</b> seconds between Remote "
+        "Commands Executions"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3182 lib/PACTerminal.pm:3479
+#, perl-brace-format
+msgid   "ERROR: Could not signal process '$$self{_PID}'\n"
+        "Inconsistent state!\n"
+        "Please, restart PAC!!"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3240 lib/PACUtils.pm:2386 lib/PACUtils.pm:2389
+#: lib/PACUtils.pm:2470 lib/PACUtils.pm:2473
+msgid   "ask"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3241 lib/PACUtils.pm:2385 lib/PACUtils.pm:2390
+#: lib/PACUtils.pm:2469 lib/PACUtils.pm:2474
+msgid   "default"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3242 lib/PACUtils.pm:2387 lib/PACUtils.pm:2391
+#: lib/PACUtils.pm:2471 lib/PACUtils.pm:2475
+msgid   "command"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3302
+msgid   "Executing: "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3393 lib/PACTerminal.pm:3457 lib/PACUtils.pm:2408
+#: lib/PACUtils.pm:2417
+msgid   "return"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3443
+msgid   "set title"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3468
+#, perl-brace-format
+msgid   "ERROR: Could not signal process '$PACMain::RUNNING{$cluster_uuid}"
+        "{terminal}{_PID}'\n"
+        "Inconsistent state!\n"
+        "Please, restart PAC!!"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3505
+msgid   " : $APPNAME : Chain connections"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3521
+#, perl-brace-format
+msgid   " Select 'expect/command' pairs from '$$self{_CFG}{'environments'}"
+        "{$drop_uuid}{'name'}' to be executed into '$$self{_CFG}"
+        "{'environments'}{$$self{_UUID}}{'name'}': "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3535
+msgid   " ACTIVE "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3536
+msgid   " PATTERN "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3537
+msgid   " COMMAND "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3538
+msgid   " RETURN "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3539
+msgid   " ON MATCH "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3540
+msgid   " ON FAIL "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3541
+msgid   " TIME OUT "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3548
+msgid   "Select All/None"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3555
+msgid   "Change TAB/Window title to: "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3563
+msgid   "Send Chain to all connections in cluster"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3602
+#, perl-brace-format
+msgid   "$self->{_TITLE} : $APPNAME : Select keypresses to propagate to "
+        "Duplicated Connection"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3617
+msgid   "<big><b><span foreground=\"#FF0000\">***************** ATTENTION "
+        "*****************</span></b></big>\n"
+        "Are you sure you want to duplicate this connection, including "
+        "<b>every kestroke</b> registered until now?\n"
+        "That can be *very dangerous*, specially if you do not remember your "
+        "keyboard activity in this terminal.\n"
+        "If unsure, click 'Cancel' and take a look at this terminals's history"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3622 lib/PACTerminal.pm:4328
+msgid   " Command History: "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3635
+msgid   " Execute "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3636
+msgid   " Last Execution "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3637 lib/PACTerminal.pm:4342
+msgid   " Command "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3638
+msgid   " cmd "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3641 lib/PACTerminal.pm:4121 lib/PACTerminal.pm:4346
+msgid   "both"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3667
+msgid   "Time between commands to replicate: "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3685
+msgid   "Select all"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3691
+msgid   "Select none"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3698
+msgid   "Go _FULL Duplicate"
+msgstr  ""
+
+#: lib/PACTerminal.pm:3831
+msgid   "CONFIRM: "
+msgstr  ""
+
+#: lib/PACTerminal.pm:3974 lib/PACUtils.pm:2192 lib/PACUtils.pm:2490
+#: lib/PACUtils.pm:2517
+msgid   "terminal select words"
+msgstr  ""
+
+#: lib/PACTerminal.pm:4016 lib/PACTerminal.pm:4198
+#, perl-brace-format
+msgid   "ERROR: Could not open file '$$self{_LOGFILE}': $!"
+msgstr  ""
+
+#: lib/PACTerminal.pm:4045
+#, perl-brace-format
+msgid   "$$self{_TITLE} : $APPNAME : Find in Terminal"
+msgstr  ""
+
+#: lib/PACTerminal.pm:4064
+msgid   " Enter Regular Expression to look for: "
+msgstr  ""
+
+#: lib/PACTerminal.pm:4082
+msgid   "Case sensitive"
+msgstr  ""
+
+#: lib/PACTerminal.pm:4104
+msgid   " Lines matching string: "
+msgstr  ""
+
+#: lib/PACTerminal.pm:4117
+msgid   " Line # "
+msgstr  ""
+
+#: lib/PACTerminal.pm:4118
+msgid   " Line contents "
+msgstr  ""
+
+#: lib/PACTerminal.pm:4122
+msgid   "multiple"
+msgstr  ""
+
+#: lib/PACTerminal.pm:4167
+msgid   " Contents of current log: "
+msgstr  ""
+
+#: lib/PACTerminal.pm:4224
+msgid   " PLEASE, WAIT. SEARCHING... "
+msgstr  ""
+
+#: lib/PACTerminal.pm:4225
+msgid   "STOP SEARCH"
+msgstr  ""
+
+#: lib/PACTerminal.pm:4256
+msgid   " LINES MATCHING '$val' SO FAR!! "
+msgstr  ""
+
+#: lib/PACTerminal.pm:4256
+msgid   " SEARCH WAS STOPPED WITH "
+msgstr  ""
+
+#: lib/PACTerminal.pm:4261
+msgid   " PLEASE, WAIT. Updating... ("
+msgstr  ""
+
+#: lib/PACTerminal.pm:4261
+msgid   " lines matching '$val') "
+msgstr  ""
+
+#: lib/PACTerminal.pm:4271
+msgid   " lines matching '$val': "
+msgstr  ""
+
+#: lib/PACTerminal.pm:4272
+msgid   "Find"
+msgstr  ""
+
+#: lib/PACTerminal.pm:4313
+#, perl-brace-format
+msgid   "$self->{_TITLE}  : $APPNAME : Command History"
+msgstr  ""
+
+#: lib/PACTerminal.pm:4341
+msgid   " Execution time "
+msgstr  ""
+
+#: lib/PACTerminal.pm:4434
+#, perl-brace-format
+msgid   "CONNECTED: Sending keystrokes for FULL Duplication ($"
+        "$self{_KEYS_RECEIVE}{sleep} seconds interval)..."
+msgstr  ""
+
+#: lib/PACTray.pm:100
+msgid   "ERROR: Could not create tray icon: $!"
+msgstr  ""
+
+#: lib/PACTray.pm:191 lib/PACTrayUnity.pm:113
+msgid   "Clusters"
+msgstr  ""
+
+#: lib/PACTray.pm:195 lib/PACTrayUnity.pm:117
+msgid   "Preferences..."
+msgstr  ""
+
+#: lib/PACTray.pm:200 lib/PACTrayUnity.pm:135
+msgid   "About"
+msgstr  ""
+
+#: lib/PACTray.pm:203 lib/PACTrayUnity.pm:138
+msgid   "below calling widget"
+msgstr  ""
+
+#: lib/PACUtils.pm:293
+msgid   "<b>Starting $APPNAME (v$APPVERSION)...</b>"
+msgstr  ""
+
+#: lib/PACUtils.pm:393
+msgid   "No 'rdesktop' binary found.\n"
+        "To use this option, please, install :'rdesktop'"
+msgstr  ""
+
+#: lib/PACUtils.pm:400 lib/PACUtils.pm:471 lib/PACUtils.pm:728
+#: lib/PACUtils.pm:855 lib/PACUtils.pm:920 lib/PACUtils.pm:984
+#: lib/PACUtils.pm:1049 lib/PACUtils.pm:1119
+msgid   "IP/Hostname"
+msgstr  ""
+
+#: lib/PACUtils.pm:407 lib/PACUtils.pm:478 lib/PACUtils.pm:666
+#: lib/PACUtils.pm:859 lib/PACUtils.pm:924 lib/PACUtils.pm:991
+#: lib/PACUtils.pm:1057 lib/PACUtils.pm:1126
+msgid   "User (User/Password authentication method selected)"
+msgstr  ""
+
+#: lib/PACUtils.pm:410 lib/PACUtils.pm:481 lib/PACUtils.pm:669
+msgid   "Password (User/Password authentication method selected)"
+msgstr  ""
+
+#: lib/PACUtils.pm:427 lib/PACUtils.pm:498 lib/PACUtils.pm:567
+#: lib/PACUtils.pm:744 lib/PACUtils.pm:811 lib/PACUtils.pm:876
+#: lib/PACUtils.pm:941 lib/PACUtils.pm:1008 lib/PACUtils.pm:1078
+#: lib/PACUtils.pm:1143 lib/PACUtils.pm:3111
+msgid   "Host: "
+msgstr  ""
+
+#: lib/PACUtils.pm:428 lib/PACUtils.pm:499 lib/PACUtils.pm:568
+#: lib/PACUtils.pm:812 lib/PACUtils.pm:877 lib/PACUtils.pm:942
+#: lib/PACUtils.pm:1009 lib/PACUtils.pm:1079 lib/PACUtils.pm:1144
+msgid   "IP or Hostname of the machine to connect to"
+msgstr  ""
+
+#: lib/PACUtils.pm:453 lib/PACUtils.pm:524 lib/PACUtils.pm:593
+#: lib/PACUtils.pm:644 lib/PACUtils.pm:712 lib/PACUtils.pm:760
+#: lib/PACUtils.pm:837 lib/PACUtils.pm:902 lib/PACUtils.pm:967
+#: lib/PACUtils.pm:1034 lib/PACUtils.pm:1104 lib/PACUtils.pm:1168
+#: lib/PACUtils.pm:1218
+msgid   " '<b>$method</b>' command line options: "
+msgstr  ""
+
+#: lib/PACUtils.pm:464
+msgid   "No 'xfreerdp' binary found.\n"
+        "To use this option, please, install:\n"
+        "'freerdp2-x11'"
+msgstr  ""
+
+#: lib/PACUtils.pm:604
+msgid   "No 'cu' binary found.\n"
+        "To use this option, please, install 'cu'."
+msgstr  ""
+
+#: lib/PACUtils.pm:614 lib/PACUtils.pm:2279
+msgid   "Serial (cu)"
+msgstr  ""
+
+#: lib/PACUtils.pm:622
+msgid   "System / Phone / \"dir\": "
+msgstr  ""
+
+#: lib/PACUtils.pm:623
+msgid   "Enter string of kind: system | phone | 'dir' or\n"
+        "leave empty and use the 'Line' option under the 'cu options' tab on "
+        "the left"
+msgstr  ""
+
+#: lib/PACUtils.pm:655
+msgid   "No 'remote-tty' binary found.\n"
+        "To use this option, please, install 'remote-tty'."
+msgstr  ""
+
+#: lib/PACUtils.pm:662
+msgid   "TTY Socket"
+msgstr  ""
+
+#: lib/PACUtils.pm:678 lib/PACUtils.pm:2282
+msgid   "Serial (remote-tty)"
+msgstr  ""
+
+#: lib/PACUtils.pm:686
+msgid   "TTY Socket: "
+msgstr  ""
+
+#: lib/PACUtils.pm:687
+msgid   "Enter a TTY / Serial socket (eg: /dev/tty*)"
+msgstr  ""
+
+#: lib/PACUtils.pm:722
+msgid   "No 'c3270' binary found.\n"
+        "To use this option, please, install 'c3270' or 'x3270-text'."
+msgstr  ""
+
+#: lib/PACUtils.pm:745
+msgid   "IP or Hostname of the host to connect to"
+msgstr  ""
+
+#: lib/PACUtils.pm:848
+msgid   "No 'mosh' binary found.\n"
+        "To use this option, please, install 'mosh'."
+msgstr  ""
+
+#: lib/PACUtils.pm:913
+msgid   "No 'cadaver' binary found.\n"
+        "To use this option, please, install 'cadaver'."
+msgstr  ""
+
+#: lib/PACUtils.pm:978
+msgid   "No 'telnet' binary found.\n"
+        "To use this option, please, install 'telnet' or 'telnet-ssl'."
+msgstr  ""
+
+#: lib/PACUtils.pm:1061
+msgid   "Public Key File (Public Key authentication method selected)"
+msgstr  ""
+
+#: lib/PACUtils.pm:1175 lib/PACUtils.pm:1189 lib/PACUtils.pm:2294
+msgid   "Generic Command"
+msgstr  ""
+
+#: lib/PACUtils.pm:1183
+msgid   "Full command line"
+msgstr  ""
+
+#: lib/PACUtils.pm:1195
+msgid   "Full command line: "
+msgstr  ""
+
+#: lib/PACUtils.pm:1196
+msgid   "Full command line to execute, example:\n"
+        "firefox http://www.google.es\n"
+        "or\n"
+        "xdg-open $HOME/Pictures/mounaint.jpg\n"
+        "or\n"
+        "/bin/bash -login\n"
+        "etc..."
+msgstr  ""
+
+#: lib/PACUtils.pm:1354
+#, perl-brace-format
+msgid   "Chain with '$$terminal{_NAME}'"
+msgstr  ""
+
+#: lib/PACUtils.pm:1566
+msgid   "<b>Adding new node into '"
+msgstr  ""
+
+#: lib/PACUtils.pm:1575
+msgid   "$APPNAME (v$APPVERSION) : Enter data"
+msgstr  ""
+
+#: lib/PACUtils.pm:1611
+msgid   "Enter new NAME: "
+msgstr  ""
+
+#: lib/PACUtils.pm:1630
+msgid   "Enter new TITLE: "
+msgstr  ""
+
+#: lib/PACUtils.pm:1676
+msgid   "Actions"
+msgstr  ""
+
+#: lib/PACUtils.pm:1687 lib/PACUtils.pm:1691
+msgid   "/Menu"
+msgstr  ""
+
+#: lib/PACUtils.pm:1792
+msgid   "$APPNAME (v$APPVERSION) : Message"
+msgstr  ""
+
+#: lib/PACUtils.pm:1859
+msgid   "<b>Please, wait...</b>"
+msgstr  ""
+
+#: lib/PACUtils.pm:1930
+msgid   "GUI Password Change"
+msgstr  ""
+
+#: lib/PACUtils.pm:1930
+msgid   "Please, enter *OLD* GUI Password..."
+msgstr  ""
+
+#: lib/PACUtils.pm:1936
+msgid   "ERROR: Wrong <b>OLD</b> password!!"
+msgstr  ""
+
+#: lib/PACUtils.pm:1942 lib/PACUtils.pm:1948
+msgid   "<b>GUI Password Change</b>"
+msgstr  ""
+
+#: lib/PACUtils.pm:1942
+msgid   "Please, enter *NEW* GUI Password..."
+msgstr  ""
+
+#: lib/PACUtils.pm:1948
+msgid   "Please, repeat *NEW* GUI Password..."
+msgstr  ""
+
+#: lib/PACUtils.pm:1954
+msgid   "<b>ERROR</b>: Provided <b>NEW</b> passwords <span foreground=\"red"
+        "\"><b>DO NOT MATCH</b></span>!!!"
+msgstr  ""
+
+#: lib/PACUtils.pm:1995 lib/PACUtils.pm:2186 lib/PACUtils.pm:2486
+#: lib/PACUtils.pm:2513
+msgid   "([pP]ass|[pP]ass[wW]or[dt](\\s+for\\s+|\\w+@\\w+)*|[cC]ontrase.a|"
+        "Enter passphrase for key '.+')\\s*:\\s*$"
+msgstr  ""
+
+#: lib/PACUtils.pm:1996
+msgid   "^.+ontinue connecting \\(([^/]+)\\/([^/]+)(?:[^)]+)?\\)\\?\\s*$"
+msgstr  ""
+
+#: lib/PACUtils.pm:1997
+msgid   ".*(any key to continue|tecla para continuar).*"
+msgstr  ""
+
+#: lib/PACUtils.pm:2066 lib/PACUtils.pm:3491 lib/PACUtils.pm:3494
+msgid   "check versions at start"
+msgstr  ""
+
+#: lib/PACUtils.pm:2082
+msgid   "autostart shell upon start"
+msgstr  ""
+
+#: lib/PACUtils.pm:2088
+msgid   "Normal"
+msgstr  ""
+
+#: lib/PACUtils.pm:2136
+msgid   "A shell on the local machine"
+msgstr  ""
+
+#: lib/PACUtils.pm:2142 lib/PACUtils.pm:2262
+msgid   "search pass on KPX"
+msgstr  ""
+
+#: lib/PACUtils.pm:2182 lib/PACUtils.pm:2482 lib/PACUtils.pm:2509
+msgid   "tab back color"
+msgstr  ""
+
+#: lib/PACUtils.pm:2256
+msgid   "Connection with '$$cfg{'environments'}{$uuid}{'name'}'"
+msgstr  ""
+
+#: lib/PACUtils.pm:2350 lib/PACUtils.pm:2353 lib/PACUtils.pm:2679
+#: lib/PACUtils.pm:2732
+msgid   "hide"
+msgstr  ""
+
+#: lib/PACUtils.pm:2362 lib/PACUtils.pm:2363 lib/PACUtils.pm:2364
+#: lib/PACUtils.pm:2367 lib/PACUtils.pm:2373 lib/PACUtils.pm:2374
+msgid   "screenshot"
+msgstr  ""
+
+#: lib/PACUtils.pm:2433 lib/PACUtils.pm:2436 lib/PACUtils.pm:2450
+#: lib/PACUtils.pm:2454
+msgid   "confirm"
+msgstr  ""
+
+#: lib/PACUtils.pm:2451 lib/PACUtils.pm:2455
+msgid   "intro"
+msgstr  ""
+
+#: lib/PACUtils.pm:2546 lib/PACUtils.pm:2547 lib/PACUtils.pm:2614
+#: lib/PACUtils.pm:2617
+msgid   "any"
+msgstr  ""
+
+#: lib/PACUtils.pm:2873
+msgid   "ERROR: KeePassX variable '@{[__($var)]}' can not be used because "
+        "'KeePassX' is not enabled under 'Preferences->KeePass Options'"
+msgstr  ""
+
+#: lib/PACUtils.pm:2879
+msgid   "ERROR: No entry '$where' found on KeePassX matching '@{[__($var)]}'"
+msgstr  ""
+
+#: lib/PACUtils.pm:2882
+msgid   "INFO: Found more than one entry for '$where' with value '$var'. "
+        "Asking user..."
+msgstr  ""
+
+#: lib/PACUtils.pm:2883
+msgid   "<ASK:KeePass Passwords matching '$where' like '$var':"
+msgstr  ""
+
+#: lib/PACUtils.pm:2891
+msgid   " entries for '$where' with value '$var'. Selected first entry..."
+msgstr  ""
+
+#: lib/PACUtils.pm:2891
+msgid   "INFO: Found "
+msgstr  ""
+
+#: lib/PACUtils.pm:2904
+msgid   "ERROR: KeePassX variable '<b>@{[__($var)]}</b>' can not be used.\n"
+        "'KeePassX' is not enabled under '<b>Preferences->KeePass Options</b>'"
+msgstr  ""
+
+#: lib/PACUtils.pm:2910
+msgid   "ERROR: No entry '<b>$type</b>' found on KeePassX matching "
+        "'<b>@{[__($var)]}</b>'"
+msgstr  ""
+
+#: lib/PACUtils.pm:2913
+msgid   "<ASK:KeePass Passwords matching '$type' like '$var':"
+msgstr  ""
+
+#: lib/PACUtils.pm:2960
+msgid   "<b>Variable substitution '$var'</b>"
+msgstr  ""
+
+#: lib/PACUtils.pm:2971
+msgid   "<b>Choose variable value:</b>"
+msgstr  ""
+
+#: lib/PACUtils.pm:2979
+msgid   "<b>Variable substitution</b>"
+msgstr  ""
+
+#: lib/PACUtils.pm:2979
+msgid   "Please, enter a value for:'$var'"
+msgstr  ""
+
+#: lib/PACUtils.pm:3020
+msgid   "prompt"
+msgstr  ""
+
+#: lib/PACUtils.pm:3058
+msgid   "$APPNAME (v$APPVERSION) : Wake On LAN"
+msgstr  ""
+
+#: lib/PACUtils.pm:3073
+msgid   "Wake On LAN"
+msgstr  ""
+
+#: lib/PACUtils.pm:3085
+msgid   "<b>Enter the following data and press 'OK' to send Magic Packet:</b>"
+msgstr  ""
+
+#: lib/PACUtils.pm:3095
+msgid   "MAC Address: "
+msgstr  ""
+
+#: lib/PACUtils.pm:3127
+msgid   "Port Number: "
+msgstr  ""
+
+#: lib/PACUtils.pm:3136
+msgid   "Send to broadcast"
+msgstr  ""
+
+#: lib/PACUtils.pm:3149
+msgid   "Checking MAC for '$ip' ..."
+msgstr  ""
+
+#: lib/PACUtils.pm:3157
+msgid   "event"
+msgstr  ""
+
+#: lib/PACUtils.pm:3180 lib/PACUtils.pm:3183
+msgid   "unknown"
+msgstr  ""
+
+#: lib/PACUtils.pm:3188
+msgid   "REACHABLE"
+msgstr  ""
+
+#: lib/PACUtils.pm:3188
+msgid   "UNREACHABLE"
+msgstr  ""
+
+#: lib/PACUtils.pm:3203
+msgid   "No IP/hostname to test reachability"
+msgstr  ""
+
+#: lib/PACUtils.pm:3207
+msgid   "Selected saved MAC"
+msgstr  ""
+
+#: lib/PACUtils.pm:3228
+msgid   "ERROR: Can't create socket ($!)"
+msgstr  ""
+
+#: lib/PACUtils.pm:3230
+msgid   "ERROR: Can't change socket properties ($!)"
+msgstr  ""
+
+#: lib/PACUtils.pm:3247
+msgid   "ERROR: Unknown host: $ip"
+msgstr  ""
+
+#: lib/PACUtils.pm:3249
+msgid   "ERROR: Sockaddr_in failed ($!)"
+msgstr  ""
+
+#: lib/PACUtils.pm:3253
+msgid   "ERROR: Sending magic packet to $ip (MAC: $mac) failed:\n"
+        "$!"
+msgstr  ""
+
+#: lib/PACUtils.pm:3270
+msgid   "Wake On Lan 'Magic Packet'\n"
+        "CORRECTLY sent to "
+msgstr  ""
+
+#: lib/PACUtils.pm:3387
+msgid   "ERROR: Could not open dir '$CFG_DIR/screenshots' for reading: $!"
+msgstr  ""
+
+#: lib/PACUtils.pm:3462
+msgid   "$APPNAME (v$APPVERSION) : Check new version availability"
+msgstr  ""
+
+#: lib/PACUtils.pm:3476
+msgid   "There is <b>NO</b> new version available"
+msgstr  ""
+
+#: lib/PACUtils.pm:3479
+msgid   "There is a <b><big>NEW</big></b> version available: <b><big>"
+        "$NEW_VERSION</big></b>"
+msgstr  ""
+
+#: lib/PACUtils.pm:3490
+msgid   "Do not check for updates anymore (also configurable under "
+        "\"Preferences\")"
+msgstr  ""
+
+#: lib/PACUtils.pm:3546
+msgid   "ISO registry (formerly ECMA registry)"
+msgstr  ""
+
+#: lib/PACUtils.pm:3550
+msgid   "Used in Japan.  Each character is 2 octets."
+msgstr  ""
+
+#: lib/PACUtils.pm:3551
+msgid   "Standardized by OSF, UNIX International, and UNIX Systems"
+msgstr  ""
+
+#: lib/PACUtils.pm:3552 lib/PACUtils.pm:3556
+msgid   "Chinese IT Standardization Technical Committee"
+msgstr  ""
+
+#: lib/PACUtils.pm:3555
+msgid   "Chinese for People's Republic of China (PRC) mixed one byte,"
+msgstr  ""
+
+#: lib/PACUtils.pm:3561 lib/PACUtils.pm:3562 lib/PACUtils.pm:3563
+#: lib/PACUtils.pm:3564 lib/PACUtils.pm:3706 lib/PACUtils.pm:3749
+msgid   "PCL 5 Comparison Guide, Hewlett-Packard,"
+msgstr  ""
+
+#: lib/PACUtils.pm:3565
+msgid   "LaserJet IIP Printer User's Manual,"
+msgstr  ""
+
+#: lib/PACUtils.pm:3599
+msgid   "HP PCL 5 Comparison Guide (P/N 5021-0329) pp B-13, 1996"
+msgstr  ""
+
+#: lib/PACUtils.pm:3608 lib/PACUtils.pm:3609 lib/PACUtils.pm:3613
+msgid   "IBM Keyboard layouts and code pages, PN 07G4586 June 1991"
+msgstr  ""
+
+#: lib/PACUtils.pm:3622
+msgid   "Presentation Set, CPGID: 259"
+msgstr  ""
+
+#: lib/PACUtils.pm:3623
+msgid   "Presentation Set, CPGID: 838"
+msgstr  ""
+
+#: lib/PACUtils.pm:3631
+msgid   "the 2-octet Basic Multilingual Plane, aka Unicode"
+msgstr  ""
+
+#: lib/PACUtils.pm:3632
+msgid   "the full code space. (same comment about byte order,"
+msgstr  ""
+
+#: lib/PACUtils.pm:3633
+msgid   "ASCII subset of Unicode.  Basic Latin = collection 1"
+msgstr  ""
+
+#: lib/PACUtils.pm:3634
+msgid   "ISO Latin-1 subset of Unicode. Basic Latin and Latin-1"
+msgstr  ""
+
+#: lib/PACUtils.pm:3635
+msgid   "Universal Transfer Format (1), this is the multibyte"
+msgstr  ""
+
+#: lib/PACUtils.pm:3649
+msgid   "ECMA registry and ISO 6937-2:1983"
+msgstr  ""
+
+#: lib/PACUtils.pm:3656
+msgid   "Extended ISO 8859-1 Latin-1 for Windows 3.0."
+msgstr  ""
+
+#: lib/PACUtils.pm:3657
+msgid   "Extended ISO 8859-1 Latin-1 for Windows 3.1."
+msgstr  ""
+
+#: lib/PACUtils.pm:3659
+msgid   "Extended ISO 8859-2.  Latin-2 for Windows 3.1."
+msgstr  ""
+
+#: lib/PACUtils.pm:3671
+msgid   "Extended ISO 8859-9.  Latin-5 for Windows 3.1"
+msgstr  ""
+
+#: lib/PACUtils.pm:3674
+msgid   "IBM Latin-2, -3, -5, Extended Presentation Set, GCSGID: 1261"
+msgstr  ""
+
+#: lib/PACUtils.pm:3675
+msgid   "IBM Arabic Presentation Set, GCSGID: 1264"
+msgstr  ""
+
+#: lib/PACUtils.pm:3676
+msgid   "IBM Hebrew Presentation Set, GCSGID: 1265"
+msgstr  ""
+
+#: lib/PACUtils.pm:3677
+msgid   "IBM Latin-4 Extended Presentation Set, GCSGID: 1268"
+msgstr  ""
+
+#: lib/PACUtils.pm:3678
+msgid   "IBM Cyrillic Greek Extended Presentation Set, GCSGID: 1276"
+msgstr  ""
+
+#: lib/PACUtils.pm:3691
+msgid   "JIS X 0201-1976. One byte only"
+msgstr  ""
+
+#: lib/PACUtils.pm:3705
+msgid   "The Unicode Standard ver1.0, ISBN 0-201-56788-1, Oct 1991"
+msgstr  ""
+
+#: lib/PACUtils.pm:3705
+msgid   "macintosh"
+msgstr  ""
+
+#: lib/PACUtils.pm:3719 lib/PACUtils.pm:3720 lib/PACUtils.pm:3721
+msgid   "Fujitsu-Siemens standard mainframe EBCDIC encoding"
+msgstr  ""
+
+#: lib/PACUtils.pm:3722
+msgid   "PC Danish Norwegian"
+msgstr  ""
+
+#: lib/PACUtils.pm:3723
+msgid   "PC Latin Turkish.  PCL Symbol Set id: 9T"
+msgstr  ""
+
+#: lib/PACUtils.pm:3730
+msgid   "This charset is an extension of csHalfWidthKatakana"
+msgstr  ""
+
+#: lib/PACUtils.pm:3734
+msgid   "Thai Industrial Standards Institute (TISI)"
+msgstr  ""
+
+#: lib/PACUtils.pm:3748
+msgid   "Ventura International.  ASCII plus coded characters similar"
+msgstr  ""
+
+#: lib/PACUtils.pm:3750
+msgid   "Ventura US.  ASCII plus characters typically used in"
+msgstr  ""
+
+#: lib/PACUtils.pm:3763
+msgid   "Windows Japanese.  A further extension of Shift_JIS"
+msgstr  ""
