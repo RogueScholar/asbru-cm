@@ -1,3 +1,4 @@
+# deb [allow-insecure=yes allow-weak=yes arch=amd64 lang=en_US trusted=yes] file:/home/circleci/debs ./
 deb http://us.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
 deb-src http://us.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
 deb http://us.archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
@@ -8,16 +9,17 @@ deb http://us.archive.ubuntu.com/ubuntu xenial-security main restricted universe
 deb-src http://us.archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
 deb http://us.archive.ubuntu.com/ubuntu xenial-proposed main universe multiverse restricted
 deb-src http://us.archive.ubuntu.com/ubuntu xenial-proposed main universe multiverse restricted
-deb http://us.archive.ubuntu.com/ubuntu disco main restricted universe multiverse
-deb-src http://us.archive.ubuntu.com/ubuntu disco main restricted universe multiverse
-deb http://us.archive.ubuntu.com/ubuntu disco-updates main restricted universe multiverse
-deb-src http://us.archive.ubuntu.com/ubuntu disco-updates main restricted universe multiverse
-deb http://us.archive.ubuntu.com/ubuntu disco-backports main restricted universe multiverse
-deb-src http://us.archive.ubuntu.com/ubuntu disco-backports main restricted universe multiverse
-deb http://us.archive.ubuntu.com/ubuntu disco-security main restricted universe multiverse
-deb-src http://us.archive.ubuntu.com/ubuntu disco-security main restricted universe multiverse
-deb http://us.archive.ubuntu.com/ubuntu disco-proposed main universe multiverse restricted
-deb-src http://us.archive.ubuntu.com/ubuntu disco-proposed main universe multiverse restricted
 deb https://packagecloud.io/asbru-cm/asbru-cm/ubuntu/ xenial main
 deb-src https://packagecloud.io/asbru-cm/asbru-cm/ubuntu/ xenial main
-
+deb http://us.archive.ubuntu.com/ubuntu eoan main restricted universe multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu eoan main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu eoan-updates main restricted universe multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu eoan-updates main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu eoan-backports main restricted universe multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu eoan-backports main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu eoan-security main restricted universe multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu eoan-security main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu eoan-proposed main universe multiverse restricted
+deb-src http://us.archive.ubuntu.com/ubuntu eoan-proposed main universe multiverse restricted
+deb https://packagecloud.io/asbru-cm/asbru-cm/ubuntu/ eoan main
+deb-src https://packagecloud.io/asbru-cm/asbru-cm/ubuntu/ eoan main

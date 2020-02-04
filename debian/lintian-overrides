@@ -1,0 +1,2 @@
+# Python script is provided as a convenience, not for functionality
+asbru-cm: python-script-but-no-python-dep usr/share/asbru/utils/asbru_from_superputty.py #!/usr/bin/python 

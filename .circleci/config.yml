@@ -1,38 +1,28 @@
 ---
 # yamllint disable rule:key-ordering rule:quoted-strings
 version: 2.1
-orbs:
-  irc: circleci/irc@0.1.0
 executors:
-  golang-alpine-docker:
+  ubuntu-eoan:
     docker:
-      - image: golang:alpine
-    working_directory: /home/circleci/asbru-cm
-  ubuntu-disco-docker:
-    docker:
-      - image: circleci/buildpack-deps:disco
+      - image: circleci/buildpack-deps:eoan
     shell: /bin/bash
-    working_directory: /home/circleci/asbru-cm
+    working_directory: /home/circleci/packages
     environment:
-      DEBIAN_FRONTEND: "noninteractive"
-      DH_VERBOSE: "1"
-  ubuntu-xenial-machine:
-    machine:
-      image: ubuntu-1604:201903-01
-    shell: /bin/bash
-    working_directory: /home/circleci/asbru-cm
-    environment:
+      DEB_BUILD_OPTIONS: "nostrip"
       DEBIAN_FRONTEND: "noninteractive"
       DH_VERBOSE: "1"
 jobs:
-  test_scripts:
-    executor: golang-alpine-docker
+  test_build_scripts:
+    docker:
+      - image: golang:alpine
+    working_directory: /home/circleci/packages
     steps:
       - run:
           name: Update apks and install git
           command: |
             apk update && apk upgrade
             apk add bash coreutils findutils git gzip openssh-client sudo tar wget xz
+      - checkout
       - run:
           name: Install shellcheck
           command: |
@@ -45,13 +35,12 @@ jobs:
             cd $(mktemp -d); go mod init tmp; go get mvdan.cc/sh/v3/cmd/shfmt
             go build mvdan.cc/sh/v3/cmd/shfmt && go install mvdan.cc/sh/v3/cmd/shfmt
             sudo cp -f ./shfmt /usr/local/bin
-      - checkout
       - run:
           name: Test shell scripts and record file stats
           command: |
             set +e; set +o pipefail; mkdir -p /home/circleci/script-test-reports
-            echo "Calculating script file stats..." | tee /home/circleci/script-test-reports/script-file-stats.txt
-            echo -e '\nlines words chars filename\n' >>/home/circleci/script-test-reports/script-file-stats.txt
+            echo -e 'Calculating script file stats...\n' | tee /home/circleci/script-test-reports/script-file-stats.txt
+            echo "lines words chars filename" | tee -a /home/circleci/script-test-reports/script-file-stats.txt
             find /home/circleci/packages -type f -name '*.sh' | xargs wc -lmw 2>&1 | tee -a \
             /home/circleci/script-test-reports/script-file-stats.txt
             echo "Running shellcheck tests..." | tee /home/circleci/script-test-reports/shellcheck-output.txt
@@ -63,103 +52,236 @@ jobs:
       - store_artifacts:
           path: /home/circleci/script-test-reports
           destination: script-tests
-  build_asbru_deb_and_save:
-    executor: ubuntu-disco-docker
+  build_deb_packages:
+    executor: ubuntu-eoan
     steps:
       - run:
-          name: Use unminimize script to rehydrate Docker image
+          name: Use 'unminimize' script to "rehydrate" Docker image
           command: yes | sudo unminimize
       - checkout
       - run:
-          name: Add complete set of Ubuntu repos and install build dependencies
+          name: Add all Ubuntu repos and install build packages
           command: |
-            sudo mv -f ./.circleci/disco-sources.list /etc/apt/sources.list
-            curl -L https://packagecloud.io/asbru-cm/asbru-cm/gpgkey | sudo apt-key add -
-            sudo apt update && sudo apt upgrade && sudo apt full-upgrade
+            sudo mv -f ./.circleci/eoan-sources.list /etc/apt/sources.list
+            sudo apt update && sudo apt full-upgrade
             sudo apt install adequate autopkgtest build-essential dbus-user-session dbus-x11 debhelper devscripts \
             dh-acc dh-autoreconf dh-buildinfo dh-exec dh-make dh-make-perl dh-strip-nondeterminism dpkg-dev equivs ftp \
             gtk2-engines-pixbuf libcanberra-gtk-module libcrypt-blowfish-perl libcrypt-cbc-perl libcrypt-rijndael-perl \
             libexpect-perl libnet-arp-perl libnet-proxy-perl libossp-uuid-perl libsocket6-perl man-db \
             pkg-perl-autopkgtest quilt telnet
       - run:
-          name: Build asbru-cm Debian package
-          command: sudo bash ./make_debian.sh
+          name: Build libgnome2-gconf-perl
+          command: |
+            sudo CI=true /home/circleci/packages/libgnome2-gconf-perl/make_debian.sh
+            mkdir -p /home/circleci/artifacts/libgnome2-gconf-perl
+            cp /home/circleci/packages/libgnome2-gconf-perl/tmp/*.{deb,dsc,changes,buildinfo,gz,xz} \
+            /home/circleci/artifacts/libgnome2-gconf-perl
       - persist_to_workspace:
-          root: /home/circleci/asbru-cm/tmp
+          root: /home/circleci/packages/libgnome2-gconf-perl/tmp
+          paths: libgnome2-gconf-perl_*.deb
+      - store_artifacts:
+          path: /home/circleci/artifacts/libgnome2-gconf-perl
+          destination: libgnome2-gconf-perl
+      - run:
+          name: Build libgnome2-vte-perl
+          command: |
+            sudo CI=true /home/circleci/packages/libgnome2-vte-perl/make_debian.sh
+            mkdir -p /home/circleci/artifacts/libgnome2-vte-perl
+            cp /home/circleci/packages/libgnome2-vte-perl/tmp/*.{deb,dsc,changes,buildinfo,gz,xz} \
+            /home/circleci/artifacts/libgnome2-vte-perl
+      - persist_to_workspace:
+          root: /home/circleci/packages/libgnome2-vte-perl/tmp
+          paths: libgnome2-vte-perl_*.deb
+      - store_artifacts:
+          path: /home/circleci/artifacts/libgnome2-vte-perl
+          destination: libgnome2-vte-perl
+      - run:
+          name: Build libgtk2-ex-simple-list-perl
+          command: |
+            sudo CI=true /home/circleci/packages/libgtk2-ex-simple-list-perl/make_debian.sh
+            mkdir -p /home/circleci/artifacts/libgtk2-ex-simple-list-perl
+            cp /home/circleci/packages/libgtk2-ex-simple-list-perl/tmp/*.{deb,dsc,changes,buildinfo,gz,xz} \
+            /home/circleci/artifacts/libgtk2-ex-simple-list-perl
+      - persist_to_workspace:
+          root: /home/circleci/packages/libgtk2-ex-simple-list-perl/tmp
+          paths: libgtk2-ex-simple-list-perl_*.deb
+      - store_artifacts:
+          path: /home/circleci/artifacts/libgtk2-ex-simple-list-perl
+          destination: libgtk2-ex-simple-list-perl
+      - run:
+          name: Build libgtk2-gladexml-perl
+          command: |
+            sudo CI=true /home/circleci/packages/libgtk2-gladexml-perl/make_debian.sh
+            mkdir -p /home/circleci/artifacts/libgtk2-gladexml-perl
+            cp /home/circleci/packages/libgtk2-gladexml-perl/tmp/*.{deb,dsc,changes,buildinfo,gz,xz} \
+            /home/circleci/artifacts/libgtk2-gladexml-perl
+      - persist_to_workspace:
+          root: /home/circleci/packages/libgtk2-gladexml-perl/tmp
+          paths: libgtk2-gladexml-perl_*.deb
+      - store_artifacts:
+          path: /home/circleci/artifacts/libgtk2-gladexml-perl
+          destination: libgtk2-gladexml-perl
+      - run:
+          name: Build libgtk2-unique-perl
+          command: |
+            sudo CI=true /home/circleci/packages/libgtk2-unique-perl/make_debian.sh
+            mkdir -p /home/circleci/artifacts/libgtk2-unique-perl
+            cp /home/circleci/packages/libgtk2-unique-perl/tmp/*.{deb,dsc,changes,buildinfo,gz,xz} \
+            /home/circleci/artifacts/libgtk2-unique-perl
+      - persist_to_workspace:
+          root: /home/circleci/packages/libgtk2-unique-perl/tmp
+          paths: libgtk2-unique-perl_*.deb
+      - store_artifacts:
+          path: /home/circleci/artifacts/libgtk2-unique-perl
+          destination: libgtk2-unique-perl
+      - run:
+          name: Install built library packages
+          command: >
+            find /home/circleci/debs -type f -name 'lib*.deb' -exec sudo apt --fix-broken install {} ';'
+      - run:
+          name: Build asbru-cm Debian package
+          command: |
+            sudo CI=true /home/circleci/packages/asbru-cm/make_debian.sh
+            mkdir -p /home/circleci/artifacts/asbru-cm
+            cp /home/circleci/packages/asbru-cm/tmp/*.{deb,dsc,changes,buildinfo,gz,xz} \
+            /home/circleci/artifacts/asbru-cm
+      - persist_to_workspace:
+          root: /home/circleci/packages/asbru-cm/tmp
           paths: asbru-cm_*.deb
       - store_artifacts:
-          path: /home/circleci/asbru-cm/tmp
-          destination: debian-package
-  test_deb_package:
-    executor: ubuntu-xenial-machine
+          path: /home/circleci/artifacts/asbru-cm
+          destination: deb-package
+  build_and_test_rpm_packages:
+    docker:
+      - image: fedora:31
+    shell: /bin/bash
+    working_directory: /home/circleci/packages
+    steps:
+      - run:
+          name: Update dnf and install build dependencies
+          command: |
+            dnf -y install \
+            https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+            dnf -y install \
+            https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+            dnf -y upgrade
+            dnf -y --best install alternatives bash-completion bodhi-client createrepo dist-git fedora-packager \
+            fedora-review fedpkg findutils ftp gcc git koji make mock mock-scm openssh-clients patch perl \
+            perl-Gnome2-GConf perl-Gnome2-Vte perl-Gtk2-Ex-Simple-List perl-Gtk2-GladeXML perl-Gtk2-Unique pkgconfig \
+            python redhat-rpm-config rpm-build rpm-devel rpmdevtools rpmlint shadow-utils sudo telnet tito util-linux \
+            util-linux-user vte wget || exit 0
+      - checkout
+      - run:
+          name: Build asbru-cm RPM package
+          command: |
+            /home/circleci/packages/asbru-cm/make_rpm.sh
+            mkdir -p /home/circleci/artifacts/asbru-cm
+            cp /home/circleci/packages/asbru-cm/tmp/RPMS/noarch/* /home/circleci/packages/asbru-cm/tmp/SRPMS/* \
+            /home/circleci/artifacts/asbru-cm
+      - store_artifacts:
+          path: /home/circleci/artifacts/asbru-cm
+          destination: rpm-package
+      - run:
+          name: Test package installation results with dnf
+          command: |
+            mkdir -p /home/circleci/rpm-test-reports
+            echo -e "Testing package install with dnf...\n" | tee /home/circleci/rpm-test-reports/dnf-install.txt
+            find /home/circleci -type f -name 'asbru-cm*.noarch.rpm' | xargs dnf -yv --allowerasing --skip-broken \
+            install 2>&1 | tee -a /home/circleci/rpm-test-reports/dnf-install.txt
+      - run:
+          name: Test package standards compliance with rpmlint
+          command: |
+            echo -e "Testing package compliance with rpmlint...\n" | tee /home/circleci/rpm-test-reports/rpmlint.txt
+            rpmlint -iv asbru-cm 2>&1 | tee -a /home/circleci/rpm-test-reports/rpmlint.txt
+      - store_artifacts:
+          path: /home/circleci/rpm-test-reports
+          destination: rpm-package-tests
+  test_deb_packages:
+    machine:
+      image: ubuntu-1604:201903-01
+    shell: /bin/bash
+    working_directory: /home/circleci/packages
     environment:
       CHROOT: "/home/circleci/piuparts/base.tar.xz"
-      IRC_SERVER: "irc.st-city.net"
+      DEBIAN_FRONTEND: "noninteractive"
+      LOCAL_REPO: "/srv/local-apt-repository"
     steps:
+      - attach_workspace:
+          at: /home/circleci/debs
       - checkout
       - run:
           name: Add complete set of Ubuntu repos and install testing packages
           command: |
-            sudo mv -f ./.circleci/xenial-sources.list /etc/apt/sources.list
+            sudo mv -f /home/circleci/packages/.circleci/xenial-sources.list /etc/apt/sources.list
             curl -L https://packagecloud.io/asbru-cm/asbru-cm/gpgkey | sudo apt-key add -
-            sudo apt update && sudo apt install adequate check-all-the-things dbus dbus-user-session dbus-x11 \
-            debootstrap distro-info-data eatmydata gconf-service gconf-service-backend gconf2-common \
-            gtk2-engines-pixbuf libcairo-perl libcanberra-gtk-module libcrypt-blowfish-perl libcrypt-cbc-perl \
-            libcrypt-rijndael-perl libeatmydata1 libexpect-perl libgconf-2-4 libglib-perl libgnome2-gconf-perl \
-            libgnome2-vte-perl libgtk2-ex-simple-list-perl libgtk2-gladexml-perl libgtk2-perl libgtk2-unique-perl \
-            libnet-arp-perl libnet-proxy-perl libossp-uuid-perl libpango-perl libsocket6-perl libvte9 lintian pbuilder \
-            piuparts ucf
-      - attach_workspace:
-          at: deb
+            sudo mkdir -p "$LOCAL_REPO" && sudo apt update; true
+            sudo apt install adequate dbus-user-session dbus-x11 devscripts distro-info-data eatmydata fakeroot \
+            gconf-service gconf2-common gtk2-engines-pixbuf libcairo-perl libcanberra-gtk-module \
+            libcrypt-blowfish-perl libcrypt-cbc-perl libcrypt-rijndael-perl libexpect-perl libgtk2-perl \
+            libnet-arp-perl libnet-proxy-perl libossp-uuid-perl libpango-perl libsocket6-perl libvte9 \
+            libx11-guitest-perl libyaml-perl lintian local-apt-repository pbuilder piuparts
       - run:
-          name: Install freshly built package with dpkg debug logging
+          name: Pre-install built package dependencies
+          command: |
+            sudo cp /home/circleci/debs/*.deb "$LOCAL_REPO"
+            sudo /usr/lib/local-apt-repository/rebuild && sudo apt update
+            sudo apt -y install libgnome2-gconf-perl libgnome2-vte-perl libgtk2-ex-simple-list-perl \
+            libgtk2-gladexml-perl libgtk2-unique-perl
+      - run:
+          name: Install freshly built packages with dpkg debug logging
           command: >
-            mkdir -p /home/circleci/deb-test-reports; echo -e "Installing package with dpkg...\n" |
+            mkdir -p /home/circleci/deb-test-reports; echo -e "Installing our packages with dpkg...\n" |
             tee /home/circleci/deb-test-reports/dpkg-install-log.txt; sudo dpkg -D20600
-            --log=/home/circleci/deb-test-reports/dpkg-install-log.txt -Ri /home/circleci
+            --log=/home/circleci/deb-test-reports/dpkg-install-log.txt -Ri /home/circleci/debs
       - restore_cache:
-          key: asbru-cache-v1-{{ checksum "debian/changelog" }}
+          key: asbru-cache-v1-{{ checksum "asbru-cm/debian/changelog" }}
           name: Piuparts chroot tarball
       - run:
           name: Test package installation results with piuparts
           command: >
-            mkdir -p /home/circleci/piuparts; echo "Testing package install results with piuparts..." |
-            tee /home/circleci/deb-test-reports/piuparts.txt; find /home/circleci -type f -name '*.deb' -print0 | sudo
-            xargs -0t piuparts --warn-on-others --upgrade-before-dist-upgrade --single-changes-list -D ubuntu -d disco
-            -l /home/circleci/deb-test-reports/piuparts.txt -s $CHROOT
+            mkdir -p /home/circleci/piuparts; touch /home/circleci/deb-test-reports/piuparts.txt; find /home/circleci
+            -type f -name '*.deb' -print0 | sudo xargs -0t -- piuparts -D 'ubuntu' -d 'eoan' --warn-on-others
+            --upgrade-before-dist-upgrade --single-changes-list --warn-on-leftovers-after-purge -N -i /etc/resolv.conf
+            --extra-repo='deb [trusted=yes] http://ppa.launchpad.net/asbru-cm/releases/ubuntu eoan main' -s "$CHROOT"
+            -l /home/circleci/deb-test-reports/piuparts.txt || exit 0
       - save_cache:
-          key: asbru-cache-v1-{{ checksum "debian/changelog" }}
+          key: asbru-cache-v1-{{ checksum "asbru-cm/debian/changelog" }}
           paths: /home/circleci/piuparts/
-      - run:
-          name: Test package installation results with check-all-the-things
-          command: >
-            echo "Testing software environment results with check-all-the-things..."; find /home/circleci -type f -name
-            '*.deb' | sudo xargs check-all-the-things -a -d ubuntu -r disco 2>&1 | tee -a
-            /home/circleci/deb-test-reports/check-all-the-things.txt
       - store_artifacts:
           path: /home/circleci/deb-test-reports
-          destination: package-tests
-      - irc/notify:
-          channel: "#asbru-cm"
-          # yamllint disable rule:line-length
-          message: "Your CircleCI job for 'asbru-cm' (debian branch) has completed successfully! View it at $CIRCLE_BUILD_URL"
-          # yamllint enable rule:line-length
+          destination: deb-package-tests
 workflows:
   version: 2
   asbru-cm-build-packages-and-test:
     jobs:
-      - test_scripts:
+      - test_build_scripts:
           filters:
             branches:
-              only: debian
-      - build_asbru_deb_and_save:
-          filters:
-            branches:
-              only: debian
-      - test_deb_package:
+              only:
+                - master
+                - gtk3
+      - build_deb_packages:
           requires:
-            - build_asbru_deb_and_save
+            - test_build_scripts
           filters:
             branches:
-              only: debian
+              only:
+                - master
+                - gtk3
+      - build_and_test_rpm_packages:
+          requires:
+            - test_build_scripts
+          filters:
+            branches:
+              only:
+                - master
+                - gtk3
+      - test_deb_packages:
+          requires:
+            - build_deb_packages
+          filters:
+            branches:
+              only:
+                - master
+                - gtk3
 ...

@@ -1,6 +1,5 @@
-asbru-cm usr/bin
-lib usr/share/asbru
-res usr/share/asbru
-utils usr/share/asbru
-res/asbru-cm.desktop usr/share/applications
-res/asbru_bash_completion usr/share/bash-completion/completions
+asbru-cm  usr/share/asbru-cm
+lib  usr/share/asbru-cm
+res  usr/share/asbru-cm
+utils  usr/share/asbru-cm
+res/asbru-cm.desktop  usr/share/applications

@@ -1,36 +1,40 @@
 Source: asbru-cm
-Maintainer: Ásbrú Project Team <contact@asbru-cm.net>
-Uploaders: Peter J. Mello <admin@petermello.net>,
-           Gaëtan Frenoy <info@frenoy.net>,
-           Klaas Tammling <klaas@tammling.hamburg>
 Section: net
 Priority: optional
-Build-Depends: debhelper-compat (= 11), perl (>= 5.8.0)
-Standards-Version: 4.3.0
+Maintainer: Ásbrú Project Team <contact@asbru-cm.net>
+Uploaders: Gaëtan Frenoy <gaetan@frenoy.net>,
+ Klaas Tammling <klaas@tammling.hamburg>, Peter J. Mello <admin@petermello.net>
+Build-Depends: debhelper-compat (= 12), perl (>= 5.8.0), bash-completion
+Standards-Version: 4.5.0
 Homepage: https://www.asbru-cm.net/
 Vcs-Git: https://github.com/asbru-cm/asbru-cm.git
 Vcs-Browser: https://github.com/asbru-cm/asbru-cm
+Rules-Requires-Root: no
 
 Package: asbru-cm
 Architecture: all
-Depends: dbus-x11, ftp, gtk2-engines-pixbuf, libcairo-perl,
- libcanberra-gtk-module, libcrypt-blowfish-perl, libcrypt-cbc-perl,
- libcrypt-rijndael-perl, libexpect-perl, libglib-perl, libgnome2-gconf-perl,
- libgnome2-vte-perl, libgtk2-ex-simple-list-perl, libgtk2-gladexml-perl,
- libgtk2-perl, libgtk2-unique-perl, libnet-arp-perl, libnet-proxy-perl,
- libossp-uuid-perl, libpango-perl, libsocket6-perl, libvte9,
- libxml-parser-perl, libyaml-perl, openssh-client, python, telnet,
- ${misc:Depends}, ${perl:Depends}
-Description: Multi-session remote terminal (SSH) connection manager
- Ásbrú Connection Manager is an SSH client that allows users to organize
- multiple remote terminal sessions (SSH, Telnet, etc.) using a single client
- application, thanks to a tabbed interface reminiscent of modern web browsers.
- Connections can be grouped to allow launching multiple connections to related
- hosts with a single command, or even multiplexed, with multiple client
- sessions being opened to the same remote host.
+Depends: perl (> 5.8.0), dbus-x11, ftp, openssh-client, telnet,
+ libgtk3-perl (>= 0.008), libglib-perl (>= 3:1.242), libvte-2.91-0 (>= 0.37.90),
+ gir1.2-vte-2.91, gir1.2-wnck-3.0, libcairo-perl, libcanberra-gtk-module,
+ libcrypt-blowfish-perl, libcrypt-cbc-perl, libcrypt-rijndael-perl,
+ libexpect-perl, libgtk3-simplelist-perl, libnet-arp-perl, libnet-proxy-perl,
+ libossp-uuid-perl, libpango-perl, libsocket6-perl, libx11-guitest-perl,
+ libxml-parser-perl, libyaml-perl, ${perl:Depends}, ${misc:Depends}
+Suggests: python (>= 2.6), bash-completion
+Description: remote terminal emulator that manages multiple remote sessions
+ Ásbrú Connection Manager is a remote connection manager/terminal emulator that
+ allows users to organize multiple remote terminal sessions (SSH, Telnet, Mosh,
+ etc.) using a single client application, thanks to a tabbed interface
+ reminiscent of modern web browsers.
  .
- Every aspect of each connection can be managed independently, from environment
- variables to appearance, logging to crontabs. An advanced scripting interface
- extends the functionality even further by simplifying the automation of
- repetitive tasks while a live history panel displays the last 'n' commands
- sent to each host, any of which can be replayed with a single mouse click.
+ Connections can be grouped to allow launching multiple connections to related
+ hosts with a single command, or even multiplexed, with multiple client sessions
+ being opened to the same remote host.
+ .
+ Each connection's properties can be managed independently with exquisite
+ detail, from environment variables to appearance, logging to crontabs.
+ .
+ An advanced scripting interface extends the functionality even further by
+ simplifying the automation of repetitive tasks while the history panel displays
+ a live list of the most recent commands sent to each host, any of which can be
+ repeated with a single click.

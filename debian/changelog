@@ -1,3 +1,42 @@
+asbru-cm (6.0.3-1) stable; urgency=medium
+
+  * Upstream 6.0.3 release
+
+ -- Ásbrú Project Team <contact@asbru-cm.net> Fri, 17 Jan 2020 11:00:00 +0200
+
+asbru-cm (6.0.2-1) stable; urgency=medium
+
+  * Upstream 6.0.2 release
+
+ -- Ásbrú Project Team <contact@asbru-cm.net> Sat, 11 Jan 2020 11:00:00 +0200
+
+asbru-cm (6.0.1-1) stable; urgency=medium
+
+  * Upstream 6.0.1 release
+
+ -- Ásbrú Project Team <contact@asbru-cm.net> Sat, 04 Jan 2020 10:51:00 +0200
+
+asbru-cm (6.0.0-1) stable; urgency=medium
+
+  * Upstream 6.0.0 release
+
+ -- Ásbrú Project Team <contact@asbru-cm.net> Thu, 02 Jan 2020 18:49:00 +0200
+
+asbru-cm (5.2.1-1) unstable; urgency=medium
+
+  * New upstream release: 5.2.1
+    + Add RSA authentication using MOSH protocol
+    + Fixed installation on Linux Mint 19.2 "Tina"
+    + Fixed duplicated connection opening just after current active tab
+    + Make "Set keyboard focus" button viewable again in embedded tabs
+    + Add a free textbox to pass custom options in xfreerdp
+    + Implement "Paste current connection password" button
+    + Fixed SSH authentication of host issue
+    + Exhance parameters for rdesktop
+    + Fixed "Start a shell upon startup" option
+
+ -- Ásbrú Project Team <contact@asbru-cm.net>  Sat, 26 Oct 2019 13:10:18 -0700
+
 asbru-cm (5.2.0-1) unstable; urgency=low
 
   * Fixed: crash when creating a RDP connection

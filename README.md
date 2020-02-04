@@ -61,7 +61,7 @@ To do so, execute the following commands:
   yay asbru-cm-git
   ```
 
-Once installed on your system, type ````/opt/asbru/asbru-cm```` in your terminal.
+Once installed on your system, type `asbru-cm` in your terminal.
 
 ### Testing new features
 
@@ -73,35 +73,33 @@ You are welcome to contribute and test by checking out "loki" or by installing o
 
 - Debian / Ubuntu
 
-  ````
-  $ curl -s https://packagecloud.io/install/repositories/asbru-cm/loki/script.deb.sh | sudo bash
-  $ sudo apt-get install asbru-cm
-  ````
+  ```bash
+  curl -s https://packagecloud.io/install/repositories/asbru-cm/loki/script.deb.sh | sudo bash
+  sudo apt-get install asbru-cm
+  ```
 
 - Fedora
 
-  ````
-  $ curl -s https://packagecloud.io/install/repositories/asbru-cm/loki/script.rpm.sh | sudo bash
-  $ sudo dnf install asbru-cm
-  ````
-
+  ```bash
+  curl -s https://packagecloud.io/install/repositories/asbru-cm/loki/script.rpm.sh | sudo bash
+  sudo dnf install asbru-cm
+  ```
 
 ### Installation of legacy 5.x
 
 - Debian / Ubuntu
 
-  ````
-  $ curl -s https://packagecloud.io/install/repositories/asbru-cm/v5/script.deb.sh | sudo bash
-  $ sudo apt-get install asbru-cm
-  ````
+  ```bash
+  curl -s https://packagecloud.io/install/repositories/asbru-cm/v5/script.deb.sh | sudo bash
+  sudo apt-get install asbru-cm
+  ```
 
 - Fedora
 
-  ````
-  $ curl -s https://packagecloud.io/install/repositories/asbru-cm/v5/script.rpm.sh | sudo bash
-  $ sudo dnf install asbru-cm
-  ````
-
+  ```bash
+  curl -s https://packagecloud.io/install/repositories/asbru-cm/v5/script.rpm.sh | sudo bash
+  sudo dnf install asbru-cm
+  ```
 
 ### Frequenty Asked Questions
 
