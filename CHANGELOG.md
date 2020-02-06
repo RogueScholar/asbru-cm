@@ -6,29 +6,43 @@
 
 **Implemented enhancements:**
 
-- ssh compression activated by change of other options [\#359](https://github.com/asbru-cm/asbru-cm/issues/359)
-- \(Snapshot Version 6\) Folder appearance [\#306](https://github.com/asbru-cm/asbru-cm/issues/306)
+- ssh compression activated by change of other options
+  [\#359](https://github.com/asbru-cm/asbru-cm/issues/359)
+- \(Snapshot Version 6\) Folder appearance
+  [\#306](https://github.com/asbru-cm/asbru-cm/issues/306)
 
 **Fixed bugs:**
 
-- Asbru 6.0.2 does not save text in 'info tab' [\#372](https://github.com/asbru-cm/asbru-cm/issues/372)
+- Asbru 6.0.2 does not save text in 'info tab'
+  [\#372](https://github.com/asbru-cm/asbru-cm/issues/372)
 
 **Closed issues:**
 
-- Help with expect regex for this system [\#387](https://github.com/asbru-cm/asbru-cm/issues/387)
+- Help with expect regex for this system
+  [\#387](https://github.com/asbru-cm/asbru-cm/issues/387)
 - Indentation problem [\#385](https://github.com/asbru-cm/asbru-cm/issues/385)
-- Proposal to replace OSSP::uuid dependency for Data::UUID [\#374](https://github.com/asbru-cm/asbru-cm/issues/374)
-- Some servers disconnected when using clusters [\#373](https://github.com/asbru-cm/asbru-cm/issues/373)
-- 6.0.2: Select-by-word characters not functioning [\#363](https://github.com/asbru-cm/asbru-cm/issues/363)
-- Please correct Debian dependencies entry in wiki [\#361](https://github.com/asbru-cm/asbru-cm/issues/361)
-- \[gtk3\] VTE transparency [\#207](https://github.com/asbru-cm/asbru-cm/issues/207)
+- Proposal to replace OSSP::uuid dependency for Data::UUID
+  [\#374](https://github.com/asbru-cm/asbru-cm/issues/374)
+- Some servers disconnected when using clusters
+  [\#373](https://github.com/asbru-cm/asbru-cm/issues/373)
+- 6.0.2: Select-by-word characters not functioning
+  [\#363](https://github.com/asbru-cm/asbru-cm/issues/363)
+- Please correct Debian dependencies entry in wiki
+  [\#361](https://github.com/asbru-cm/asbru-cm/issues/361)
+- \[gtk3\] VTE transparency
+  [\#207](https://github.com/asbru-cm/asbru-cm/issues/207)
 
 **Merged pull requests:**
 
-- fix find bug [\#399](https://github.com/asbru-cm/asbru-cm/pull/399) ([hanspr](https://github.com/hanspr))
-- Treeview master [\#393](https://github.com/asbru-cm/asbru-cm/pull/393) ([hanspr](https://github.com/hanspr))
-- improved restart logic on exit, removed sleep [\#389](https://github.com/asbru-cm/asbru-cm/pull/389) ([hanspr](https://github.com/hanspr))
-- retry on timeout [\#380](https://github.com/asbru-cm/asbru-cm/pull/380) ([hanspr](https://github.com/hanspr))
+- fix find bug [\#399](https://github.com/asbru-cm/asbru-cm/pull/399)
+  ([hanspr](https://github.com/hanspr))
+- Treeview master [\#393](https://github.com/asbru-cm/asbru-cm/pull/393)
+  ([hanspr](https://github.com/hanspr))
+- improved restart logic on exit, removed sleep
+  [\#389](https://github.com/asbru-cm/asbru-cm/pull/389)
+  ([hanspr](https://github.com/hanspr))
+- retry on timeout [\#380](https://github.com/asbru-cm/asbru-cm/pull/380)
+  ([hanspr](https://github.com/hanspr))
 
 ## [6.0.3](https://github.com/asbru-cm/asbru-cm/tree/6.0.3) (2020-01-17)
 
