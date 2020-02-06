@@ -1,0 +1,12 @@
+version: "1"
+rules:
+  - base: master
+    upstream: asbru-cm:master
+    mergeMethod: rebase
+  - base: loki
+    upstream: asbru-cm:loki
+    assignees:
+      - RogueScholar
+    reviewers:
+      - RogueScholar
+label: ":arrow_heading_down: pull"

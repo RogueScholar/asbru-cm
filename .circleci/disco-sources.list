@@ -1,0 +1,14 @@
+deb http://us.archive.ubuntu.com/ubuntu disco main restricted universe multiverse
+# deb-src http://us.archive.ubuntu.com/ubuntu disco main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu disco-updates main restricted universe multiverse
+# deb-src http://us.archive.ubuntu.com/ubuntu disco-updates main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu disco-backports main restricted universe multiverse
+# deb-src http://us.archive.ubuntu.com/ubuntu disco-backports main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu disco-security main restricted universe multiverse
+# deb-src http://us.archive.ubuntu.com/ubuntu disco-security main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu disco-proposed main universe multiverse restricted
+# deb-src http://us.archive.ubuntu.com/ubuntu disco-proposed main universe multiverse restricted
+deb http://archive.canonical.com/ubuntu disco partner
+# deb-src http://archive.canonical.com/ubuntu disco partner
+deb https://packagecloud.io/asbru-cm/asbru-cm/ubuntu/ disco main
+# deb-src https://packagecloud.io/asbru-cm/asbru-cm/ubuntu/ disco main
