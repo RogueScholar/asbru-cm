@@ -3,7 +3,7 @@ package PACExecEntry;
 ###############################################################################
 # This file is part of Ásbrú Connection Manager
 #
-# Copyright (C) 2017-2019 Ásbrú Connection Manager team (https://asbru-cm.net)
+# Copyright (C) 2017-2020 Ásbrú Connection Manager team (https://asbru-cm.net)
 # Copyright (C) 2010-2016 David Torrejon Vaquerizas
 #
 # Ásbrú Connection Manager is free software: you can redistribute it and/or
@@ -118,6 +118,12 @@ sub get_cfg {
         $hash{description} = $$w{desc}->get_chars(0, -1);
         $hash{confirm} = $$w{confirm}->get_active() || '0';
         $hash{intro} = $$w{intro}->get_active() || '0';
+        # Force no descriptions equal to command
+        if (!$hash{description}) {
+            $hash{description} = $hash{txt};
+        }
+        # Normalize capitalization of groups
+        $hash{description} =~ s/^(.+?):/\u\L$1\E:/;
         push(@cfg, \%hash) unless $hash{txt} eq '';
     }
 
@@ -251,6 +257,7 @@ sub _buildExec {
     # Build label
     $w{lbl2} = Gtk3::Label->new('Description: ');
     $w{hbox4}->pack_start($w{lbl2}, 0, 1, 0);
+    $w{hbox4}->set_tooltip_markup("<i>Group</i><b>:</b><i>Description</i>\n<b>Group:</b> This value will group all commands with the same name in the menu.\n\nExample <b>Mysql</b>:<i>Show tables</i>");
 
     # Build entry
     $w{desc} = Gtk3::Entry->new();
@@ -397,7 +404,7 @@ sub _buildExec {
             }
         });
 
-        # Populate with PAC internal variables
+        # Populate with Ásbrú Connection Manager internal variables
         my @int_variables_menu;
         push(@int_variables_menu, {label => "UUID",      code => sub {$w{txt}->insert_text("<UUID>",      -1, $w{txt}->get_position());} });
         push(@int_variables_menu, {label => "TIMESTAMP", code => sub {$w{txt}->insert_text("<TIMESTAMP>", -1, $w{txt}->get_position());} });
@@ -412,7 +419,7 @@ sub _buildExec {
         push(@int_variables_menu, {label => "IP",        code => sub {$w{txt}->insert_text("<IP>",        -1, $w{txt}->get_position());} });
         push(@int_variables_menu, {label => "USER",      code => sub {$w{txt}->insert_text("<USER>",      -1, $w{txt}->get_position());} });
         push(@int_variables_menu, {label => "PASS",      code => sub {$w{txt}->insert_text("<PASS>",      -1, $w{txt}->get_position());} });
-        push(@menu_items, {label => 'PAC internal variables...', submenu => \@int_variables_menu});
+        push(@menu_items, {label => 'Internal variables...', submenu => \@int_variables_menu});
 
         # Populate with <KPX_(title|username|url):*> special string
         if ($PACMain::FUNCS{_MAIN}{_CFG}{'defaults'}{'keepass'}{'use_keepass'}) {
