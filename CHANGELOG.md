@@ -168,6 +168,7 @@
 - asbru for centos [\#60](https://github.com/asbru-cm/asbru-cm/issues/60)
 - Icons and some buttons are small on 4K display
   [\#55](https://github.com/asbru-cm/asbru-cm/issues/55)
+- Built in color schemes [\#8](https://github.com/asbru-cm/asbru-cm/issues/8)
 
 **Fixed bugs:**
 
