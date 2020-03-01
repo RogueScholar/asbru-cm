@@ -29,7 +29,6 @@ Requires:   perl(IO::Socket::INET)
 Requires:   perl(MIME::Base64)
 Requires:   perl(Net::ARP)
 Requires:   perl(Net::Ping)
-Requires:   perl(HTTP::Proxy)
 Requires:   perl(OSSP::uuid)
 Requires:   perl(POSIX)
 Requires:   perl(Socket)
@@ -107,7 +106,7 @@ cp -a res/asbru-logo-256.png %{buildroot}/%{_datadir}/icons/hicolor/256x256/apps
 cp -a res/asbru-logo.svg %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps/%{name}.svg
 
 # Copy the remaining resources and libraries
-cp -a res/*.{png,jpg,pl,glade,css} %{buildroot}/%{_datadir}/%{name}/res/
+cp -a res/*.{png,jpg,pl,glade,css,svg} %{buildroot}/%{_datadir}/%{name}/res/
 cp -a lib/* %{buildroot}/%{_datadir}/%{name}/lib/
 
 
@@ -138,6 +137,8 @@ fi
 
 
 %changelog
+* Sun Mar 01 2020 Ásbrú Project Team <contact@asbru-cm.net> 6.1.0rc1
+- 6.1.0rc1 release
 * Tue Feb 04 2020 Ásbrú Project Team <contact@asbru-cm.net> 6.0.4
 - 6.0.4 release
 * Fri Jan 17 2020 Ásbrú Project Team <contact@asbru-cm.net> 6.0.3
