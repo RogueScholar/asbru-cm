@@ -1045,6 +1045,9 @@ sub _hardClose {
     if (-e $pipe) {
         unlink($pipe);
     }
+    if (-e $pipe) {
+        unlink($pipe);
+    }
     if ($IS_CLUSTER && ($RESTART == 2)) {
         ctrl('RESTART');
     }
