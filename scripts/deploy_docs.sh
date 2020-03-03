@@ -3,12 +3,13 @@ GH_REPO="@github.com/asbru-cm-docs/asbrucm-docs.github.io.git"
 FULL_REPO="https://$GH_TOKEN$GH_REPO"
 
 if [ "$EXECUTE_BUILD_DOCS" != "true" ]; then
-    echo "Doc build skipped"
-    exit 0
+  echo "Doc build skipped"
+  exit 0
 fi
 
 pip3 install --upgrade pip
-pip3 install --user --requirement <(cat <<EOF
+pip3 install --user --requirement <(
+  cat <<EOF
 Click==7.0
 future==0.18.2
 Jinja2==2.11.1
@@ -27,7 +28,6 @@ tornado==6.0.3
 EOF
 )
 
-
 mkdir -p out
 cd out
 
@@ -44,11 +44,11 @@ build_result=$?
 
 # Only deploy after merging to master
 if [ "$build_result" == "0" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then
-    cd out/
-    touch .
-    git add -A .
-    git commit -m "GH-Pages update by travis after $TRAVIS_COMMIT"
-    git push -q origin master
+  cd out/
+  touch .
+  git add -A .
+  git commit -m "GH-Pages update by travis after $TRAVIS_COMMIT"
+  git push -q origin master
 else
-    exit "$build_result"  # return doc build result
+  exit "$build_result" # return doc build result
 fi
