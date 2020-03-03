@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 GH_REPO="@github.com/asbru-cm-docs/asbrucm-docs.github.io.git"
-FULL_REPO="https://${GH_TOKEN}$GH_REPO"
+FULL_REPO="https://$GH_TOKEN$GH_REPO"
 
 if [ "$EXECUTE_BUILD_DOCS" != "true" ]; then
     echo "Doc build skipped"
@@ -50,5 +50,5 @@ if [ "$build_result" == "0" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TR
     git commit -m "GH-Pages update by travis after $TRAVIS_COMMIT"
     git push -q origin master
 else
-    exit ${build_result}  # return doc build result
+    exit "$build_result"  # return doc build result
 fi
