@@ -126,7 +126,8 @@ sub new {
 
     my $self = {};
 
-    print STDERR "INFO: Using config directory '$CFG_DIR'\n";
+    print STDERR "INFO: VTE version is " . Vte::get_major_version() . "." . Vte::get_minor_version() . "\n";
+    print STDERR "INFO: Config directory is '$CFG_DIR'\n";
     # Setup some signal handling
     $SIG{'USR1'} = sub {
         #DevNote: option currently disabled
@@ -186,7 +187,7 @@ sub new {
         $THEME_DIR = "$RES_DIR/themes/$$self{_CFG}{'defaults'}{'theme'}";
     }
     $$self{_THEME} = $THEME_DIR;
-    print STDERR "INFO: theme dir '$$self{_THEME}'\n";
+    print STDERR "INFO: Theme directory is '$$self{_THEME}'\n";
 
     _registerPACIcons($THEME_DIR);
     $AUTOCLUSTERICON = _pixBufFromFile("$THEME_DIR/asbru_cluster_auto.png");
@@ -3285,7 +3286,7 @@ sub _quitProgram {
                 return 1;
             }
         };
-        if ($changed && (! $$self{_CFG}{defaults}{'save on exit'})) {
+        if ($changed && (!$$self{_CFG}{defaults}{'save on exit'})) {
             my $opt = _wYesNoCancel($$self{_GUI}{main}, "<b>Configuration has changed.</b>\n\nSave changes?");
             $save = $opt eq 'yes';
             if ($opt eq 'cancel') {
@@ -4706,7 +4707,7 @@ sub _setCFGChanged {
     if ($$self{_READONLY}) {
         $$self{_GUI}{saveBtn}->set_label('READ ONLY INSTANCE');
         $$self{_GUI}{saveBtn}->set_sensitive(0);
-    } elsif ($$self{_CFG}{defaults}{'auto save'}) {
+    } elsif ($$self{_CFG}{defaults}{'save on exit'}) {
         $$self{_GUI}{saveBtn}->set_label('Auto saving ACTIVE');
         $$self{_GUI}{saveBtn}->set_tooltip_text('Every configuration change will be saved automatically.  You can disable this feature in Preferences > Main Options.');
         $$self{_GUI}{saveBtn}->set_sensitive(0);
