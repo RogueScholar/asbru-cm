@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.22.1 
+<!-- Generated with glade 3.22.1
 
 This file is part of Ásbrú Connection Manager.
 
@@ -8214,7 +8214,7 @@ Changes apply to next opened connections, not current</property>
                             <property name="active">True</property>
                             <property name="draw_indicator">True</property>
                             <property name="tooltip_text" translatable="yes">If selected, do not use any intermediate proxy or jump host to connect to the destination.
-                            
+
 For each connection, it is still possible to define a particular proxy or jump host.
 </property>
                           </object>
