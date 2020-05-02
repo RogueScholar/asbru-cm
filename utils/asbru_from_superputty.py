@@ -10,8 +10,6 @@
 # options: ' -X -o "proxycommand=ssh -W %h:%p myhostname.com"'
 # To create the Asbru-cm yaml file place your SuperPutty Sessions.xml file in the same
 # directory as this script and run asbru_from_superputty.py >importfile.yml.
-
-
 import uuid
 import xml.etree.ElementTree as ET
 
