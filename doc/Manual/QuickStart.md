@@ -46,7 +46,7 @@ to the next image.
   - click on any of the top toolbar buttons (add, delete, rename, edit)
   - right click and select desireg action (add, delete, rename, edit)
 
-!!! note "Recommended" Always create groups at root level.  
+!!! note "Recommended" Always create groups at root level.
  This will allow you to organize your connections in some meaningful order.
 
     Example of a __Client__ driven configuration tree:

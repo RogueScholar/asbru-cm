@@ -184,7 +184,7 @@ if (!-e "$CFG_DIR" && $CFG_DIR =~ /\/pac$/ && (-e "$CFG_DIR_OLD" || -e "$CFG_DIR
     sub setMessageDowngradeMigrated {
         my $msg = qq”Ásbrú could not find the configuration directory <b>$CFG_DIR</b>,
         but found a migrated version of your configuration in <b>$CFG_DIR_NEW</b>.
-        
+
         Do you want to downgrade your migrated configuration data ?
 
         Alternatively, you may want to your the <i>--config-dir</i> option to specify
@@ -199,7 +199,7 @@ if (!-e "$CFG_DIR" && $CFG_DIR =~ /\/pac$/ && (-e "$CFG_DIR_OLD" || -e "$CFG_DIR
     sub setMessageRecoverOld {
         my $msg = qq”Ásbrú could not find the configuration directory <b>$CFG_DIR</b>,
         but found a saved version of your configuration in <b>$CFG_DIR_OLD</b>.
-        
+
         Do you want recover your saved configuration data ?
 
         Alternatively, you may want to your the <i>--config-dir</i> option to specify
