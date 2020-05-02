@@ -1,20 +1,21 @@
 #!/usr/bin/python3
-#Author: Brian Raaen
-#Original code: https://www.brianraaen.com/2016/11/04/superputty-to-pac-manager/
+# Author: Brian Raaen
+# Original code: https://www.brianraaen.com/2016/11/04/superputty-to-pac-manager/
 #
-#This script can convert a SuperPutty Sessions.xml file to an Asbru-cm yaml file. The  
-#resulting yaml file can then be imported into Asbru-cm.   
-#This script does require tweaking for your personal setup in the template section. 
-#For example, add the location of your personal ssh keys to "public key: /home/user".
-#Similarly if you want to use a jump off box you can add it to the options section.  
+# This script can convert a SuperPutty Sessions.xml file to an Asbru-cm yaml file. The
+# resulting yaml file can then be imported into Asbru-cm.
+# This script does require tweaking for your personal setup in the template section.
+# For example, add the location of your personal ssh keys to "public key: /home/user".
+# Similarly if you want to use a jump off box you can add it to the options section.
 #options: ' -X -o "proxycommand=ssh -W %h:%p myhostname.com"'
-#To create the Asbru-cm yaml file place your SuperPutty Sessions.xml file in the same
+# To create the Asbru-cm yaml file place your SuperPutty Sessions.xml file in the same
 # directory as this script and run asbru_from_superputty.py >importfile.yml.
 
 
 import uuid
 import xml.etree.ElementTree as ET
- 
+
+
 def branchListImport(devices):
     temp = []
     branches = {}
@@ -22,11 +23,13 @@ def branchListImport(devices):
         x = y['SessionId'].split('/')[:-1]
         if "/".join(y['SessionId'].split('/')[:-1]) not in branches:
             if x[0] not in branches:
-                branches.update({str(x[0]) : {'name' : str(x[0]), 'description' : str(x[0]), 'uuidNumber' : uuid.uuid4(), 'parent' : "__PAC__EXPORTED__"}})
+                branches.update({str(x[0]): {'name': str(x[0]), 'description': str(
+                    x[0]), 'uuidNumber': uuid.uuid4(), 'parent': "__PAC__EXPORTED__"}})
             if len(x) > 1:
-                for y in range(1,len(x)):
-                  if "/".join(x[:(y+1)]) not in branches:
-                      branches.update({"/".join(x[:(y+1)]) : {'name': "/".join(x[:(y+1)]), 'description' : str(x[y]), 'uuidNumber' : uuid.uuid4(), 'parent' : str(branches["/".join(x[:y])]['uuidNumber'])}})
+                for y in range(1, len(x)):
+                    if "/".join(x[:(y+1)]) not in branches:
+                        branches.update({"/".join(x[:(y+1)]): {'name': "/".join(x[:(y+1)]), 'description': str(
+                            x[y]), 'uuidNumber': uuid.uuid4(), 'parent': str(branches["/".join(x[:y])]['uuidNumber'])}})
     for x in sorted(branches.items()):
         temp.append(branchPoint(**x[1]))
     for x in temp:
@@ -34,12 +37,13 @@ def branchListImport(devices):
             if str(x.uuid) == str(y.parent):
                 x.addChild(y.uuid)
     return temp
- 
- 
+
+
 def deviceListImport(devices, branchList):
     temp = []
     for x in devices:
-        temp.append(device(description=x['SessionName'], parentName="/".join(x['SessionId'].split('/')[:-1]), ip=x['Host'], port=x['Port'], method=x['Proto'], username=x['Username'] ))
+        temp.append(device(description=x['SessionName'], parentName="/".join(x['SessionId'].split(
+            '/')[:-1]), ip=x['Host'], port=x['Port'], method=x['Proto'], username=x['Username']))
     for x in temp:
         for y in branchList:
             if x.parentName == y.name:
@@ -47,8 +51,8 @@ def deviceListImport(devices, branchList):
                 y.addChild(str(x.uuid))
                 break
     return temp
- 
- 
+
+
 class device(object):
     def __init__(self, description="", parentName="Unknown", parentUuid=False, uuidNumber=False, ip="", port="", method="", username="", password=False):
         self.description = description
@@ -71,12 +75,16 @@ class device(object):
             self.method = method.upper()
         self.username = username
         self.password = password
+
     def __hash__(self):
         return hash(self.description, self.parentName, self.parentUuid, self.uuid, self.ip, self.port, self.method, self.username, self.password)
+
     def __str__(self):
         return str(self.uuid)
+
     def __repr__(self):
         return 'pac_template.device(description="{}", parentName={}, parentUuid="{}", uuidNumber="{}", ip="{}", port="{}", method="{}", username="{}", password="{}"'.format(self.description, self.parentName, self.parentUuid, self.uuid, self.ip, self.port, self.method, self.username, self.password)
+
     @property
     def ymlString(self):
         if self.password == False:
@@ -84,10 +92,10 @@ class device(object):
         else:
             password = self.password
         return elementTemplate.format(uuid=self.uuid, ip=self.ip, desc=self.description, parent=self.parentUuid, port=self.port, method=self.method, username=self.username, password=password)
- 
- 
+
+
 class branchPoint(object):
-    def __init__(self, description="", name="", parent="__PAC__EXPORTED__", children=False,uuidNumber=False):
+    def __init__(self, description="", name="", parent="__PAC__EXPORTED__", children=False, uuidNumber=False):
         self.description = description
         self.name = name
         self.parent = parent
@@ -99,25 +107,33 @@ class branchPoint(object):
                 self.uuid = uuidNumber
             elif isinstance(uuidNumber, str):
                 self.uuid = uuid.UUID(uuidNumber)
+
     def __hash__(self):
         return hash(self.uuid, self.name, self.description, self.parent, self.children)
+
     def __str__(self):
         return str(self.uuid)
+
     def __repr__(self):
         return 'pac_template.branchPoint(description="{}", name={}, parent="{}", children={}, uuidNumber="{}"'.format(self.description, self.name, self.parent, self.children, self.uuid)
+
     def addChild(self, child):
         if self.children == False:
             self.children = []
         self.children.append(str(child))
+
     @property
     def ymlString(self):
-        temp = "{}:\n  _is_group: 1\n  _protected: 0\n  children:\n".format(str(self.uuid))
+        temp = "{}:\n  _is_group: 1\n  _protected: 0\n  children:\n".format(
+            str(self.uuid))
         if self.children != False:
             for x in self.children:
                 temp += "    {}: 1\n".format(x)
-        temp += "  cluster: []\n  description: Connection group '{0}'\n  name: {0}\n  parent: {1}\n  screenshots: ~\n  variables: []".format(self.description, self.parent)
+        temp += "  cluster: []\n  description: Connection group '{0}'\n  name: {0}\n  parent: {1}\n  screenshots: ~\n  variables: []".format(
+            self.description, self.parent)
         return temp
- 
+
+
 elementTemplate = """{uuid}:
   KPX title regexp: '.*{desc}.*'
   _is_group: 0
@@ -205,7 +221,8 @@ elementTemplate = """{uuid}:
   use sudo: ''
   user: {username}
   variables: []"""
- 
+
+
 def main():
     temp = []
     tree = ET.parse('Sessions.xml')
@@ -216,14 +233,15 @@ def main():
             devices.append(child.attrib)
     branchList = branchListImport(devices)
     deviceList = deviceListImport(devices, branchList)
- 
+
     temp.append("---\n__PAC__EXPORTED__:\n  children:")
-    temp += ["    {}: 1".format(str(x.uuid)) for x in branchList if '__PAC__EXPORTED__' == x.parent]
+    temp += ["    {}: 1".format(str(x.uuid))
+             for x in branchList if '__PAC__EXPORTED__' == x.parent]
     temp += [x.ymlString for x in branchList]
     temp += [x.ymlString for x in deviceList]
- 
+
     print("\n".join(temp))
- 
- 
+
+
 if __name__ == "__main__":
-  main()
+    main()
