@@ -2,9 +2,9 @@
 
 ### Connection Details
 
-+ __Method__ : For this case, we select
-    - freerdp
-    - rdesktop
+- **Method** : For this case, we select
+  - freerdp
+  - rdesktop
 
 ![](images/rdp1.png)
 
@@ -12,7 +12,4 @@
 
 ![](images/rdp4.png)
 
-!!! note
-    Looking for help to finish this
-
-
+!!! note Looking for help to finish this

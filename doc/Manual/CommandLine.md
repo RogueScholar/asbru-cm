@@ -1,9 +1,11 @@
 # Command Line
 
-This section explains how to start Ásbrú from the command line and the available options.
+This section explains how to start Ásbrú from the command line and the available
+options.
 
-!!! tip "start from the command line"
-    Starting asbru-cm from the command line helps you to detect possible errors if the application:  crashes, freezed or behaves in un expected ways.
+!!! tip "start from the command line" Starting asbru-cm from the command line
+helps you to detect possible errors if the application: crashes, freezed or
+behaves in un expected ways.
 
     This messages will be help full at the time to report a bug.
 
@@ -38,7 +40,8 @@ See 'man asbru' for additional information.
 
 ## Options
 
-We will detail options that might need additional detail or have some useful uses.
+We will detail options that might need additional detail or have some useful
+uses.
 
 ### --config-dir
 
@@ -48,8 +51,8 @@ This path could be a shared directory or it can be used to creates tests etc.
 
 Path can be a relative or absolute path
 
-+ __Relative paths__ to : `/home/user/.config`
-+ __Absolute paths__ : Any path defined from root
+- **Relative paths** to : `/home/user/.config`
+- **Absolute paths** : Any path defined from root
 
 Example usage:
 
@@ -57,7 +60,8 @@ Start asbru-cm with test connections
 
 `perl asbru-cm --config-dir=asbru.test`
 
-Will open or create a complete config directory in : `/home/user/.config/asbru.test`
+Will open or create a complete config directory in :
+`/home/user/.config/asbru.test`
 
 Start asru-cm with a set of completely new settings
 
@@ -71,7 +75,8 @@ Start asbru-cm and launch a shell after loading.
 
 ### --password
 
-If you defined a lock password for asbru-cm, this option allows you to pass that password to asbru-cm so it does not asks for it.
+If you defined a lock password for asbru-cm, this option allows you to pass that
+password to asbru-cm so it does not asks for it.
 
 ### --verbose
 
@@ -79,7 +84,7 @@ Display more information to help debug an issue.
 
 ## Execution example
 
-__Use default configuration__
+**Use default configuration**
 
 ```
 perl asbru-cm
@@ -93,7 +98,7 @@ INFO: Theme directory is '/home/xxxx/asbru-cm/res/themes/default'
 INFO: Using Gnome tray icon
 ```
 
-__Use test configuration__
+**Use test configuration**
 
 ```
 perl asbru-cm --verbose --config-dir=asbru.test
