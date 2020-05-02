@@ -3,13 +3,13 @@ GH_REPO="@github.com/asbru-cm-docs/asbrucm-docs.github.io.git"
 FULL_REPO="https://$GITHUB_API_KEY$GH_REPO"
 
 if [ "$EXECUTE_BUILD_DOCS" != "true" ] || [ "$TRAVIS_BRANCH" != "master" ]; then
-    echo "Doc build skipped"
-    exit 0
+  echo "Doc build skipped"
+  exit 0
 fi
 
 if [ -z "$GITHUB_API_KEY" ]; then
-	echo "GITHUB_API_KEY not set. Will stop here"
-	exit 1
+  echo "GITHUB_API_KEY not set. Will stop here"
+  exit 1
 fi
 
 mkdir -p out
@@ -29,7 +29,8 @@ gem install github_changelog_generator
 github_changelog_generator --token "$GITHUB_API_KEY" --release-branch master --user asbru-cm --project asbru-cm --output doc/General/Changelog.md
 
 pip3 install --upgrade pip
-pip3 install --user --requirement <(cat <<EOF
+pip3 install --user --requirement <(
+  cat <<EOF
 Click==7.0
 future==0.18.2
 Jinja2==2.11.1
@@ -49,17 +50,17 @@ EOF
 )
 
 mkdocs build --clean
-	
+
 build_result=$?
 
 # Only deploy after merging to master
 if [ "$build_result" == "0" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then
 
-    cd out/
-    touch .
-    git add -A .
-    git commit -m "GH-Pages update by travis after $TRAVIS_COMMIT"
-    git push -q origin master
+  cd out/
+  touch .
+  git add -A .
+  git commit -m "GH-Pages update by travis after $TRAVIS_COMMIT"
+  git push -q origin master
 else
-    exit "$build_result"  # return doc build result
+  exit "$build_result" # return doc build result
 fi
