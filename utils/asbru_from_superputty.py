@@ -21,31 +21,29 @@ def branchListImport(devices):
         x = y["SessionId"].split("/")[:-1]
         if "/".join(y["SessionId"].split("/")[:-1]) not in branches:
             if x[0] not in branches:
-                branches.update(
-                    {
-                        str(x[0]): {
-                            "name": str(x[0]),
-                            "description": str(x[0]),
-                            "uuidNumber": uuid.uuid4(),
-                            "parent": "__PAC__EXPORTED__",
-                        }
+                branches.update({
+                    str(x[0]): {
+                        "name": str(x[0]),
+                        "description": str(x[0]),
+                        "uuidNumber": uuid.uuid4(),
+                        "parent": "__PAC__EXPORTED__",
                     }
-                )
+                })
             if len(x) > 1:
                 for y in range(1, len(x)):
-                    if "/".join(x[: (y + 1)]) not in branches:
-                        branches.update(
-                            {
-                                "/".join(x[: (y + 1)]): {
-                                    "name": "/".join(x[: (y + 1)]),
-                                    "description": str(x[y]),
-                                    "uuidNumber": uuid.uuid4(),
-                                    "parent": str(
-                                        branches["/".join(x[:y])]["uuidNumber"]
-                                    ),
-                                }
+                    if "/".join(x[:(y + 1)]) not in branches:
+                        branches.update({
+                            "/".join(x[:(y + 1)]): {
+                                "name":
+                                "/".join(x[:(y + 1)]),
+                                "description":
+                                str(x[y]),
+                                "uuidNumber":
+                                uuid.uuid4(),
+                                "parent":
+                                str(branches["/".join(x[:y])]["uuidNumber"]),
                             }
-                        )
+                        })
     for x in sorted(branches.items()):
         temp.append(branchPoint(**x[1]))
     for x in temp:
@@ -66,8 +64,7 @@ def deviceListImport(devices, branchList):
                 port=x["Port"],
                 method=x["Proto"],
                 username=x["Username"],
-            )
-        )
+            ))
     for x in temp:
         for y in branchList:
             if x.parentName == y.name:
@@ -79,16 +76,16 @@ def deviceListImport(devices, branchList):
 
 class device(object):
     def __init__(
-        self,
-        description="",
-        parentName="Unknown",
-        parentUuid=False,
-        uuidNumber=False,
-        ip="",
-        port="",
-        method="",
-        username="",
-        password=False,
+            self,
+            description="",
+            parentName="Unknown",
+            parentUuid=False,
+            uuidNumber=False,
+            ip="",
+            port="",
+            method="",
+            username="",
+            password=False,
     ):
         self.description = description
         self.parentName = parentName
@@ -160,12 +157,12 @@ class device(object):
 
 class branchPoint(object):
     def __init__(
-        self,
-        description="",
-        name="",
-        parent="__PAC__EXPORTED__",
-        children=False,
-        uuidNumber=False,
+            self,
+            description="",
+            name="",
+            parent="__PAC__EXPORTED__",
+            children=False,
+            uuidNumber=False,
     ):
         self.description = description
         self.name = name
@@ -180,15 +177,15 @@ class branchPoint(object):
                 self.uuid = uuid.UUID(uuidNumber)
 
     def __hash__(self):
-        return hash(self.uuid, self.name, self.description, self.parent, self.children)
+        return hash(self.uuid, self.name, self.description, self.parent,
+                    self.children)
 
     def __str__(self):
         return str(self.uuid)
 
     def __repr__(self):
         return 'pac_template.branchPoint(description="{}", name={}, parent="{}", children={}, uuidNumber="{}"'.format(
-            self.description, self.name, self.parent, self.children, self.uuid
-        )
+            self.description, self.name, self.parent, self.children, self.uuid)
 
     def addChild(self, child):
         if self.children == False:
@@ -198,14 +195,12 @@ class branchPoint(object):
     @property
     def ymlString(self):
         temp = "{}:\n  _is_group: 1\n  _protected: 0\n  children:\n".format(
-            str(self.uuid)
-        )
+            str(self.uuid))
         if self.children != False:
             for x in self.children:
                 temp += "    {}: 1\n".format(x)
         temp += "  cluster: []\n  description: Connection group '{0}'\n  name: {0}\n  parent: {1}\n  screenshots: ~\n  variables: []".format(
-            self.description, self.parent
-        )
+            self.description, self.parent)
         return temp
 
 
@@ -311,8 +306,7 @@ def main():
 
     temp.append("---\n__PAC__EXPORTED__:\n  children:")
     temp += [
-        "    {}: 1".format(str(x.uuid))
-        for x in branchList
+        "    {}: 1".format(str(x.uuid)) for x in branchList
         if "__PAC__EXPORTED__" == x.parent
     ]
     temp += [x.ymlString for x in branchList]
