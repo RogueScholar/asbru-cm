@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 GH_REPO="@github.com/asbru-cm-docs/asbrucm-docs.github.io.git"
-FULL_REPO="https://${GITHUB_API_KEY}$GH_REPO"
+FULL_REPO="https://$GITHUB_API_KEY$GH_REPO"
 
 if [ "$EXECUTE_BUILD_DOCS" != "true" ] || [ "$TRAVIS_BRANCH" != "master" ]; then
     echo "Doc build skipped"
@@ -26,7 +26,7 @@ cd ../
 
 gem install rack -v 1.6.4
 gem install github_changelog_generator
-github_changelog_generator --token ${GITHUB_API_KEY} --release-branch master --user asbru-cm --project asbru-cm --output doc/General/Changelog.md
+github_changelog_generator --token "$GITHUB_API_KEY" --release-branch master --user asbru-cm --project asbru-cm --output doc/General/Changelog.md
 
 pip3 install --upgrade pip
 pip3 install --user --requirement <(cat <<EOF
@@ -61,5 +61,5 @@ if [ "$build_result" == "0" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TR
     git commit -m "GH-Pages update by travis after $TRAVIS_COMMIT"
     git push -q origin master
 else
-    exit ${build_result}  # return doc build result
+    exit "$build_result"  # return doc build result
 fi
