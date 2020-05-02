@@ -8,41 +8,41 @@ repo_url: https://github.com/asbru-cm/asbru-cm
 edit_uri: edit/master/doc
 repo_name: GitHub
 theme:
-    name: material
+  name: material
 nav:
-  - Home: 'index.md'
+  - Home: "index.md"
   - 1. General:
       - News: General/NEWS.md
       - Installation: General/Installation.md
       - Changelog: General/Changelog.md
-      - Warning:   General/sensitive-info-notice.md
+      - Warning: General/sensitive-info-notice.md
   - 2. User's Manual:
       - Quick Start: Manual/QuickStart.md
       - Preferences:
-        - General: Manual/Preferences/Preferences.md
-        - Main Options:
-          - Behaviour: Manual/Preferences/MainOptions.md
-          - Look&Feel: Manual/Preferences/LookAndFeel.md
-          - Advanced: Manual/Preferences/MOAdvanced.md
-        - Terminal Options:
-          - Behaviour: Manual/Preferences/TermOptions.md
-          - Look&Feel: Manual/Preferences/TermLookAndFeel.md
-          - Advanced: Manual/Preferences/TermAdvanced.md
-        - Shell Options: Manual/Preferences/ShellOptions.md
-        - Networking: Manual/Preferences/Networking.md
-        - Global Variables: Manual/Preferences/GlobalVariables.md
-        - Local Commands: Manual/Preferences/LocalCommands.md
-        - Remote Commands: Manual/Preferences/RemoteCommands.md
-        - KeePass: Manual/Preferences/KeePassXC.md
-        - Systemtray Extensions: Manual/Preferences/SytemTrayExtensions.md 
+          - General: Manual/Preferences/Preferences.md
+          - Main Options:
+              - Behaviour: Manual/Preferences/MainOptions.md
+              - Look&Feel: Manual/Preferences/LookAndFeel.md
+              - Advanced: Manual/Preferences/MOAdvanced.md
+          - Terminal Options:
+              - Behaviour: Manual/Preferences/TermOptions.md
+              - Look&Feel: Manual/Preferences/TermLookAndFeel.md
+              - Advanced: Manual/Preferences/TermAdvanced.md
+          - Shell Options: Manual/Preferences/ShellOptions.md
+          - Networking: Manual/Preferences/Networking.md
+          - Global Variables: Manual/Preferences/GlobalVariables.md
+          - Local Commands: Manual/Preferences/LocalCommands.md
+          - Remote Commands: Manual/Preferences/RemoteCommands.md
+          - KeePass: Manual/Preferences/KeePassXC.md
+          - Systemtray Extensions: Manual/Preferences/SytemTrayExtensions.md
       - Command Line: Manual/CommandLine.md
       - Connections:
-        - Configure: Manual/Connections/SSH.md
-        - Methods:
-            - SSH: Manual/Connections/SSH_Terminal.md
-            - RDP: Manual/Connections/RDP.md
+          - Configure: Manual/Connections/SSH.md
+          - Methods:
+              - SSH: Manual/Connections/SSH_Terminal.md
+              - RDP: Manual/Connections/RDP.md
       - References:
-        - Substitution: Manual/Substitutions.md
+          - Substitution: Manual/Substitutions.md
   - 3. Contributed Articles:
       - Clusters: Managing/Clusters.md
       - Templates: Managing/Templates.md
@@ -54,4 +54,3 @@ nav:
 
 markdown_extensions:
   - admonition
-
